@@ -6,10 +6,7 @@ export const routes: Routes = [
 		loadComponent: () =>
 			import('./pages/landing/landing.component').then((m) => m.LandingComponent),
 	},
-	{
-		path: 'rooms',
-		loadComponent: () => import('./pages/rooms/rooms.component').then((m) => m.RoomsComponent),
-	},
+
 	{
 		path: 'navigation',
 		loadComponent: () =>
@@ -28,11 +25,7 @@ export const routes: Routes = [
 		path: 'sales',
 		loadComponent: () => import('./pages/sales/sales.component').then((m) => m.SalesComponent),
 	},
-	{
-		path: 'articles',
-		loadComponent: () =>
-			import('./pages/articles/articles.component').then((m) => m.ArticlesComponent),
-	},
+
 	{
 		path: 'reviews',
 		loadComponent: () =>
@@ -42,10 +35,7 @@ export const routes: Routes = [
 		path: 'events',
 		loadComponent: () => import('./pages/events/events.component').then((m) => m.EventsComponent),
 	},
-	{
-		path: 'jobs',
-		loadComponent: () => import('./pages/jobs/jobs.component').then((m) => m.JobsComponent),
-	},
+
 	{
 		path: 'socials',
 		loadComponent: () =>
