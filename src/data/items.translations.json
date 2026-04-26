@@ -1,233 +1,2881 @@
 [
 	{
-		"slug": "homemade-syrnyky-with-sour-cream",
-		"document": "item",
-		"data": {
-			"title": {
-				"ua": "Домашні сирники зі сметаною",
-				"bg": "Домашни сирники със сметана",
-				"hr": "Domaći syrnyky sa kiselim vrhnjem",
-				"cs": "Domácí syrniky se zakysanou smetanou",
-				"da": "Hjemmelavede syrnyky med cremefraiche",
-				"nl": "Huisgemaakte syrnyky met zure room",
-				"en": "Homemade syrnyky with sour cream",
-				"et": "Kodused syrnykyd hapukoorega",
-				"fi": "Kotitekoiset syrnykyt smetanalla",
-				"fr": "Syrnyky maison à la crème aigre",
-				"de": "Hausgemachte Syrnyky mit Sauerrahm",
-				"el": "Σπιτικά syrnyky με ξινή κρέμα",
-				"hu": "Házi syrnyky tejföllel",
-				"ga": "Syrnyky baile le huachtar géar",
-				"it": "Syrnyky fatti in casa con panna acida",
-				"lv": "Mājās gatavoti syrnyki ar skābo krējumu",
-				"lt": "Naminiai syrnykai su grietine",
-				"mt": "Syrnyky magħmula d-dar bil-krema qarsa",
-				"pl": "Domowe syrniki ze śmietaną",
-				"pt": "Syrnyky caseiros com nata azeda",
-				"ro": "Syrnyky de casă cu smântână",
-				"sk": "Domáce syrniky s kyslou smotanou",
-				"sl": "Domači syrnyki s kislo smetano",
-				"es": "Syrnyky caseros con crema agria",
-				"sv": "Hemlagade syrnyky med gräddfil"
-			},
-			"description": {
-				"ua": "Рум’яні сирники, подані зі сметаною.",
-				"bg": "Златисти сирники, поднесени със сметана.",
-				"hr": "Zlatni syrnyky posluženi s kiselim vrhnjem.",
-				"cs": "Zlatavé syrniky podávané se zakysanou smetanou.",
-				"da": "Gyldne syrnyky serveret med cremefraiche.",
-				"nl": "Goudbruine syrnyky geserveerd met zure room.",
-				"en": "Golden cottage cheese pancakes served with sour cream.",
-				"et": "Kuldsed kohupiimapannkoogid hapukoorega.",
-				"fi": "Kultaiset rahkaletut tarjoiltuna smetanan kanssa.",
-				"fr": "Galettes dorées au fromage frais servies avec de la crème aigre.",
-				"de": "Goldene Quarkküchlein mit Sauerrahm serviert.",
-				"el": "Χρυσαφένια τηγανίτες τυριού cottage με ξινή κρέμα.",
-				"hu": "Aranyszínű túrós lepénykék tejföllel tálalva.",
-				"ga": "Syrnyky órga déanta le cáis teachín, le huachtar géar.",
-				"it": "Dorati pancake di ricotta serviti con panna acida.",
-				"lv": "Zeltaini biezpiena plācenīši, pasniegti ar skābo krējumu.",
-				"lt": "Auksiniai varškėčiai, patiekiami su grietine.",
-				"mt": "Syrnyky dehbin servuti bil-krema qarsa.",
-				"pl": "Złociste placuszki twarogowe podawane ze śmietaną.",
-				"pt": "Panquecas douradas de queijo fresco servidas com nata azeda.",
-				"ro": "Papanași de brânză dulce rumeniți, serviți cu smântână.",
-				"sk": "Zlatisté syrniky podávané s kyslou smotanou.",
-				"sl": "Zlatorumeni syrnyki, postreženi s kislo smetano.",
-				"es": "Tortitas doradas de requesón servidas con crema agria.",
-				"sv": "Gyllene ostplättar serverade med gräddfil."
-			},
-			"labels": [
-				{
-					"ua": "200 г",
-					"bg": "200 g",
-					"hr": "200 g",
-					"cs": "200 g",
-					"da": "200 g",
-					"nl": "200 g",
-					"en": "200 g",
-					"et": "200 g",
-					"fi": "200 g",
-					"fr": "200 g",
-					"de": "200 g",
-					"el": "200 g",
-					"hu": "200 g",
-					"ga": "200 g",
-					"it": "200 g",
-					"lv": "200 g",
-					"lt": "200 g",
-					"mt": "200 g",
-					"pl": "200 g",
-					"pt": "200 g",
-					"ro": "200 g",
-					"sk": "200 g",
-					"sl": "200 g",
-					"es": "200 g",
-					"sv": "200 g"
-				}
-			],
-			"fullDescription": {
-				"ua": "Ніжні домашні сирники з приємною сирною текстурою, обсмажені до золотистої скоринки та подані зі сметаною. Традиційний солодкий сніданок, який смакує по-домашньому.",
-				"bg": "Нежни домашни сирники с приятна сирена текстура, запечени до златиста коричка и поднесени със сметана. Традиционна сладка закуска с домашен вкус.",
-				"hr": "Nježni domaći syrnyky ugodne siraste teksture, pečeni do zlatne korice i posluženi s kiselim vrhnjem. Tradicionalan slatki doručak domaćeg okusa.",
-				"cs": "Jemné domácí syrniky s příjemnou sýrovou strukturou, opečené dozlatova a podávané se zakysanou smetanou. Tradiční sladká snídaně s domácí chutí.",
-				"da": "Bløde hjemmelavede syrnyky med en lækker osteagtig konsistens, stegt gyldne og serveret med cremefraiche. En traditionel sød morgenmad med hjemlig smag.",
-				"nl": "Zachte huisgemaakte syrnyky met een fijne kaasttextuur, goudbruin gebakken en geserveerd met zure room. Een traditioneel zoet ontbijt met huiselijke smaak.",
-				"en": "Tender homemade syrnyky with a delicate cheese texture, pan-fried until golden and served with sour cream. A traditional sweet breakfast with a comforting homemade feel.",
-				"et": "Õrnad kodused syrnykyd meeldiva kohupiimatekstuuriga, kuldseks praetud ja hapukoorega serveeritud. Traditsiooniline magus hommikusöök koduse maitsega.",
-				"fi": "Pehmeät kotitekoiset syrnykyt miellyttävällä rahkaisella rakenteella, kullanruskeiksi paistettuina ja smetanan kanssa tarjoiltuina. Perinteinen makea aamiainen kotisella maulla.",
-				"fr": "De tendres syrnyky maison à la texture délicate de fromage frais, dorés à la poêle et servis avec de la crème aigre. Un petit-déjeuner sucré traditionnel au goût de maison.",
-				"de": "Zarte hausgemachte Syrnyky mit feiner Quarktextur, goldbraun gebraten und mit Sauerrahm serviert. Ein traditionelles süßes Frühstück mit hausgemachtem Charakter.",
-				"el": "Τρυφερά σπιτικά syrnyky με ευχάριστη υφή τυριού, ψημένα μέχρι να ροδίσουν και σερβιρισμένα με ξινή κρέμα. Ένα παραδοσιακό γλυκό πρωινό με σπιτική αίσθηση.",
-				"hu": "Lágy házi syrnyky kellemes túrós állaggal, aranybarnára sütve és tejföllel tálalva. Hagyományos édes reggeli otthonos ízzel.",
-				"ga": "Syrnyky boga baile le huigeacht bhog cháis, friochta go hórga agus seirbheáilte le huachtar géar. Bricfeasta milis traidisiúnta le blas baile.",
-				"it": "Syrnyky fatti in casa, morbidi e dalla delicata consistenza di formaggio, dorati in padella e serviti con panna acida. Una colazione dolce tradizionale dal gusto casalingo.",
-				"lv": "Maigi mājās gatavoti syrnyki ar patīkamu biezpiena tekstūru, apcepti līdz zeltainai garoziņai un pasniegti ar skābo krējumu. Tradicionālas saldas brokastis ar mājīgu garšu.",
-				"lt": "Švelnūs naminiai syrnykai su malonia varškės tekstūra, apskrudinti iki auksinės plutelės ir patiekiami su grietine. Tradiciniai saldūs pusryčiai su naminiu skoniu.",
-				"mt": "Syrnyky rotob magħmula d-dar b’tessut delikat tal-ġobon, moqlija sa ma jsirux dehbin u servuti bil-krema qarsa. Kolazzjon tradizzjonali ħelu b’togħma ta’ dar.",
-				"pl": "Delikatne domowe syrniki o przyjemnej twarogowej strukturze, smażone na złoto i podawane ze śmietaną. Tradycyjne słodkie śniadanie o domowym charakterze.",
-				"pt": "Syrnyky caseiros macios, com delicada textura de queijo, dourados na frigideira e servidos com nata azeda. Um pequeno-almoço doce e tradicional com sabor caseiro.",
-				"ro": "Syrnyky fragede de casă, cu textură fină de brânză, rumenite frumos și servite cu smântână. Un mic dejun dulce tradițional, cu gust de casă.",
-				"sk": "Jemné domáce syrniky s príjemnou tvarohovou textúrou, opečené dozlatista a podávané s kyslou smotanou. Tradičné sladké raňajky s domácou chuťou.",
-				"sl": "Nežni domači syrnyki s prijetno sirasto teksturo, zapečeni do zlatorjave skorjice in postreženi s kislo smetano. Tradicionalen sladek zajtrk z domačim pridihom.",
-				"es": "Syrnyky caseros y tiernos, con delicada textura de queso, dorados en la sartén y servidos con crema agria. Un desayuno dulce tradicional con sabor a hogar.",
-				"sv": "Mjuka hemlagade syrnyky med fin ostig konsistens, stekta gyllene och serverade med gräddfil. En traditionell söt frukost med hemtrevlig känsla."
-			}
-		}
-	},
-	{
 		"slug": "cappuccino",
 		"document": "item",
 		"data": {
 			"title": {
 				"ua": "Капучино",
-				"bg": "Капучино",
-				"hr": "Cappuccino",
-				"cs": "Cappuccino",
-				"da": "Cappuccino",
-				"nl": "Cappuccino",
-				"en": "Cappuccino",
-				"et": "Cappuccino",
-				"fi": "Cappuccino",
-				"fr": "Cappuccino",
-				"de": "Cappuccino",
-				"el": "Καπουτσίνο",
-				"hu": "Cappuccino",
-				"ga": "Cappuccino",
-				"it": "Cappuccino",
-				"lv": "Kapučīno",
-				"lt": "Kapučinas",
-				"mt": "Cappuccino",
-				"pl": "Cappuccino",
-				"pt": "Cappuccino",
-				"ro": "Cappuccino",
-				"sk": "Cappuccino",
-				"sl": "Kapučino",
-				"es": "Capuchino",
-				"sv": "Cappuccino"
+				"en": "Cappuccino"
 			},
 			"description": {
 				"ua": "Еспресо зі спіненим молоком і молочною піною.",
-				"bg": "Еспресо със затоплено мляко и млечна пяна.",
-				"hr": "Espresso s ugrijanim mlijekom i mliječnom pjenom.",
-				"cs": "Espresso s napařeným mlékem a mléčnou pěnou.",
-				"da": "Espresso med dampet mælk og mælkeskum.",
-				"nl": "Espresso met gestoomde melk en melkschuim.",
-				"en": "Espresso with steamed milk and foam.",
-				"et": "Espresso aurutatud piima ja piimavahuga.",
-				"fi": "Espresso höyrytetyllä maidolla ja maitovaahdolla.",
-				"fr": "Espresso avec lait chaud moussé et mousse de lait.",
-				"de": "Espresso mit aufgeschäumter Milch und Milchschaum.",
-				"el": "Εσπρέσο με ζεστό αφρόγαλα και αφρό γάλακτος.",
-				"hu": "Eszpresszó gőzölt tejjel és tejhabbal.",
-				"ga": "Espresso le bainne galaithe agus cúr bainne.",
-				"it": "Espresso con latte vaporizzato e schiuma di latte.",
-				"lv": "Espresso ar tvaicētu pienu un piena putām.",
-				"lt": "Espresas su garintu pienu ir pieno puta.",
-				"mt": "Espresso b'ħalib imsaħħan bil-fwar u ragħwa tal-ħalib.",
-				"pl": "Espresso ze spienionym mlekiem i mleczną pianką.",
-				"pt": "Espresso com leite vaporizado e espuma de leite.",
-				"ro": "Espresso cu lapte încălzit la abur și spumă de lapte.",
-				"sk": "Espresso s napeneným mliekom a mliečnou penou.",
-				"sl": "Espresso s parjenim mlekom in mlečno peno.",
-				"es": "Espresso con leche vaporizada y espuma de leche.",
-				"sv": "Espresso med ångad mjölk och mjölkskum."
+				"en": "Espresso with steamed milk and foam."
 			},
 			"labels": [
 				{
 					"ua": "350мл",
-					"bg": "350 мл",
-					"hr": "350 ml",
-					"cs": "350 ml",
-					"da": "350 ml",
-					"nl": "350 ml",
-					"en": "350ml",
-					"et": "350 ml",
-					"fi": "350 ml",
-					"fr": "350 ml",
-					"de": "350 ml",
-					"el": "350 ml",
-					"hu": "350 ml",
-					"ga": "350 ml",
-					"it": "350 ml",
-					"lv": "350 ml",
-					"lt": "350 ml",
-					"mt": "350 ml",
-					"pl": "350 ml",
-					"pt": "350 ml",
-					"ro": "350 ml",
-					"sk": "350 ml",
-					"sl": "350 ml",
-					"es": "350 ml",
-					"sv": "350 ml"
+					"en": "350ml"
 				}
 			],
 			"fullDescription": {
 				"ua": "Еспресо зі спіненим молоком і молочною піною. Інгредієнти: еспресо, спінене молоко та молочна піна.",
-				"bg": "Еспресо със затоплено мляко и млечна пяна. Съставки: еспресо, затоплено мляко и млечна пяна.",
-				"hr": "Espresso s ugrijanim mlijekom i mliječnom pjenom. Sastojci: espresso, ugrijano mlijeko i mliječna pjena.",
-				"cs": "Espresso s napařeným mlékem a mléčnou pěnou. Složení: espresso, napařené mléko a mléčná pěna.",
-				"da": "Espresso med dampet mælk og mælkeskum. Ingredienser: espresso, dampet mælk og mælkeskum.",
-				"nl": "Espresso met gestoomde melk en melkschuim. Ingrediënten: espresso, gestoomde melk en melkschuim.",
-				"en": "Espresso with steamed milk and foam. Ingredients: Espresso with steamed milk and foam..",
-				"et": "Espresso aurutatud piima ja piimavahuga. Koostisosad: espresso, aurutatud piim ja piimavaht.",
-				"fi": "Espresso höyrytetyllä maidolla ja maitovaahdolla. Ainesosat: espresso, höyrytetty maito ja maitovaahto.",
-				"fr": "Espresso avec lait chaud moussé et mousse de lait. Ingrédients : espresso, lait chaud moussé et mousse de lait.",
-				"de": "Espresso mit aufgeschäumter Milch und Milchschaum. Zutaten: Espresso, aufgeschäumte Milch und Milchschaum.",
-				"el": "Εσπρέσο με ζεστό αφρόγαλα και αφρό γάλακτος. Υλικά: εσπρέσο, ζεστό αφρόγαλα και αφρός γάλακτος.",
-				"hu": "Eszpresszó gőzölt tejjel és tejhabbal. Összetevők: eszpresszó, gőzölt tej és tejhab.",
-				"ga": "Espresso le bainne galaithe agus cúr bainne. Comhábhair: espresso, bainne galaithe agus cúr bainne.",
-				"it": "Espresso con latte vaporizzato e schiuma di latte. Ingredienti: espresso, latte vaporizzato e schiuma di latte.",
-				"lv": "Espresso ar tvaicētu pienu un piena putām. Sastāvdaļas: espresso, tvaicēts piens un piena putas.",
-				"lt": "Espresas su garintu pienu ir pieno puta. Sudėtis: espresas, garintas pienas ir pieno puta.",
-				"mt": "Espresso b'ħalib imsaħħan bil-fwar u ragħwa tal-ħalib. Ingredjenti: espresso, ħalib imsaħħan bil-fwar u ragħwa tal-ħalib.",
-				"pl": "Espresso ze spienionym mlekiem i mleczną pianką. Składniki: espresso, spienione mleko i mleczna pianka.",
-				"pt": "Espresso com leite vaporizado e espuma de leite. Ingredientes: espresso, leite vaporizado e espuma de leite.",
-				"ro": "Espresso cu lapte încălzit la abur și spumă de lapte. Ingrediente: espresso, lapte încălzit la abur și spumă de lapte.",
-				"sk": "Espresso s napeneným mliekom a mliečnou penou. Zloženie: espresso, napenené mlieko a mliečna pena.",
-				"sl": "Espresso s parjenim mlekom in mlečno peno. Sestavine: espresso, parjeno mleko in mlečna pena.",
-				"es": "Espresso con leche vaporizada y espuma de leche. Ingredientes: espresso, leche vaporizada y espuma de leche.",
-				"sv": "Espresso med ångad mjölk och mjölkskum. Ingredienser: espresso, ångad mjölk och mjölkskum."
+				"en": "Espresso with steamed milk and foam. Ingredients: Espresso with steamed milk and foam.."
+			}
+		}
+	},
+	{
+		"slug": "signature-philadelphia-with-salmon-and-avocado",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Фірмова Філадельфія з лососем та авокадо під соусом дор блю",
+				"en": "Signature Philadelphia with Salmon and Avocado under Dor Blue Sauce"
+			},
+			"description": {
+				"ua": "Багато лосося, ніжний крем-сир, авокадо, чорний рис, норі, фірмовий соус дор блю, манго, зелена олія, мікро зелень, квіти та нитки паприки",
+				"en": "Lots of salmon, tender cream cheese, avocado, black rice, nori, signature Dor Blue sauce, mango, green oil, microgreens, flowers and paprika threads"
+			},
+			"labels": [
+				{
+					"ua": "340г",
+					"en": "340g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Багато лосося, ніжний крем-сир, авокадо, чорний рис, норі, фірмовий соус дор блю, манго, зелена олія, мікро зелень, квіти та нитки паприки",
+				"en": "Lots of salmon, tender cream cheese, avocado, black rice, nori, signature Dor Blue sauce, mango, green oil, microgreens, flowers and paprika threads"
+			}
+		}
+	},
+	{
+		"slug": "signature-philadelphia-with-salmon-and-mango",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Фірмова Філадельфія з лососем та манго під трюфельним соусом",
+				"en": "Signature Philadelphia with Salmon and Mango under Truffle Sauce"
+			},
+			"description": {
+				"ua": "Багато лосося, ніжний крем-сир, свіже манго, рис, норі, фірмовий трюфельний соус з сиром пармезан, соус манго, зелена олія, нитки паприки, квіти та мікро зелень",
+				"en": "Lots of salmon, tender cream cheese, fresh mango, rice, nori, signature truffle sauce with parmesan cheese, mango sauce, green oil, paprika threads, flowers and microgreens"
+			},
+			"labels": [
+				{
+					"ua": "350г",
+					"en": "350g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Багато лосося, ніжний крем-сир, свіже манго, рис, норі, фірмовий трюфельний соус з сиром пармезан, соус манго, зелена олія, нитки паприки, квіти та мікро зелень",
+				"en": "Lots of salmon, tender cream cheese, fresh mango, rice, nori, signature truffle sauce with parmesan cheese, mango sauce, green oil, paprika threads, flowers and microgreens"
+			}
+		}
+	},
+	{
+		"slug": "signature-california-with-shrimp-and-dor-blue",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Фірмова каліфорнія з креветкою та соусом дор блю",
+				"en": "Signature California with Shrimp and Dor Blue Sauce"
+			},
+			"description": {
+				"ua": "Креветка, ніжний крем-сир, ікра тобіко, салат айсберг, чорний рис, фірмовий соус дор блю , соус манго, зелена олія, мірко зелень, квіти та нитки паприки",
+				"en": "Shrimp, tender cream cheese, tobiko caviar, iceberg lettuce, black rice, signature Dor Blue sauce, mango sauce, green oil, microgreens, flowers and paprika threads"
+			},
+			"labels": [
+				{
+					"ua": "340г",
+					"en": "340g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Креветка, ніжний крем-сир, ікра тобіко, салат айсберг, чорний рис, фірмовий соус дор блю , соус манго, зелена олія, мірко зелень, квіти та нитки паприки",
+				"en": "Shrimp, tender cream cheese, tobiko caviar, iceberg lettuce, black rice, signature Dor Blue sauce, mango sauce, green oil, microgreens, flowers and paprika threads"
+			}
+		}
+	},
+	{
+		"slug": "signature-roll-with-tuna-and-truffle-sauce",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Фірмовий рол з тунцем та трюфельним соусом",
+				"en": "Signature Roll with Tuna and Truffle Sauce"
+			},
+			"description": {
+				"ua": "Багато тунця, ніжний крем-сир, авокадо, огірок, рис, норі, фірмовий трюфельний соус з сиром пармезан, манго-теріякі, зелена олія, мікро зелень, квіти та нитки парики",
+				"en": "Lots of tuna, tender cream cheese, avocado, cucumber, rice, nori, signature truffle sauce with parmesan cheese, mango-teriyaki, green oil, microgreens, flowers and paprika threads"
+			},
+			"labels": [
+				{
+					"ua": "350г",
+					"en": "350g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Багато тунця, ніжний крем-сир, авокадо, огірок, рис, норі, фірмовий трюфельний соус з сиром пармезан, манго-теріякі, зелена олія, мікро зелень, квіти та нитки парики",
+				"en": "Lots of tuna, tender cream cheese, avocado, cucumber, rice, nori, signature truffle sauce with parmesan cheese, mango-teriyaki, green oil, microgreens, flowers and paprika threads"
+			}
+		}
+	},
+	{
+		"slug": "premium-philadelphia-with-eel",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Преміум філадельфія з вугрем",
+				"en": "Premium Philadelphia with Eel"
+			},
+			"description": {
+				"ua": "Вугор, лист норі, ніжний крем сир, огірок, рис, соус манго-теріякі, кунжут та нитки паприки ",
+				"en": "Eel, nori sheet, tender cream cheese, cucumber, rice, mango-teriyaki sauce, sesame and paprika threads"
+			},
+			"labels": [
+				{
+					"ua": "320г",
+					"en": "320g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Вугор, лист норі, ніжний крем сир, огірок, рис, соус манго-теріякі, кунжут та нитки паприки ",
+				"en": "Eel, nori sheet, tender cream cheese, cucumber, rice, mango-teriyaki sauce, sesame and paprika threads"
+			}
+		}
+	},
+	{
+		"slug": "classic-philadelphia-with-eel",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Філадельфія з вугрем класична",
+				"en": "Classic Philadelphia with Eel"
+			},
+			"description": {
+				"ua": "Вугор, ніжний-крем сир, огірок, рис, лист норі, соус теріякі та кунжут ",
+				"en": "Eel, tender cream cheese, cucumber, rice, nori sheet, teriyaki sauce and sesame"
+			},
+			"labels": [
+				{
+					"ua": "270г",
+					"en": "270g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Вугор, ніжний-крем сир, огірок, рис, лист норі, соус теріякі та кунжут ",
+				"en": "Eel, tender cream cheese, cucumber, rice, nori sheet, teriyaki sauce and sesame"
+			}
+		}
+	},
+	{
+		"slug": "philadelphia-with-eel-and-shrimp",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Філадельфія з вугрем та креветкою",
+				"en": "Philadelphia with Eel and Shrimp"
+			},
+			"description": {
+				"ua": "Вугор, креветка, ніжний-крем сир, авокадо, огірок, лист норі, рис, соус манго-теріякі та мигдальні пластівці ",
+				"en": "Eel, shrimp, tender cream cheese, avocado, cucumber, nori sheet, rice, mango-teriyaki sauce and almond flakes"
+			},
+			"labels": [
+				{
+					"ua": "330г",
+					"en": "330g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Вугор, креветка, ніжний-крем сир, авокадо, огірок, лист норі, рис, соус манго-теріякі та мигдальні пластівці ",
+				"en": "Eel, shrimp, tender cream cheese, avocado, cucumber, nori sheet, rice, mango-teriyaki sauce and almond flakes"
+			}
+		}
+	},
+	{
+		"slug": "black-dragon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Black dragon",
+				"en": "Black dragon"
+			},
+			"description": {
+				"ua": "Вугор, свіжий лосось, ніжний-крем сир, авокадо, лист норі, рис з чорнилами каракатиці, соус манго-теріякі, кунжут та нитки паприки ",
+				"en": "Eel, fresh salmon, tender cream cheese, avocado, nori sheet, rice with cuttlefish ink, mango-teriyaki sauce, sesame and paprika threads"
+			},
+			"labels": [
+				{
+					"ua": "320г",
+					"en": "320g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Вугор, свіжий лосось, ніжний-крем сир, авокадо, лист норі, рис з чорнилами каракатиці, соус манго-теріякі, кунжут та нитки паприки ",
+				"en": "Eel, fresh salmon, tender cream cheese, avocado, nori sheet, rice with cuttlefish ink, mango-teriyaki sauce, sesame and paprika threads"
+			}
+		}
+	},
+	{
+		"slug": "golden-dragon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Золотий дракон",
+				"en": "Golden Dragon"
+			},
+			"description": {
+				"ua": "Вугор, смажена креветка в сухарях панко, ніжний-крем сир, огірок, лист норі, рис, соус манго-теріякі, паприка, нитки паприки, ікра тобіко та харчове золото ",
+				"en": "Eel, fried shrimp in panko breadcrumbs, tender cream cheese, cucumber, nori sheet, rice, mango-teriyaki sauce, paprika, paprika threads, tobiko caviar and edible gold"
+			},
+			"labels": [
+				{
+					"ua": "340г",
+					"en": "340g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Вугор, смажена креветка в сухарях панко, ніжний-крем сир, огірок, лист норі, рис, соус манго-теріякі, паприка, нитки паприки, ікра тобіко та харчове золото ",
+				"en": "Eel, fried shrimp in panko breadcrumbs, tender cream cheese, cucumber, nori sheet, rice, mango-teriyaki sauce, paprika, paprika threads, tobiko caviar and edible gold"
+			}
+		}
+	},
+	{
+		"slug": "hot-roll-with-eel-and-avocado",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Гарячий рол з вугрем та авокадо",
+				"en": "Hot Roll with Eel and Avocado"
+			},
+			"description": {
+				"ua": "Вугор, ніжний-крем сир, авокадо, лист норі, рис, темпура, сухарі панко, соус манго-теріякі та приправа тогараші (паприка, кунжут, нитки паприки)  ",
+				"en": "Eel, tender cream cheese, avocado, nori sheet, rice, tempura, panko breadcrumbs, mango-teriyaki sauce and togarashi seasoning"
+			},
+			"labels": [
+				{
+					"ua": "300г",
+					"en": "300g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Вугор, ніжний-крем сир, авокадо, лист норі, рис, темпура, сухарі панко, соус манго-теріякі та приправа тогараші (паприка, кунжут, нитки паприки)  ",
+				"en": "Eel, tender cream cheese, avocado, nori sheet, rice, tempura, panko breadcrumbs, mango-teriyaki sauce and togarashi seasoning"
+			}
+		}
+	},
+	{
+		"slug": "baked-roll-with-eel",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Запечий рол з вугрем",
+				"en": "Baked Roll with Eel"
+			},
+			"description": {
+				"ua": "Вугор, ніжний-крем сир, салат айсберг, омлет томаго які, ікра тобіко, лист норі, рис, сирна шапочка з трьох видів сиру (гауда, моцарела, пармезан з додаванням спайсі соусу) соус теріякі та кунжут мікс",
+				"en": "Eel, tender cream cheese, iceberg lettuce, tamago yaki omelet, tobiko caviar, nori sheet, rice, cheese cap of three types of cheese with spicy sauce, teriyaki sauce and sesame mix"
+			},
+			"labels": [
+				{
+					"ua": "330г",
+					"en": "330g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Вугор, ніжний-крем сир, салат айсберг, омлет томаго які, ікра тобіко, лист норі, рис, сирна шапочка з трьох видів сиру (гауда, моцарела, пармезан з додаванням спайсі соусу) соус теріякі та кунжут мікс",
+				"en": "Eel, tender cream cheese, iceberg lettuce, tamago yaki omelet, tobiko caviar, nori sheet, rice, cheese cap of three types of cheese with spicy sauce, teriyaki sauce and sesame mix"
+			}
+		}
+	},
+	{
+		"slug": "baked-roll-with-eel-and-avocado",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Запечеий рол з вугрем та авокадо",
+				"en": "Baked Roll with Eel and Avocado"
+			},
+			"description": {
+				"ua": "Вугор, ніжний-крем сир, авокадо, ікра тобіко, лист норі, рис, сирна шапочка з трьох видів сиру (гауда, моцарела, пармезан з додаванням спайсі соусу) соус теріякі та кунжут мікс",
+				"en": "Eel, tender cream cheese, avocado, tobiko caviar, nori sheet, rice, cheese cap of three types of cheese with spicy sauce, teriyaki sauce and sesame mix"
+			},
+			"labels": [
+				{
+					"ua": "320г",
+					"en": "320g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Вугор, ніжний-крем сир, авокадо, ікра тобіко, лист норі, рис, сирна шапочка з трьох видів сиру (гауда, моцарела, пармезан з додаванням спайсі соусу) соус теріякі та кунжут мікс",
+				"en": "Eel, tender cream cheese, avocado, tobiko caviar, nori sheet, rice, cheese cap of three types of cheese with spicy sauce, teriyaki sauce and sesame mix"
+			}
+		}
+	},
+	{
+		"slug": "premium-california-with-eel",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Преміум каліфорнія з вугрем",
+				"en": "Premium California with Eel"
+			},
+			"description": {
+				"ua": "Вугор, ніжний-крем сир, авокадо, огірок, ікра тобіко, лист норі, рис, соус теріякі-спайсі, кранч та зелена цибуля ",
+				"en": "Eel, tender cream cheese, avocado, cucumber, tobiko caviar, nori sheet, rice, teriyaki-spicy sauce, crunch and green onion"
+			},
+			"labels": [
+				{
+					"ua": "320г",
+					"en": "320g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Вугор, ніжний-крем сир, авокадо, огірок, ікра тобіко, лист норі, рис, соус теріякі-спайсі, кранч та зелена цибуля ",
+				"en": "Eel, tender cream cheese, avocado, cucumber, tobiko caviar, nori sheet, rice, teriyaki-spicy sauce, crunch and green onion"
+			}
+		}
+	},
+	{
+		"slug": "sushi-burger-with-eel",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Суші-бургер з вугрем",
+				"en": "Sushi Burger with Eel"
+			},
+			"description": {
+				"ua": "Для любителів бургерів ми підготували спеціальну пропозицію. Рис обгорнутий в норі, начинка з крем-сиру, вугря, огірка з салатом айзбергом. Запанірований в сухарі панко. З додаванням соусу манго-теріякі та паприки ",
+				"en": "For burger lovers we have prepared a special offer. Rice wrapped in nori, filling of cream cheese, eel, cucumber with iceberg lettuce. Breaded in panko breadcrumbs. With mango-teriyaki sauce and paprika"
+			},
+			"labels": [
+				{
+					"ua": "410г",
+					"en": "410g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Для любителів бургерів ми підготували спеціальну пропозицію. Рис обгорнутий в норі, начинка з крем-сиру, вугря, огірка з салатом айзбергом. Запанірований в сухарі панко. З додаванням соусу манго-теріякі та паприки ",
+				"en": "For burger lovers we have prepared a special offer. Rice wrapped in nori, filling of cream cheese, eel, cucumber with iceberg lettuce. Breaded in panko breadcrumbs. With mango-teriyaki sauce and paprika"
+			}
+		}
+	},
+	{
+		"slug": "very-big-set-2kg",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Дуже великий сет 2 кг",
+				"en": "Very Big Set 2kg"
+			},
+			"description": {
+				"ua": "Преміум Філадельфія з лососем, Преміум Філадельфія з тунцем, Канада з лососем , Преміум Аляска з лососем , Преміум Каліфорнія з лососем, Кранч рол з креветками панко",
+				"en": "Premium Philadelphia with salmon, Premium Philadelphia with tuna, Canada with salmon, Premium Alaska with salmon, Premium California with salmon, Crunch roll with panko shrimp"
+			},
+			"labels": [
+				{
+					"ua": "2кг",
+					"en": "2kg"
+				}
+			],
+			"fullDescription": {
+				"ua": "Преміум Філадельфія з лососем, Преміум Філадельфія з тунцем, Канада з лососем , Преміум Аляска з лососем , Преміум Каліфорнія з лососем, Кранч рол з креветками панко",
+				"en": "Premium Philadelphia with salmon, Premium Philadelphia with tuna, Canada with salmon, Premium Alaska with salmon, Premium California with salmon, Crunch roll with panko shrimp"
+			}
+		}
+	},
+	{
+		"slug": "philadelphia-set-1kg",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Філадельфія сет 1 кг",
+				"en": "Philadelphia Set 1kg"
+			},
+			"description": {
+				"ua": "Преміум Філадельфія з лососем, Преміум Філадельфія з тунцем, Преміум Філадельфія з лососем та авокадо",
+				"en": "Premium Philadelphia with salmon, Premium Philadelphia with tuna, Premium Philadelphia with salmon and avocado"
+			},
+			"labels": [
+				{
+					"ua": "1кг",
+					"en": "1kg"
+				}
+			],
+			"fullDescription": {
+				"ua": "Преміум Філадельфія з лососем, Преміум Філадельфія з тунцем, Преміум Філадельфія з лососем та авокадо",
+				"en": "Premium Philadelphia with salmon, Premium Philadelphia with tuna, Premium Philadelphia with salmon and avocado"
+			}
+		}
+	},
+	{
+		"slug": "salmon-set-950g",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Сальмон сет 950 г",
+				"en": "Salmon Set 950g"
+			},
+			"description": {
+				"ua": "Преміум Філадельфія з лососем, Преміум каліфорнія з лососем, Блек Каліфорнія з лососем та айзбергом.",
+				"en": "Premium Philadelphia with salmon, Premium California with salmon, Black California with salmon and iceberg lettuce"
+			},
+			"labels": [
+				{
+					"ua": "950г",
+					"en": "950g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Преміум Філадельфія з лососем, Преміум каліфорнія з лососем, Блек Каліфорнія з лососем та айзбергом.",
+				"en": "Premium Philadelphia with salmon, Premium California with salmon, Black California with salmon and iceberg lettuce"
+			}
+		}
+	},
+	{
+		"slug": "shrimp-set-1kg",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Сет з Креветкою 1кг",
+				"en": "Shrimp Set 1kg"
+			},
+			"description": {
+				"ua": "Філадельфія з креветкою, Чіз рол з креветкою, Каліфорнія з креветкою",
+				"en": "Philadelphia with shrimp, Cheese roll with shrimp, California with shrimp"
+			},
+			"labels": [
+				{
+					"ua": "1кг",
+					"en": "1kg"
+				}
+			],
+			"fullDescription": {
+				"ua": "Філадельфія з креветкою, Чіз рол з креветкою, Каліфорнія з креветкою",
+				"en": "Philadelphia with shrimp, Cheese roll with shrimp, California with shrimp"
+			}
+		}
+	},
+	{
+		"slug": "tuna-set-1kg",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Туна сет 1 кг",
+				"en": "Tuna Set 1kg"
+			},
+			"description": {
+				"ua": "Преміум Філадельфія з тунцем, Преміму Канада з тунцем, Канада вершкова.",
+				"en": "Premium Philadelphia with tuna, Premium Canada with tuna, Creamy Canada"
+			},
+			"labels": [
+				{
+					"ua": "1кг",
+					"en": "1kg"
+				}
+			],
+			"fullDescription": {
+				"ua": "Преміум Філадельфія з тунцем, Преміму Канада з тунцем, Канада вершкова.",
+				"en": "Premium Philadelphia with tuna, Premium Canada with tuna, Creamy Canada"
+			}
+		}
+	},
+	{
+		"slug": "big-set-1kg",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Великий сет 1 кг",
+				"en": "Big Set 1kg"
+			},
+			"description": {
+				"ua": "Преміум Аляска з лососем , Преміум Філадельфія з лососем, Кранч рол з креветкою .",
+				"en": "Premium Alaska with salmon, Premium Philadelphia with salmon, Crunch roll with shrimp"
+			},
+			"labels": [
+				{
+					"ua": "1кг",
+					"en": "1kg"
+				}
+			],
+			"fullDescription": {
+				"ua": "Преміум Аляска з лососем , Преміум Філадельфія з лососем, Кранч рол з креветкою .",
+				"en": "Premium Alaska with salmon, Premium Philadelphia with salmon, Crunch roll with shrimp"
+			}
+		}
+	},
+	{
+		"slug": "black-set-1kg",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Чорний сет 1кг",
+				"en": "Black Set 1kg"
+			},
+			"description": {
+				"ua": "Філадельфія з авокадо, персиком та лососем, Каліфорнія з тунцем та дайконом, Аляска з креветкою.",
+				"en": "Philadelphia with avocado, peach and salmon, California with tuna and daikon, Alaska with shrimp"
+			},
+			"labels": [
+				{
+					"ua": "1кг",
+					"en": "1kg"
+				}
+			],
+			"fullDescription": {
+				"ua": "Філадельфія з авокадо, персиком та лососем, Каліфорнія з тунцем та дайконом, Аляска з креветкою.",
+				"en": "Philadelphia with avocado, peach and salmon, California with tuna and daikon, Alaska with shrimp"
+			}
+		}
+	},
+	{
+		"slug": "spicy-crab-set-1.2kg",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Сет з спайсі крабом 1.2кг",
+				"en": "Spicy Crab Set 1.2kg"
+			},
+			"description": {
+				"ua": "Преміум Каліфорнія з крабом, Футомакі з крабом, Канада з крабом, Чіз рол з крабом",
+				"en": "Premium California with crab, Futomaki with crab, Canada with crab, Cheese roll with crab"
+			},
+			"labels": [
+				{
+					"ua": "1.2кг",
+					"en": "1.2kg"
+				}
+			],
+			"fullDescription": {
+				"ua": "Преміум Каліфорнія з крабом, Футомакі з крабом, Канада з крабом, Чіз рол з крабом",
+				"en": "Premium California with crab, Futomaki with crab, Canada with crab, Cheese roll with crab"
+			}
+		}
+	},
+	{
+		"slug": "baked-set-950g",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Сет запечений 950 г",
+				"en": "Baked Set 950g"
+			},
+			"description": {
+				"ua": "Запечений рол з креветкою, тунцем та лососем",
+				"en": "Baked roll with shrimp, tuna and salmon"
+			},
+			"labels": [
+				{
+					"ua": "950г",
+					"en": "950g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Запечений рол з креветкою, тунцем та лососем",
+				"en": "Baked roll with shrimp, tuna and salmon"
+			}
+		}
+	},
+	{
+		"slug": "hot-set-1kg",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Гарячий сет 1 кг",
+				"en": "Hot Set 1kg"
+			},
+			"description": {
+				"ua": "Гарячий рол з тунцем, Гарячий рол з лососем, Гарячий рол з креветкою",
+				"en": "Hot roll with tuna, Hot roll with salmon, Hot roll with shrimp"
+			},
+			"labels": [
+				{
+					"ua": "1кг",
+					"en": "1kg"
+				}
+			],
+			"fullDescription": {
+				"ua": "Гарячий рол з тунцем, Гарячий рол з лососем, Гарячий рол з креветкою",
+				"en": "Hot roll with tuna, Hot roll with salmon, Hot roll with shrimp"
+			}
+		}
+	},
+	{
+		"slug": "classic-mix-set-1kg",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Сет класичний мікс 1кг",
+				"en": "Classic Mix Set 1kg"
+			},
+			"description": {
+				"ua": "Філадельфія лосось класична, Філадельфія з креветкою класична, Канада вершкова класична, Каліфорнія з крабом класична",
+				"en": "Philadelphia salmon classic, Philadelphia with shrimp classic, Canada creamy classic, California with crab classic"
+			},
+			"labels": [
+				{
+					"ua": "1кг",
+					"en": "1kg"
+				}
+			],
+			"fullDescription": {
+				"ua": "Філадельфія лосось класична, Філадельфія з креветкою класична, Канада вершкова класична, Каліфорнія з крабом класична",
+				"en": "Philadelphia salmon classic, Philadelphia with shrimp classic, Canada creamy classic, California with crab classic"
+			}
+		}
+	},
+	{
+		"slug": "classic-salmon-set-850g",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Сет класичний з лососем 850 г",
+				"en": "Classic Salmon Set 850g"
+			},
+			"description": {
+				"ua": "Каліфорнія з лососем, Аляска з лососем, Канада з лососем",
+				"en": "California with salmon, Alaska with salmon, Canada with salmon"
+			},
+			"labels": [
+				{
+					"ua": "850г",
+					"en": "850g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Каліфорнія з лососем, Аляска з лососем, Канада з лососем",
+				"en": "California with salmon, Alaska with salmon, Canada with salmon"
+			}
+		}
+	},
+	{
+		"slug": "grilled-salmon-set-1kg",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Сет з лососем гриль 1 кг",
+				"en": "Grilled Salmon Set 1kg"
+			},
+			"description": {
+				"ua": "Філадельфія з ананасом та обпаленим лососем, Філадельфія з лососем гриль, Канада з лососем гриль",
+				"en": "Philadelphia with pineapple and seared salmon, Philadelphia with grilled salmon, Canada with grilled salmon"
+			},
+			"labels": [
+				{
+					"ua": "1000г",
+					"en": "1000g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Філадельфія з ананасом та обпаленим лососем, Філадельфія з лососем гриль, Канада з лососем гриль",
+				"en": "Philadelphia with pineapple and seared salmon, Philadelphia with grilled salmon, Canada with grilled salmon"
+			}
+		}
+	},
+	{
+		"slug": "salmon-set-2.0",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Сальмон сет 2.0",
+				"en": "Salmon Set 2.0"
+			},
+			"description": {
+				"ua": "Філадельфія з лососем та ананас, Філадельфія з лососем гриль, Канада з лососем гриль",
+				"en": "Philadelphia with salmon and pineapple, Philadelphia with grilled salmon, Canada with grilled salmon"
+			},
+			"labels": [
+				{
+					"ua": "1.300г",
+					"en": "1300g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Філадельфія з лососем та ананас, Філадельфія з лососем гриль, Канада з лососем гриль",
+				"en": "Philadelphia with salmon and pineapple, Philadelphia with grilled salmon, Canada with grilled salmon"
+			}
+		}
+	},
+	{
+		"slug": "ocean-set-1.3kg",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Сет океан 1.3кг",
+				"en": "Ocean Set 1.3kg"
+			},
+			"description": {
+				"ua": "Смарагдовий дракон, Філадельфія 50/50 лосось/авокадо, Футо макі з лососем гриль",
+				"en": "Emerald dragon, Philadelphia 50/50 salmon/avocado, Futomaki with grilled salmon"
+			},
+			"labels": [
+				{
+					"ua": "1.300г",
+					"en": "1300g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Смарагдовий дракон, Філадельфія 50/50 лосось/авокадо, Футо макі з лососем гриль",
+				"en": "Emerald dragon, Philadelphia 50/50 salmon/avocado, Futomaki with grilled salmon"
+			}
+		}
+	},
+	{
+		"slug": "red-dragon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Червоний дракон",
+				"en": "Red Dragon"
+			},
+			"description": {
+				"ua": "Лосось,тунець, ніжний крем-сир, рис, авокадо, лист норі, соус теріякі та манго , ікра летючої риби, спеції тогараші, нитки паприки посипається золотом.",
+				"en": "Salmon, tuna, tender cream cheese, rice, avocado, nori sheet, teriyaki and mango sauce, flying fish roe, togarashi spices, paprika threads, sprinkled with gold"
+			},
+			"labels": [
+				{
+					"ua": "330г",
+					"en": "330g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось,тунець, ніжний крем-сир, рис, авокадо, лист норі, соус теріякі та манго , ікра летючої риби, спеції тогараші, нитки паприки посипається золотом.",
+				"en": "Salmon, tuna, tender cream cheese, rice, avocado, nori sheet, teriyaki and mango sauce, flying fish roe, togarashi spices, paprika threads, sprinkled with gold"
+			}
+		}
+	},
+	{
+		"slug": "yellowfin-tuna-dragon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Дракон з тунцем Еллоуфін",
+				"en": "Yellowfin Tuna Dragon"
+			},
+			"description": {
+				"ua": "Тунець Еллоуфін, креветки, ніжний крем-сир, рис, дайкон, лист норі, соус теріякі, ікра летючої риби, спеції тогараші, посипається золотом.",
+				"en": "Yellowfin tuna, shrimp, tender cream cheese, rice, daikon, nori sheet, teriyaki sauce, flying fish roe, togarashi spices, sprinkled with gold"
+			},
+			"labels": [
+				{
+					"ua": "360г",
+					"en": "360g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Тунець Еллоуфін, креветки, ніжний крем-сир, рис, дайкон, лист норі, соус теріякі, ікра летючої риби, спеції тогараші, посипається золотом.",
+				"en": "Yellowfin tuna, shrimp, tender cream cheese, rice, daikon, nori sheet, teriyaki sauce, flying fish roe, togarashi spices, sprinkled with gold"
+			}
+		}
+	},
+	{
+		"slug": "premium-philadelphia-with-tuna",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Преміум Філадельфія з тунцем",
+				"en": "Premium Philadelphia with Tuna"
+			},
+			"description": {
+				"ua": "Тунець, ніжний крем-сир, рис, огірок, лист норі, кунжут, соус теріякі-манго.",
+				"en": "Tuna, tender cream cheese, rice, cucumber, nori sheet, sesame, teriyaki-mango sauce"
+			},
+			"labels": [
+				{
+					"ua": "300г",
+					"en": "300g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Тунець, ніжний крем-сир, рис, огірок, лист норі, кунжут, соус теріякі-манго.",
+				"en": "Tuna, tender cream cheese, rice, cucumber, nori sheet, sesame, teriyaki-mango sauce"
+			}
+		}
+	},
+	{
+		"slug": "premium-philadelphia-with-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Преміум Філадельфія з лососем",
+				"en": "Premium Philadelphia with Salmon"
+			},
+			"description": {
+				"ua": "Багато лосося, ніжний крем-сир, рис, огірок, лист норі, кунжут, соус теріякі-манго.",
+				"en": "Lots of salmon, tender cream cheese, rice, cucumber, nori sheet, sesame, teriyaki-mango sauce"
+			},
+			"labels": [
+				{
+					"ua": "350г",
+					"en": "350g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Багато лосося, ніжний крем-сир, рис, огірок, лист норі, кунжут, соус теріякі-манго.",
+				"en": "Lots of salmon, tender cream cheese, rice, cucumber, nori sheet, sesame, teriyaki-mango sauce"
+			}
+		}
+	},
+	{
+		"slug": "premium-philadelphia-with-salmon-and-avocado",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Преміум Філадельфія з лососем та авокадо",
+				"en": "Premium Philadelphia with Salmon and Avocado"
+			},
+			"description": {
+				"ua": "Багато лосося , ніжний крем-сир, рис, авокадо, лист норі, кунжут, соус теріякі-манго.",
+				"en": "Lots of salmon, tender cream cheese, rice, avocado, nori sheet, sesame, teriyaki-mango sauce"
+			},
+			"labels": [
+				{
+					"ua": "340г",
+					"en": "340g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Багато лосося , ніжний крем-сир, рис, авокадо, лист норі, кунжут, соус теріякі-манго.",
+				"en": "Lots of salmon, tender cream cheese, rice, avocado, nori sheet, sesame, teriyaki-mango sauce"
+			}
+		}
+	},
+	{
+		"slug": "philadelphia-with-salmon-and-salad",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Філадельфія з лососем та салатом",
+				"en": "Philadelphia with Salmon and Salad"
+			},
+			"description": {
+				"ua": "Лосось, крем сир, огірок, листя салату, спайсі соус, кумкват, зелена олія з мяти, нитки паприки, манго соус, кунжут, ікра летючої риби, васабі, імбир.",
+				"en": "Salmon, cream cheese, cucumber, lettuce, spicy sauce, kumquat, green mint oil, paprika threads, mango sauce, sesame, flying fish roe, wasabi, ginger"
+			},
+			"labels": [
+				{
+					"ua": "380г",
+					"en": "380g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось, крем сир, огірок, листя салату, спайсі соус, кумкват, зелена олія з мяти, нитки паприки, манго соус, кунжут, ікра летючої риби, васабі, імбир.",
+				"en": "Salmon, cream cheese, cucumber, lettuce, spicy sauce, kumquat, green mint oil, paprika threads, mango sauce, sesame, flying fish roe, wasabi, ginger"
+			}
+		}
+	},
+	{
+		"slug": "philadelphia-with-panko-shrimp",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Філадельфія з креветками панко",
+				"en": "Philadelphia with Panko Shrimp"
+			},
+			"description": {
+				"ua": "Лосось , креветки панко , крем сир , ікра тобіко , свіже манго , соус теріякі ,спайсі ,нитки паприки та мікро зелень",
+				"en": "Salmon, panko shrimp, cream cheese, tobiko caviar, fresh mango, teriyaki sauce, spicy, paprika threads and microgreens"
+			},
+			"labels": [
+				{
+					"ua": "360г",
+					"en": "360g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось , креветки панко , крем сир , ікра тобіко , свіже манго , соус теріякі ,спайсі ,нитки паприки та мікро зелень",
+				"en": "Salmon, panko shrimp, cream cheese, tobiko caviar, fresh mango, teriyaki sauce, spicy, paprika threads and microgreens"
+			}
+		}
+	},
+	{
+		"slug": "philadelphia-with-shrimp",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Філадельфія з креветками",
+				"en": "Philadelphia with Shrimp"
+			},
+			"description": {
+				"ua": "Креветки, крем сир , ікро тобіко , свіже манго , огірок , рис , соус манго та мікро зелень",
+				"en": "Shrimp, cream cheese, tobiko caviar, fresh mango, cucumber, rice, mango sauce and microgreens"
+			},
+			"labels": [
+				{
+					"ua": "350г",
+					"en": "350g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Креветки, крем сир , ікро тобіко , свіже манго , огірок , рис , соус манго та мікро зелень",
+				"en": "Shrimp, cream cheese, tobiko caviar, fresh mango, cucumber, rice, mango sauce and microgreens"
+			}
+		}
+	},
+	{
+		"slug": "philadelphia-cheddar-with-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Філадельфія чеддер з лососем",
+				"en": "Philadelphia Cheddar with Salmon"
+			},
+			"description": {
+				"ua": "Крем-сир , рис , ікра тобіко , свіже манго , огірок , лосось , сир чеддер , соус теріякі, спайсі , нитки паприки та мікро зелень",
+				"en": "Cream cheese, rice, tobiko caviar, fresh mango, cucumber, salmon, cheddar cheese, teriyaki sauce, spicy, paprika threads and microgreens"
+			},
+			"labels": [
+				{
+					"ua": "360г",
+					"en": "360g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Крем-сир , рис , ікра тобіко , свіже манго , огірок , лосось , сир чеддер , соус теріякі, спайсі , нитки паприки та мікро зелень",
+				"en": "Cream cheese, rice, tobiko caviar, fresh mango, cucumber, salmon, cheddar cheese, teriyaki sauce, spicy, paprika threads and microgreens"
+			}
+		}
+	},
+	{
+		"slug": "premium-shrimp-crunch-roll",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Преміум Кранч-рол з креветкою",
+				"en": "Premium Shrimp Crunch Roll"
+			},
+			"description": {
+				"ua": "Креветки панко, ніжний крем-сир, хрусткий кранч, зелена цибуля, персик, рис, лист норі, кунжут та соус спайсі.",
+				"en": "Panko shrimp, tender cream cheese, crunchy crunch, green onion, peach, rice, nori sheet, sesame and spicy sauce"
+			},
+			"labels": [
+				{
+					"ua": "350г",
+					"en": "350g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Креветки панко, ніжний крем-сир, хрусткий кранч, зелена цибуля, персик, рис, лист норі, кунжут та соус спайсі.",
+				"en": "Panko shrimp, tender cream cheese, crunchy crunch, green onion, peach, rice, nori sheet, sesame and spicy sauce"
+			}
+		}
+	},
+	{
+		"slug": "premium-california-with-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Преміум Каліфорнія з лососем",
+				"en": "Premium California with Salmon"
+			},
+			"description": {
+				"ua": "Лосось, рис, лист норі, авокадо, огірок, крем-сир, кунжут, соус теріякі",
+				"en": "Salmon, rice, nori sheet, avocado, cucumber, cream cheese, sesame, teriyaki sauce"
+			},
+			"labels": [
+				{
+					"ua": "300г",
+					"en": "300g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось, рис, лист норі, авокадо, огірок, крем-сир, кунжут, соус теріякі",
+				"en": "Salmon, rice, nori sheet, avocado, cucumber, cream cheese, sesame, teriyaki sauce"
+			}
+		}
+	},
+	{
+		"slug": "premium-california-with-tuna",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Преміум Каліфорнія з тунцем",
+				"en": "Premium California with Tuna"
+			},
+			"description": {
+				"ua": "Тунець, рис, лист норі, дайкон, огірок, крем-сир, ікра летючої риби, соус теріякі.",
+				"en": "Tuna, rice, nori sheet, daikon, cucumber, cream cheese, flying fish roe, teriyaki sauce"
+			},
+			"labels": [
+				{
+					"ua": "320г",
+					"en": "320g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Тунець, рис, лист норі, дайкон, огірок, крем-сир, ікра летючої риби, соус теріякі.",
+				"en": "Tuna, rice, nori sheet, daikon, cucumber, cream cheese, flying fish roe, teriyaki sauce"
+			}
+		}
+	},
+	{
+		"slug": "premium-california-with-crab",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Преміум Каліфорнія з крабом",
+				"en": "Premium California with Crab"
+			},
+			"description": {
+				"ua": "Ніжний крем-сир, краб мікс (сніжний краб з додаванням крем-сиру та спайсі соусу) стигле авокадо, ікра тобіко, норі, фірмовий соус васабі та паприка",
+				"en": "Tender cream cheese, crab mix (snow crab with cream cheese and spicy sauce), ripe avocado, tobiko caviar, nori, signature wasabi sauce and paprika"
+			},
+			"labels": [
+				{
+					"ua": "290г",
+					"en": "290g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Ніжний крем-сир, краб мікс (сніжний краб з додаванням крем-сиру та спайсі соусу) стигле авокадо, ікра тобіко, норі, фірмовий соус васабі та паприка",
+				"en": "Tender cream cheese, crab mix (snow crab with cream cheese and spicy sauce), ripe avocado, tobiko caviar, nori, signature wasabi sauce and paprika"
+			}
+		}
+	},
+	{
+		"slug": "premium-canada-with-tuna",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Преміум Канада з тунцем",
+				"en": "Premium Canada with Tuna"
+			},
+			"description": {
+				"ua": "Тунець, крем сир, рис, огірок, лист норі, кунжут, соус теріякі.",
+				"en": "Tuna, cream cheese, rice, cucumber, nori sheet, sesame, teriyaki sauce"
+			},
+			"labels": [
+				{
+					"ua": "320г",
+					"en": "320g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Тунець, крем сир, рис, огірок, лист норі, кунжут, соус теріякі.",
+				"en": "Tuna, cream cheese, rice, cucumber, nori sheet, sesame, teriyaki sauce"
+			}
+		}
+	},
+	{
+		"slug": "creamy-canada",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Канада вершкова",
+				"en": "Creamy Canada"
+			},
+			"description": {
+				"ua": "Крем сир, рис, огірок, лист норі, кунжут, соус теріякі, спайсі соус, кріспі цибуля.",
+				"en": "Cream cheese, rice, cucumber, nori sheet, sesame, teriyaki sauce, spicy sauce, crispy onion"
+			},
+			"labels": [
+				{
+					"ua": "320г",
+					"en": "320g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Крем сир, рис, огірок, лист норі, кунжут, соус теріякі, спайсі соус, кріспі цибуля.",
+				"en": "Cream cheese, rice, cucumber, nori sheet, sesame, teriyaki sauce, spicy sauce, crispy onion"
+			}
+		}
+	},
+	{
+		"slug": "premium-alaska-with-salmon-and-orange",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Преміум Аляска з лососем та апельсином",
+				"en": "Premium Alaska with Salmon and Orange"
+			},
+			"description": {
+				"ua": "Лосось , ніжний крем-сир, рис, огірок, апельсин, лист норі, соус васабі, ікра тобіко та паприка .",
+				"en": "Salmon, tender cream cheese, rice, cucumber, orange, nori sheet, wasabi sauce, tobiko caviar and paprika"
+			},
+			"labels": [
+				{
+					"ua": "350г",
+					"en": "350g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось , ніжний крем-сир, рис, огірок, апельсин, лист норі, соус васабі, ікра тобіко та паприка .",
+				"en": "Salmon, tender cream cheese, rice, cucumber, orange, nori sheet, wasabi sauce, tobiko caviar and paprika"
+			}
+		}
+	},
+	{
+		"slug": "cheese-roll-with-crab-and-panko-shrimp",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Чіз рол з крабом та креветкою панко",
+				"en": "Cheese Roll with Crab and Panko Shrimp"
+			},
+			"description": {
+				"ua": "Ніжний крем-сир, креветка Панко, краб мікс (сніжний краб з додаванням крем-сиру та спайсі соусу) салат Айсберг, тостерний сир з додаванням соусу спайсі-теріякі мікрогрін",
+				"en": "Tender cream cheese, panko shrimp, crab mix (snow crab with cream cheese and spicy sauce), iceberg lettuce, toast cheese with spicy-teriyaki sauce, microgreens"
+			},
+			"labels": [
+				{
+					"ua": "310г",
+					"en": "310g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Ніжний крем-сир, креветка Панко, краб мікс (сніжний краб з додаванням крем-сиру та спайсі соусу) салат Айсберг, тостерний сир з додаванням соусу спайсі-теріякі мікрогрін",
+				"en": "Tender cream cheese, panko shrimp, crab mix (snow crab with cream cheese and spicy sauce), iceberg lettuce, toast cheese with spicy-teriyaki sauce, microgreens"
+			}
+		}
+	},
+	{
+		"slug": "cheese-roll-with-crab",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Чіз рол з крабом",
+				"en": "Cheese Roll with Crab"
+			},
+			"description": {
+				"ua": "Ніжний крем-сир, краб мікс (сніжний краб з додаванням крем-сиру та спайсі соусу) чорний рис, японський омлет тамагоякі, огірок, тостерний сир з додаванням соус теріякі-спайсі та паприки",
+				"en": "Tender cream cheese, crab mix (snow crab with cream cheese and spicy sauce), black rice, Japanese tamagoyaki omelet, cucumber, toast cheese with teriyaki-spicy sauce and paprika."
+			},
+			"labels": [
+				{
+					"ua": "310г",
+					"en": "310g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Ніжний крем-сир, краб мікс (сніжний краб з додаванням крем-сиру та спайсі соусу) чорний рис, японський омлет тамагоякі, огірок, тостерний сир з додаванням соус теріякі-спайсі та паприки",
+				"en": "Tender cream cheese, crab mix (snow crab with cream cheese and spicy sauce), black rice, Japanese tamagoyaki omelet, cucumber, toast cheese with teriyaki-spicy sauce and paprika."
+			}
+		}
+	},
+	{
+		"slug": "cheese-roll-with-shrimps",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Чіз рол з креветками",
+				"en": "Cheese Roll with Shrimps"
+			},
+			"description": {
+				"ua": "Креветка , крем сир , свіже манго ,ікра тобіко , сир чеддер , чорний рис ,соус теріякі, спайсі , нитки паприки, хлопʼя паприки та мікро зелень",
+				"en": "Shrimp, cream cheese, fresh mango, tobiko caviar, cheddar cheese, black rice, teriyaki sauce, spicy, paprika threads, paprika flakes and microgreens."
+			},
+			"labels": [
+				{
+					"ua": "330г",
+					"en": "330g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Креветка , крем сир , свіже манго ,ікра тобіко , сир чеддер , чорний рис ,соус теріякі, спайсі , нитки паприки, хлопʼя паприки та мікро зелень",
+				"en": "Shrimp, cream cheese, fresh mango, tobiko caviar, cheddar cheese, black rice, teriyaki sauce, spicy, paprika threads, paprika flakes and microgreens."
+			}
+		}
+	},
+	{
+		"slug": "futomaki-with-crab",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Футомакі з крабом",
+				"en": "Futomaki with Crab"
+			},
+			"description": {
+				"ua": "Ніжний крем-сир, краб мікс (сніжний краб з додаванням крем-сиру та спайсі соусу) норі, огірок , соус теріякі-спайсі та паприка",
+				"en": "Tender cream cheese, crab mix (snow crab with cream cheese and spicy sauce), nori, cucumber, teriyaki-spicy sauce and paprika."
+			},
+			"labels": [
+				{
+					"ua": "270г",
+					"en": "270g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Ніжний крем-сир, краб мікс (сніжний краб з додаванням крем-сиру та спайсі соусу) норі, огірок , соус теріякі-спайсі та паприка",
+				"en": "Tender cream cheese, crab mix (snow crab with cream cheese and spicy sauce), nori, cucumber, teriyaki-spicy sauce and paprika."
+			}
+		}
+	},
+	{
+		"slug": "spicy-roll-with-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Спайсі рол з лососем",
+				"en": "Spicy Roll with Salmon"
+			},
+			"description": {
+				"ua": "Лосось , спайсі соус , сир філадельфія , огірок , кунжутний мікс, мікрозелень та ікра тобіко",
+				"en": "Salmon, spicy sauce, Philadelphia cheese, cucumber, sesame mix, microgreens and tobiko caviar."
+			},
+			"labels": [
+				{
+					"ua": "300г",
+					"en": "300g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось , спайсі соус , сир філадельфія , огірок , кунжутний мікс, мікрозелень та ікра тобіко",
+				"en": "Salmon, spicy sauce, Philadelphia cheese, cucumber, sesame mix, microgreens and tobiko caviar."
+			}
+		}
+	},
+	{
+		"slug": "california-with-panko-shrimp",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Каліфорнія з креветкою панко",
+				"en": "California with Panko Shrimp"
+			},
+			"description": {
+				"ua": "Креветка Панко, ніжний крем-сир, огірок, ікра тобіко, рис, лист норі, соус васабі та паприка",
+				"en": "Panko shrimp, tender cream cheese, cucumber, tobiko caviar, rice, nori sheet, wasabi sauce and paprika."
+			},
+			"labels": [
+				{
+					"ua": "315г",
+					"en": "315g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Креветка Панко, ніжний крем-сир, огірок, ікра тобіко, рис, лист норі, соус васабі та паприка",
+				"en": "Panko shrimp, tender cream cheese, cucumber, tobiko caviar, rice, nori sheet, wasabi sauce and paprika."
+			}
+		}
+	},
+	{
+		"slug": "canada-with-grilled-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Канада з лососем гриль",
+				"en": "Canada with Grilled Salmon"
+			},
+			"description": {
+				"ua": "Лосось гриль, ніжний крем-сир, огірок, рис, лист норі, ікра тобіко ,паприка та соус васабі",
+				"en": "Grilled salmon, tender cream cheese, cucumber, rice, nori sheet, tobiko caviar, paprika and wasabi sauce."
+			},
+			"labels": [
+				{
+					"ua": "300г",
+					"en": "300g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось гриль, ніжний крем-сир, огірок, рис, лист норі, ікра тобіко ,паприка та соус васабі",
+				"en": "Grilled salmon, tender cream cheese, cucumber, rice, nori sheet, tobiko caviar, paprika and wasabi sauce."
+			}
+		}
+	},
+	{
+		"slug": "emerald-dragon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Смарагдовий дракон",
+				"en": "Emerald Dragon"
+			},
+			"description": {
+				"ua": "Лосось гриль, ніжний крем-сир, салат чука, в'ялені томати, огірок, рис, лист норі, соус теріякі та кунжут",
+				"en": "Grilled salmon, tender cream cheese, chuka salad, sun-dried tomatoes, cucumber, rice, nori sheet, teriyaki sauce and sesame."
+			},
+			"labels": [
+				{
+					"ua": "340г",
+					"en": "340g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось гриль, ніжний крем-сир, салат чука, в'ялені томати, огірок, рис, лист норі, соус теріякі та кунжут",
+				"en": "Grilled salmon, tender cream cheese, chuka salad, sun-dried tomatoes, cucumber, rice, nori sheet, teriyaki sauce and sesame."
+			}
+		}
+	},
+	{
+		"slug": "philadelphia-50-50-salmon-avocado",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Філадельфія 50/50 лосось-авокадо",
+				"en": "Philadelphia 50/50 Salmon-Avocado"
+			},
+			"description": {
+				"ua": "Свіжий лосось, ніжний крем-сир, краб мікс, японський омлет та маго які, огірок, авокадо, рис, лист норі, соус теріякі-манго, кунжут та нитки паприки",
+				"en": "Fresh salmon, tender cream cheese, crab mix, Japanese tamagoyaki omelet, cucumber, avocado, rice, nori sheet, teriyaki-mango sauce, sesame and paprika threads."
+			},
+			"labels": [
+				{
+					"ua": "340г",
+					"en": "340g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Свіжий лосось, ніжний крем-сир, краб мікс, японський омлет та маго які, огірок, авокадо, рис, лист норі, соус теріякі-манго, кунжут та нитки паприки",
+				"en": "Fresh salmon, tender cream cheese, crab mix, Japanese tamagoyaki omelet, cucumber, avocado, rice, nori sheet, teriyaki-mango sauce, sesame and paprika threads."
+			}
+		}
+	},
+	{
+		"slug": "philadelphia-with-salmon-and-pineapple",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Філадельфія з лососем та ананасом",
+				"en": "Philadelphia with Salmon and Pineapple"
+			},
+			"description": {
+				"ua": "Багато лосося, ніжний крем-сир, ананас, рис, лист норі, соус теріякі, кунжут на нитки паприки",
+				"en": "Lots of salmon, tender cream cheese, pineapple, rice, nori sheet, teriyaki sauce, sesame and paprika threads."
+			},
+			"labels": [
+				{
+					"ua": "330г",
+					"en": "330g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Багато лосося, ніжний крем-сир, ананас, рис, лист норі, соус теріякі, кунжут на нитки паприки",
+				"en": "Lots of salmon, tender cream cheese, pineapple, rice, nori sheet, teriyaki sauce, sesame and paprika threads."
+			}
+		}
+	},
+	{
+		"slug": "philadelphia-with-grilled-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Філадельфія з лососем гриль",
+				"en": "Philadelphia with Grilled Salmon"
+			},
+			"description": {
+				"ua": "Лосось гриль, ніжний крем-сир, свіже манго, авокадо, рис, лист норі соус теріякі та кунжут",
+				"en": "Grilled salmon, tender cream cheese, fresh mango, avocado, rice, nori sheet, teriyaki sauce and sesame."
+			},
+			"labels": [
+				{
+					"ua": "340г",
+					"en": "340g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось гриль, ніжний крем-сир, свіже манго, авокадо, рис, лист норі соус теріякі та кунжут",
+				"en": "Grilled salmon, tender cream cheese, fresh mango, avocado, rice, nori sheet, teriyaki sauce and sesame."
+			}
+		}
+	},
+	{
+		"slug": "futomaki-with-grilled-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Футо макі з лососем гриль",
+				"en": "Futomaki with Grilled Salmon"
+			},
+			"description": {
+				"ua": "Лосось гриль, ніжний крем-сир, огірок, дайкон, рис, лист норі, соус теріякі-спайсі та паприка",
+				"en": "Grilled salmon, tender cream cheese, cucumber, daikon, rice, nori sheet, teriyaki-spicy sauce and paprika."
+			},
+			"labels": [
+				{
+					"ua": "300г",
+					"en": "300g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось гриль, ніжний крем-сир, огірок, дайкон, рис, лист норі, соус теріякі-спайсі та паприка",
+				"en": "Grilled salmon, tender cream cheese, cucumber, daikon, rice, nori sheet, teriyaki-spicy sauce and paprika."
+			}
+		}
+	},
+	{
+		"slug": "cheese-roll-with-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Чіз рол з лососем",
+				"en": "Cheese Roll with Salmon"
+			},
+			"description": {
+				"ua": "Лосось, ніжний крем-сир, огірок, дайкон, сир чедер, рис, лист норі, соус теріякі-спайсі та паприка",
+				"en": "Salmon, tender cream cheese, cucumber, daikon, cheddar cheese, rice, nori sheet, teriyaki-spicy sauce and paprika."
+			},
+			"labels": [
+				{
+					"ua": "300г",
+					"en": "300g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось, ніжний крем-сир, огірок, дайкон, сир чедер, рис, лист норі, соус теріякі-спайсі та паприка",
+				"en": "Salmon, tender cream cheese, cucumber, daikon, cheddar cheese, rice, nori sheet, teriyaki-spicy sauce and paprika."
+			}
+		}
+	},
+	{
+		"slug": "philadelphia-with-salmon-classic",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Філадельфія з лососем класична",
+				"en": "Philadelphia with Salmon Classic"
+			},
+			"description": {
+				"ua": "Лосось, ніжний крем-сир, рис, огірок, лист норі. Поливається теріякі, присипається кунжутом.",
+				"en": "Salmon, tender cream cheese, rice, cucumber, nori sheet. Topped with teriyaki and sprinkled with sesame."
+			},
+			"labels": [
+				{
+					"ua": "280г",
+					"en": "280g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось, ніжний крем-сир, рис, огірок, лист норі. Поливається теріякі, присипається кунжутом.",
+				"en": "Salmon, tender cream cheese, rice, cucumber, nori sheet. Topped with teriyaki and sprinkled with sesame."
+			}
+		}
+	},
+	{
+		"slug": "philadelphia-with-tuna",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Філадельфія з тунцем",
+				"en": "Philadelphia with Tuna"
+			},
+			"description": {
+				"ua": "Тунець, ніжний крем-сир, рис, огірок, лист норі. Поливається теріякі, присипається кунжутом.",
+				"en": "Tuna, tender cream cheese, rice, cucumber, nori sheet. Topped with teriyaki and sprinkled with sesame."
+			},
+			"labels": [
+				{
+					"ua": "280г",
+					"en": "280g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Тунець, ніжний крем-сир, рис, огірок, лист норі. Поливається теріякі, присипається кунжутом.",
+				"en": "Tuna, tender cream cheese, rice, cucumber, nori sheet. Topped with teriyaki and sprinkled with sesame."
+			}
+		}
+	},
+	{
+		"slug": "philadelphia-with-shrimp-classic",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Філадельфія з креветкою класична",
+				"en": "Philadelphia with Shrimp Classic"
+			},
+			"description": {
+				"ua": "Ніжний крем сир, рис, креветка, огірок, норі.",
+				"en": "Tender cream cheese, rice, shrimp, cucumber, nori."
+			},
+			"labels": [
+				{
+					"ua": "260 г",
+					"en": "260 g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Ніжний крем сир, рис, креветка, огірок, норі.",
+				"en": "Tender cream cheese, rice, shrimp, cucumber, nori."
+			}
+		}
+	},
+	{
+		"slug": "california-with-salmon-classic",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Каліфорнія з лососем",
+				"en": "California with Salmon"
+			},
+			"description": {
+				"ua": "Лосось, крем-сир, огірок, рис, кунжут.",
+				"en": "Salmon, cream cheese, cucumber, rice, sesame."
+			},
+			"labels": [
+				{
+					"ua": "240г",
+					"en": "240g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось, крем-сир, огірок, рис, кунжут.",
+				"en": "Salmon, cream cheese, cucumber, rice, sesame."
+			}
+		}
+	},
+	{
+		"slug": "california-with-tuna-classic",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Каліфорнія з тунцем",
+				"en": "California with Tuna"
+			},
+			"description": {
+				"ua": "Тунець, огірок, крем-сир, лист норі, кунжут.",
+				"en": "Tuna, cucumber, cream cheese, nori sheet, sesame."
+			},
+			"labels": [
+				{
+					"ua": "250г",
+					"en": "250g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Тунець, огірок, крем-сир, лист норі, кунжут.",
+				"en": "Tuna, cucumber, cream cheese, nori sheet, sesame."
+			}
+		}
+	},
+	{
+		"slug": "california-with-shrimp-classic",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Каліфорнія з креветкою",
+				"en": "California with Shrimp"
+			},
+			"description": {
+				"ua": "Креветки панко, ніжний крем-сир, персик, рис, лист норі.",
+				"en": "Panko shrimps, tender cream cheese, peach, rice, nori sheet."
+			},
+			"labels": [
+				{
+					"ua": "280г",
+					"en": "280g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Креветки панко, ніжний крем-сир, персик, рис, лист норі.",
+				"en": "Panko shrimps, tender cream cheese, peach, rice, nori sheet."
+			}
+		}
+	},
+	{
+		"slug": "alaska-with-salmon-classic",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Аляска з лососем",
+				"en": "Alaska with Salmon"
+			},
+			"description": {
+				"ua": "Лосось , ніжний крем-сир, рис, огірок, апельсин, лист норі, ікра тобіко",
+				"en": "Salmon, tender cream cheese, rice, cucumber, orange, nori sheet, tobiko caviar."
+			},
+			"labels": [
+				{
+					"ua": "280г",
+					"en": "280g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось , ніжний крем-сир, рис, огірок, апельсин, лист норі, ікра тобіко",
+				"en": "Salmon, tender cream cheese, rice, cucumber, orange, nori sheet, tobiko caviar."
+			}
+		}
+	},
+	{
+		"slug": "canada-with-tuna-classic",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Канада з тунцем",
+				"en": "Canada with Tuna"
+			},
+			"description": {
+				"ua": "Крем- сир, рис, норі, тунець, огірок",
+				"en": "Cream cheese, rice, nori, tuna, cucumber."
+			},
+			"labels": [
+				{
+					"ua": "250г",
+					"en": "250g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Крем- сир, рис, норі, тунець, огірок",
+				"en": "Cream cheese, rice, nori, tuna, cucumber."
+			}
+		}
+	},
+	{
+		"slug": "creamy-canada-classic",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Канада вершкова",
+				"en": "Creamy Canada"
+			},
+			"description": {
+				"ua": "Крем-сир, рис, огірок, кунжут.",
+				"en": "Cream cheese, rice, cucumber, sesame."
+			},
+			"labels": [
+				{
+					"ua": "240г",
+					"en": "240g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Крем-сир, рис, огірок, кунжут.",
+				"en": "Cream cheese, rice, cucumber, sesame."
+			}
+		}
+	},
+	{
+		"slug": "maki-with-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Макі з лососем",
+				"en": "Maki with Salmon"
+			},
+			"description": {
+				"ua": "Лосось, рис, лист норі. Поливаються соусом теріякі.",
+				"en": "Salmon, rice, nori sheet. Topped with teriyaki sauce."
+			},
+			"labels": [
+				{
+					"ua": "170г",
+					"en": "170g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось, рис, лист норі. Поливаються соусом теріякі.",
+				"en": "Salmon, rice, nori sheet. Topped with teriyaki sauce."
+			}
+		}
+	},
+	{
+		"slug": "maki-with-tuna",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Макі з тунцем",
+				"en": "Maki with Tuna"
+			},
+			"description": {
+				"ua": "Тунець, рис, лист норі. Поливаються соусом теріякі.",
+				"en": "Tuna, rice, nori sheet. Topped with teriyaki sauce."
+			},
+			"labels": [
+				{
+					"ua": "170г",
+					"en": "170g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Тунець, рис, лист норі. Поливаються соусом теріякі.",
+				"en": "Tuna, rice, nori sheet. Topped with teriyaki sauce."
+			}
+		}
+	},
+	{
+		"slug": "maki-with-shrimp",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Макі з креветкою",
+				"en": "Maki with Shrimp"
+			},
+			"description": {
+				"ua": "Креветки, рис, лист норі. Поливаються соусом теріякі.",
+				"en": "Shrimp, rice, nori sheet. Topped with teriyaki sauce."
+			},
+			"labels": [
+				{
+					"ua": "170г",
+					"en": "170g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Креветки, рис, лист норі. Поливаються соусом теріякі.",
+				"en": "Shrimp, rice, nori sheet. Topped with teriyaki sauce."
+			}
+		}
+	},
+	{
+		"slug": "baked-roll-with-shrimp",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Запечений рол з креветкою",
+				"en": "Baked Roll with Shrimp"
+			},
+			"description": {
+				"ua": "Креветка, норі, ніжний крем-сир, груша, рис, ікра тобіко, сирна шапочка з трьох видів сиру (гауда, моцарела, пармезан з додаванням спайсі соусу) соус теріякі та кунжут мікс",
+				"en": "Shrimp, nori, tender cream cheese, pear, rice, tobiko caviar, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce and sesame mix."
+			},
+			"labels": [
+				{
+					"ua": "340г",
+					"en": "340g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Креветка, норі, ніжний крем-сир, груша, рис, ікра тобіко, сирна шапочка з трьох видів сиру (гауда, моцарела, пармезан з додаванням спайсі соусу) соус теріякі та кунжут мікс",
+				"en": "Shrimp, nori, tender cream cheese, pear, rice, tobiko caviar, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce and sesame mix."
+			}
+		}
+	},
+	{
+		"slug": "baked-roll-with-tuna",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Запечений рол з тунцем",
+				"en": "Baked Roll with Tuna"
+			},
+			"description": {
+				"ua": "Багато тунця, норі, ніжний крем-сир, японський омлет тамаго-які, вʼялені томати, рис, ікра тобіко, сирна шапочка з трьох видів сиру (гауда, моцарела, пармезан з додаванням спайсі соусу) соус теріякі та кунжут мікс",
+				"en": "Lots of tuna, nori, tender cream cheese, Japanese tamagoyaki omelet, sun-dried tomatoes, rice, tobiko caviar, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce and sesame mix."
+			},
+			"labels": [
+				{
+					"ua": "330г",
+					"en": "330g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Багато тунця, норі, ніжний крем-сир, японський омлет тамаго-які, вʼялені томати, рис, ікра тобіко, сирна шапочка з трьох видів сиру (гауда, моцарела, пармезан з додаванням спайсі соусу) соус теріякі та кунжут мікс",
+				"en": "Lots of tuna, nori, tender cream cheese, Japanese tamagoyaki omelet, sun-dried tomatoes, rice, tobiko caviar, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce and sesame mix."
+			}
+		}
+	},
+	{
+		"slug": "baked-roll-with-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Запечений рол з лососем",
+				"en": "Baked Roll with Salmon"
+			},
+			"description": {
+				"ua": "Багато лосося, норі, ніжний крем-сир, японський омлет тамаго-які, вʼялені томати, рис, сирна шапочка з трьох видів сиру (гауда, моцарела, пармезан з додаванням спайсі соусу) соус теріякі та кунжут мікс",
+				"en": "Lots of salmon, nori, tender cream cheese, Japanese tamagoyaki omelet, sun-dried tomatoes, rice, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce and sesame mix."
+			},
+			"labels": [
+				{
+					"ua": "330г",
+					"en": "330g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Багато лосося, норі, ніжний крем-сир, японський омлет тамаго-які, вʼялені томати, рис, сирна шапочка з трьох видів сиру (гауда, моцарела, пармезан з додаванням спайсі соусу) соус теріякі та кунжут мікс",
+				"en": "Lots of salmon, nori, tender cream cheese, Japanese tamagoyaki omelet, sun-dried tomatoes, rice, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce and sesame mix."
+			}
+		}
+	},
+	{
+		"slug": "baked-roll-with-crab",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Запечений рол з крабом",
+				"en": "Baked Roll with Crab"
+			},
+			"description": {
+				"ua": "Краб мікс (сніжний краб з додаванням крем-сиру на спайсі соусу), норі, ніжний крем-сир, рис, салат Айсберг, японський омлет тамагоякі, ікра тобіко, сирна шапочка з трьох видів сиру (гауда, моцарела, пармезан з додаванням спайсі соусу) соус теріякі",
+				"en": "Crab mix (snow crab with cream cheese and spicy sauce), nori, tender cream cheese, rice, iceberg lettuce, Japanese tamagoyaki omelet, tobiko caviar, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce."
+			},
+			"labels": [
+				{
+					"ua": "320г",
+					"en": "320g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Краб мікс (сніжний краб з додаванням крем-сиру на спайсі соусу), норі, ніжний крем-сир, рис, салат Айсберг, японський омлет тамагоякі, ікра тобіко, сирна шапочка з трьох видів сиру (гауда, моцарела, пармезан з додаванням спайсі соусу) соус теріякі",
+				"en": "Crab mix (snow crab with cream cheese and spicy sauce), nori, tender cream cheese, rice, iceberg lettuce, Japanese tamagoyaki omelet, tobiko caviar, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce."
+			}
+		}
+	},
+	{
+		"slug": "sushi-burger-with-crab",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Суші-бургер з крабом",
+				"en": "Sushi Burger with Crab"
+			},
+			"description": {
+				"ua": "Для любителів бургерів ми підготували спеціальну пропозицію. Рис обгорнутий в норі, начинка з крем-сиру, краб мікс(сніжний краб з додаванням крем-сиру та спайсі соусу), огірка з салатом айсбергом. Запанірований в сухарі Панко. З додаванням соусу спайсі-теріякі та паприки",
+				"en": "Rice wrapped in nori, filling of cream cheese, crab mix (snow crab with cream cheese and spicy sauce), cucumber and iceberg lettuce. Breaded in panko breadcrumbs. With teriyaki-spicy sauce and paprika."
+			},
+			"labels": [
+				{
+					"ua": "400г",
+					"en": "400g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Для любителів бургерів ми підготували спеціальну пропозицію. Рис обгорнутий в норі, начинка з крем-сиру, краб мікс(сніжний краб з додаванням крем-сиру та спайсі соусу), огірка з салатом айсбергом. Запанірований в сухарі Панко. З додаванням соусу спайсі-теріякі та паприки",
+				"en": "Rice wrapped in nori, filling of cream cheese, crab mix (snow crab with cream cheese and spicy sauce), cucumber and iceberg lettuce. Breaded in panko breadcrumbs. With teriyaki-spicy sauce and paprika."
+			}
+		}
+	},
+	{
+		"slug": "sushi-burger-with-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Суші - Бургер з лососем",
+				"en": "Sushi Burger with Salmon"
+			},
+			"description": {
+				"ua": "Для любителів бургерів наш шеф підготував для тебе спеціальну пропозицію. Рис обернутий в норі, начинка з крем-сиру, лосося, огірка та салату. Запанірований в сухарі панко.",
+				"en": "Rice wrapped in nori, filling of cream cheese, salmon, cucumber and lettuce. Breaded in panko breadcrumbs."
+			},
+			"labels": [
+				{
+					"ua": "420г",
+					"en": "420g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Для любителів бургерів наш шеф підготував для тебе спеціальну пропозицію. Рис обернутий в норі, начинка з крем-сиру, лосося, огірка та салату. Запанірований в сухарі панко.",
+				"en": "Rice wrapped in nori, filling of cream cheese, salmon, cucumber and lettuce. Breaded in panko breadcrumbs."
+			}
+		}
+	},
+	{
+		"slug": "sushi-burger-with-shrimp",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Суші-бургер з креветкою",
+				"en": "Sushi Burger with Shrimp"
+			},
+			"description": {
+				"ua": "Для любителів бургерів ми підготували спеціальну пропозицію. Рис обгорнутий в норі, начинка з крем-сиру, креветки, огірка з салатом айзбергом. Запанірований в сухарі панко. З додаванням соусу манго-теріякі та мигдальних пластівців",
+				"en": "Rice wrapped in nori, filling of cream cheese, shrimp, cucumber and iceberg lettuce. Breaded in panko breadcrumbs. With mango-teriyaki sauce and almond flakes."
+			},
+			"labels": [
+				{
+					"ua": "430г",
+					"en": "430g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Для любителів бургерів ми підготували спеціальну пропозицію. Рис обгорнутий в норі, начинка з крем-сиру, креветки, огірка з салатом айзбергом. Запанірований в сухарі панко. З додаванням соусу манго-теріякі та мигдальних пластівців",
+				"en": "Rice wrapped in nori, filling of cream cheese, shrimp, cucumber and iceberg lettuce. Breaded in panko breadcrumbs. With mango-teriyaki sauce and almond flakes."
+			}
+		}
+	},
+	{
+		"slug": "sushi-burger-with-tuna",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Суші - Бургер з тунцем",
+				"en": "Sushi Burger with Tuna"
+			},
+			"description": {
+				"ua": "Надзвичайно хрусткий рисовий бургер з тунцем, крем сиром та салатом всередині. Поливається спайсі та манго соусом.",
+				"en": "Extra crunchy rice burger with tuna, cream cheese and salad inside. Topped with spicy and mango sauce."
+			},
+			"labels": [
+				{
+					"ua": "420г",
+					"en": "420g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Надзвичайно хрусткий рисовий бургер з тунцем, крем сиром та салатом всередині. Поливається спайсі та манго соусом.",
+				"en": "Extra crunchy rice burger with tuna, cream cheese and salad inside. Topped with spicy and mango sauce."
+			}
+		}
+	},
+	{
+		"slug": "hot-roll-with-shrimp",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Хот-рол з креветкою",
+				"en": "Hot Roll with Shrimp"
+			},
+			"description": {
+				"ua": "Обсмажений в сухарях Панко з додаванням креветки, спайсі соусу , ніжного крем-сиру, норі, салату Айсберг, соусу манго-теріякі, зеленої цибулі та паприки",
+				"en": "Fried in panko breadcrumbs with shrimp, spicy sauce, tender cream cheese, nori, iceberg lettuce, mango-teriyaki sauce, green onion and paprika."
+			},
+			"labels": [
+				{
+					"ua": "360г",
+					"en": "360g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Обсмажений в сухарях Панко з додаванням креветки, спайсі соусу , ніжного крем-сиру, норі, салату Айсберг, соусу манго-теріякі, зеленої цибулі та паприки",
+				"en": "Fried in panko breadcrumbs with shrimp, spicy sauce, tender cream cheese, nori, iceberg lettuce, mango-teriyaki sauce, green onion and paprika."
+			}
+		}
+	},
+	{
+		"slug": "hot-roll-with-crab",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Хот-рол з крабом",
+				"en": "Hot Roll with Crab"
+			},
+			"description": {
+				"ua": "Обсмажений в сухарях панко з додаванням краб мікс(сніжний краб з додаванням крем-сиру та спайсі соусу ), ніжного крем-сир, норі, салату Айзберг , соусу спайсі-теріякі, зеленої цибулі та парики",
+				"en": "Fried in panko breadcrumbs with crab mix (snow crab with cream cheese and spicy sauce), tender cream cheese, nori, iceberg lettuce, teriyaki-spicy sauce, green onion and paprika."
+			},
+			"labels": [
+				{
+					"ua": "350г",
+					"en": "350g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Обсмажений в сухарях панко з додаванням краб мікс(сніжний краб з додаванням крем-сиру та спайсі соусу ), ніжного крем-сир, норі, салату Айзберг , соусу спайсі-теріякі, зеленої цибулі та парики",
+				"en": "Fried in panko breadcrumbs with crab mix (snow crab with cream cheese and spicy sauce), tender cream cheese, nori, iceberg lettuce, teriyaki-spicy sauce, green onion and paprika."
+			}
+		}
+	},
+	{
+		"slug": "hot-roll-with-tuna",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Хот- рол з тунцем",
+				"en": "Hot Roll with Tuna"
+			},
+			"description": {
+				"ua": "Обсмажений в сухарях панко з додаванням тунця, ніжного крем-сир, норі, огірка, соусу спайсі, манго, зеленої цибулі, паприки та ниток паприки",
+				"en": "Fried in panko breadcrumbs with tuna, tender cream cheese, nori, cucumber, spicy sauce, mango, green onion, paprika and paprika threads."
+			},
+			"labels": [
+				{
+					"ua": "370г",
+					"en": "370g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Обсмажений в сухарях панко з додаванням тунця, ніжного крем-сир, норі, огірка, соусу спайсі, манго, зеленої цибулі, паприки та ниток паприки",
+				"en": "Fried in panko breadcrumbs with tuna, tender cream cheese, nori, cucumber, spicy sauce, mango, green onion, paprika and paprika threads."
+			}
+		}
+	},
+	{
+		"slug": "hot-roll-with-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Хот-рол з лососем",
+				"en": "Hot Roll with Salmon"
+			},
+			"description": {
+				"ua": "Обсмажений в сухарях панко з додаванням лосося, ніжного крем-сир, норі, огірка, соусу спайсі, манго, зеленої цибулі, паприки та ниток паприки",
+				"en": "Fried in panko breadcrumbs with salmon, tender cream cheese, nori, cucumber, spicy sauce, mango, green onion, paprika and paprika threads."
+			},
+			"labels": [
+				{
+					"ua": "370г",
+					"en": "370g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Обсмажений в сухарях панко з додаванням лосося, ніжного крем-сир, норі, огірка, соусу спайсі, манго, зеленої цибулі, паприки та ниток паприки",
+				"en": "Fried in panko breadcrumbs with salmon, tender cream cheese, nori, cucumber, spicy sauce, mango, green onion, paprika and paprika threads."
+			}
+		}
+	},
+	{
+		"slug": "fried-roll-with-crab",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Гарячий рол з крабом",
+				"en": "Fried Roll with Crab"
+			},
+			"description": {
+				"ua": "Ніжний крем-сир, краб мікс ( сніжний краб з додаванням крем-сиру та спайсі соусу ) салат Айсберг. Обсмажений в сухарях Панко з додаванням соус теріякі, кунжуту, паприки на ниток паприки",
+				"en": "Tender cream cheese, crab mix (snow crab with cream cheese and spicy sauce), iceberg lettuce. Fried in panko breadcrumbs with teriyaki sauce, sesame, paprika and paprika threads."
+			},
+			"labels": [
+				{
+					"ua": "300г",
+					"en": "300g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Ніжний крем-сир, краб мікс ( сніжний краб з додаванням крем-сиру та спайсі соусу ) салат Айсберг. Обсмажений в сухарях Панко з додаванням соус теріякі, кунжуту, паприки на ниток паприки",
+				"en": "Tender cream cheese, crab mix (snow crab with cream cheese and spicy sauce), iceberg lettuce. Fried in panko breadcrumbs with teriyaki sauce, sesame, paprika and paprika threads."
+			}
+		}
+	},
+	{
+		"slug": "fried-roll-with-shrimp-and-pineapple",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Гарячий рол з креветкою та ананасом",
+				"en": "Fried Roll with Shrimp and Pineapple"
+			},
+			"description": {
+				"ua": "Креветка, рис, крем сир, ананас, лист норі, соус теріякі-манго.",
+				"en": "Shrimp, rice, cream cheese, pineapple, nori sheet, teriyaki-mango sauce."
+			},
+			"labels": [
+				{
+					"ua": "370г",
+					"en": "370g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Креветка, рис, крем сир, ананас, лист норі, соус теріякі-манго.",
+				"en": "Shrimp, rice, cream cheese, pineapple, nori sheet, teriyaki-mango sauce."
+			}
+		}
+	},
+	{
+		"slug": "fried-roll-with-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Гарячий рол з лососем",
+				"en": "Fried Roll with Salmon"
+			},
+			"description": {
+				"ua": "Лосось , рис з чорнилами каракатиці, лист норі, ананас, ніжний крем-сир, соус теріякі-манго, кунжут мікс та паприка .",
+				"en": "Salmon, rice with cuttlefish ink, nori sheet, pineapple, tender cream cheese, teriyaki-mango sauce, sesame mix and paprika."
+			},
+			"labels": [
+				{
+					"ua": "270г",
+					"en": "270g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось , рис з чорнилами каракатиці, лист норі, ананас, ніжний крем-сир, соус теріякі-манго, кунжут мікс та паприка .",
+				"en": "Salmon, rice with cuttlefish ink, nori sheet, pineapple, tender cream cheese, teriyaki-mango sauce, sesame mix and paprika."
+			}
+		}
+	},
+	{
+		"slug": "fried-roll-with-tuna",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Гарячий рол з тунцем",
+				"en": "Fried Roll with Tuna"
+			},
+			"description": {
+				"ua": "Тунець, рис, крем сир, хіяші вакаме, горіховий соус, лист норі, соус теріякі, спеції тогараші, соус васабі",
+				"en": "Tuna, rice, cream cheese, hiyashi wakame, nut sauce, nori sheet, teriyaki sauce, togarashi spices, wasabi sauce."
+			},
+			"labels": [
+				{
+					"ua": "370г",
+					"en": "370g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Тунець, рис, крем сир, хіяші вакаме, горіховий соус, лист норі, соус теріякі, спеції тогараші, соус васабі",
+				"en": "Tuna, rice, cream cheese, hiyashi wakame, nut sauce, nori sheet, teriyaki sauce, togarashi spices, wasabi sauce."
+			}
+		}
+	},
+	{
+		"slug": "sushi-burger-with-grilled-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Суші-бургер з лососем гриль",
+				"en": "Sushi Burger with Grilled Salmon"
+			},
+			"description": {
+				"ua": "Для любителів бургерів ми підготували спеціальну пропозицію. Рис обгорнутий в норі, начинка з крем-сиру, лосося гриль, огірка з салатом айсбергом. Запанірований в сухарі Панко. З додаванням соусу васабі-теріякі та смаженої цибулі",
+				"en": "Rice wrapped in nori, filling of cream cheese, grilled salmon, cucumber and iceberg lettuce. Breaded in panko breadcrumbs. With teriyaki-wasabi sauce and fried onion."
+			},
+			"labels": [
+				{
+					"ua": "450г",
+					"en": "450g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Для любителів бургерів ми підготували спеціальну пропозицію. Рис обгорнутий в норі, начинка з крем-сиру, лосося гриль, огірка з салатом айсбергом. Запанірований в сухарі Панко. З додаванням соусу васабі-теріякі та смаженої цибулі",
+				"en": "Rice wrapped in nori, filling of cream cheese, grilled salmon, cucumber and iceberg lettuce. Breaded in panko breadcrumbs. With teriyaki-wasabi sauce and fried onion."
+			}
+		}
+	},
+	{
+		"slug": "baked-roll-with-grilled-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Запечений рол з лососем гриль",
+				"en": "Baked Roll with Grilled Salmon"
+			},
+			"description": {
+				"ua": "Лосось гриль , норі, ніжний крем-сир, японський омлет тамаго-які, рис, сирна шапочка з трьох видів сиру (гауда, моцарела, пармезан з додаванням спайсі соусу) соус теріякі та кунжут мікс",
+				"en": "Grilled salmon, nori, tender cream cheese, Japanese tamagoyaki omelet, rice, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce and sesame mix."
+			},
+			"labels": [
+				{
+					"ua": "320г",
+					"en": "320g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось гриль , норі, ніжний крем-сир, японський омлет тамаго-які, рис, сирна шапочка з трьох видів сиру (гауда, моцарела, пармезан з додаванням спайсі соусу) соус теріякі та кунжут мікс",
+				"en": "Grilled salmon, nori, tender cream cheese, Japanese tamagoyaki omelet, rice, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce and sesame mix."
+			}
+		}
+	},
+	{
+		"slug": "hot-roll-with-grilled-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Хот-рол з лососем гриль",
+				"en": "Hot Roll with Grilled Salmon"
+			},
+			"description": {
+				"ua": "Обсмажений в сухарях Панко з додаванням лосося гриль, ніжного крем-сиру, норі, огірка, соусу васабі-теріякі, зеленої цибулі та паприки",
+				"en": "Fried in panko breadcrumbs with grilled salmon, tender cream cheese, nori, cucumber, teriyaki-wasabi sauce, green onion and paprika."
+			},
+			"labels": [
+				{
+					"ua": "330г",
+					"en": "330g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Обсмажений в сухарях Панко з додаванням лосося гриль, ніжного крем-сиру, норі, огірка, соусу васабі-теріякі, зеленої цибулі та паприки",
+				"en": "Fried in panko breadcrumbs with grilled salmon, tender cream cheese, nori, cucumber, teriyaki-wasabi sauce, green onion and paprika."
+			}
+		}
+	},
+	{
+		"slug": "fried-roll-with-grilled-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Гарячий рол з лососем гриль",
+				"en": "Fried Roll with Grilled Salmon"
+			},
+			"description": {
+				"ua": "Лосось гриль, рис з чорнилами каракатиці, лист норі, ананас, ніжний крем-сир, соус теріякі-манго, кунжут мікс та паприка .",
+				"en": "Grilled salmon, rice with cuttlefish ink, nori sheet, pineapple, tender cream cheese, teriyaki-mango sauce, sesame mix and paprika."
+			},
+			"labels": [
+				{
+					"ua": "330г",
+					"en": "330g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось гриль, рис з чорнилами каракатиці, лист норі, ананас, ніжний крем-сир, соус теріякі-манго, кунжут мікс та паприка .",
+				"en": "Grilled salmon, rice with cuttlefish ink, nori sheet, pineapple, tender cream cheese, teriyaki-mango sauce, sesame mix and paprika."
+			}
+		}
+	},
+	{
+		"slug": "spring-roll-with-shrimp",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Спрінг-рол з креветкою",
+				"en": "Spring Roll with Shrimp"
+			},
+			"description": {
+				"ua": "Креветки, крем сир, персик , рисовий папір, морква,мікс зелені, рис, кунжут.",
+				"en": "Shrimp, cream cheese, peach, rice paper, carrot, mixed greens, rice, sesame."
+			},
+			"labels": [
+				{
+					"ua": "180г",
+					"en": "180g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Креветки, крем сир, персик , рисовий папір, морква,мікс зелені, рис, кунжут.",
+				"en": "Shrimp, cream cheese, peach, rice paper, carrot, mixed greens, rice, sesame."
+			}
+		}
+	},
+	{
+		"slug": "spring-roll-with-tuna",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Спрінг-рол з тунцем",
+				"en": "Spring Roll with Tuna"
+			},
+			"description": {
+				"ua": "Тунець, крем сир, дайкон, рисовий папір, мікс зелені, рис, кунжут.",
+				"en": "Tuna, cream cheese, daikon, rice paper, mixed greens, rice, sesame."
+			},
+			"labels": [
+				{
+					"ua": "180г",
+					"en": "180g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Тунець, крем сир, дайкон, рисовий папір, мікс зелені, рис, кунжут.",
+				"en": "Tuna, cream cheese, daikon, rice paper, mixed greens, rice, sesame."
+			}
+		}
+	},
+	{
+		"slug": "spring-roll-with-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Спрінг-рол з лососем",
+				"en": "Spring Roll with Salmon"
+			},
+			"description": {
+				"ua": "Лосось, крем сир, огірок, рисовий папір, мікс зелені, рис, кунжут.",
+				"en": "Salmon, cream cheese, cucumber, rice paper, mixed greens, rice, sesame."
+			},
+			"labels": [
+				{
+					"ua": "180г",
+					"en": "180g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Лосось, крем сир, огірок, рисовий папір, мікс зелені, рис, кунжут.",
+				"en": "Salmon, cream cheese, cucumber, rice paper, mixed greens, rice, sesame."
+			}
+		}
+	},
+	{
+		"slug": "panko-shrimps",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Креветки панко",
+				"en": "Panko Shrimps"
+			},
+			"description": {
+				"ua": "Обсмажені креветки в сухарях панко, соус Кисло-солодкий",
+				"en": "Fried shrimps in panko breadcrumbs, sweet and sour sauce."
+			},
+			"labels": [
+				{
+					"ua": "200г",
+					"en": "200g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Обсмажені креветки в сухарях панко, соус Кисло-солодкий",
+				"en": "Fried shrimps in panko breadcrumbs, sweet and sour sauce."
+			}
+		}
+	},
+	{
+		"slug": "rice-starter",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Рис",
+				"en": "Rice"
+			},
+			"description": {
+				"ua": "",
+				"en": "Steamed rice."
+			},
+			"labels": [
+				{
+					"ua": "150г",
+					"en": "150g"
+				}
+			],
+			"fullDescription": {
+				"ua": "",
+				"en": "Steamed rice."
+			}
+		}
+	},
+	{
+		"slug": "rice-chips",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Рисові чіпси",
+				"en": "Rice Chips"
+			},
+			"description": {
+				"ua": "",
+				"en": "Rice chips."
+			},
+			"labels": [
+				{
+					"ua": "",
+					"en": ""
+				}
+			],
+			"fullDescription": {
+				"ua": "",
+				"en": "Rice chips."
+			}
+		}
+	},
+	{
+		"slug": "poke-bowl-with-chicken",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Поке боул з куркою",
+				"en": "Poke Bowl with Chicken"
+			},
+			"description": {
+				"ua": "Курка су-від , рис , помідори чері , огірок салат чука , маринований імбир , горіховий соус та кунжут",
+				"en": "Sous-vide chicken, rice, cherry tomatoes, cucumber, chuka salad, pickled ginger, nut sauce and sesame."
+			},
+			"labels": [
+				{
+					"ua": "370г",
+					"en": "370g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Курка су-від , рис , помідори чері , огірок салат чука , маринований імбир , горіховий соус та кунжут",
+				"en": "Sous-vide chicken, rice, cherry tomatoes, cucumber, chuka salad, pickled ginger, nut sauce and sesame."
+			}
+		}
+	},
+	{
+		"slug": "poke-bowl-with-salmon-and-nut-sauce",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Поке боул з лососем та горіховим соусом",
+				"en": "Poke Bowl with Salmon and Nut Sauce"
+			},
+			"description": {
+				"ua": "Свіжий норвежський лосось з томатами чері, огірком, авокадо, соєвими бобами едамаме, ікрою тобіко та горіховим соусом на осові кешью, рис.",
+				"en": "Fresh Norwegian salmon with cherry tomatoes, cucumber, avocado, edamame beans, tobiko caviar and cashew-based nut sauce, rice."
+			},
+			"labels": [
+				{
+					"ua": "390г",
+					"en": "390g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Свіжий норвежський лосось з томатами чері, огірком, авокадо, соєвими бобами едамаме, ікрою тобіко та горіховим соусом на осові кешью, рис.",
+				"en": "Fresh Norwegian salmon with cherry tomatoes, cucumber, avocado, edamame beans, tobiko caviar and cashew-based nut sauce, rice."
+			}
+		}
+	},
+	{
+		"slug": "poke-bowl-with-shrimps",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Поке Боул з креветками",
+				"en": "Poke Bowl with Shrimps"
+			},
+			"description": {
+				"ua": "Варена креветка , рис , огірок, чері, авокадо , боби едамами , ікра тобіко , кумкват та горіховий соус",
+				"en": "Boiled shrimp, rice, cucumber, cherry tomatoes, avocado, edamame beans, tobiko caviar, kumquat and nut sauce."
+			},
+			"labels": [
+				{
+					"ua": "360г",
+					"en": "360g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Варена креветка , рис , огірок, чері, авокадо , боби едамами , ікра тобіко , кумкват та горіховий соус",
+				"en": "Boiled shrimp, rice, cucumber, cherry tomatoes, avocado, edamame beans, tobiko caviar, kumquat and nut sauce."
+			}
+		}
+	},
+	{
+		"slug": "salad-with-shrimps-and-nut-sauce",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Салат з креветками та горіховим соусом",
+				"en": "Salad with Shrimps and Nut Sauce"
+			},
+			"description": {
+				"ua": "Обсмажені креветки ,горіховий соус , крем сир , мікс салату , томати чері , огірок , авокадо, свіже манго , шматочки кумквата та мигдальні пластівці",
+				"en": "Fried shrimps, nut sauce, cream cheese, salad mix, cherry tomatoes, cucumber, avocado, fresh mango, kumquat pieces and almond flakes."
+			},
+			"labels": [
+				{
+					"ua": "250г",
+					"en": "250g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Обсмажені креветки ,горіховий соус , крем сир , мікс салату , томати чері , огірок , авокадо, свіже манго , шматочки кумквата та мигдальні пластівці",
+				"en": "Fried shrimps, nut sauce, cream cheese, salad mix, cherry tomatoes, cucumber, avocado, fresh mango, kumquat pieces and almond flakes."
+			}
+		}
+	},
+	{
+		"slug": "salad-with-fresh-salmon-and-avocado",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Салат зі свіжим лососем та авокадо",
+				"en": "Salad with Fresh Salmon and Avocado"
+			},
+			"description": {
+				"ua": "Салатний мікс, свіжий лосось, авокадо, томат чері, огірок, кумкват, горіховий соус кешю, м’ятна олія, кунжут та арахіс",
+				"en": "Salad mix, fresh salmon, avocado, cherry tomato, cucumber, kumquat, cashew nut sauce, mint oil, sesame and peanuts."
+			},
+			"labels": [
+				{
+					"ua": "250г",
+					"en": "250g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Салатний мікс, свіжий лосось, авокадо, томат чері, огірок, кумкват, горіховий соус кешю, м’ятна олія, кунжут та арахіс",
+				"en": "Salad mix, fresh salmon, avocado, cherry tomato, cucumber, kumquat, cashew nut sauce, mint oil, sesame and peanuts."
+			}
+		}
+	},
+	{
+		"slug": "japanese-caesar-with-chicken",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Японський цезар з куркою",
+				"en": "Japanese Caesar with Chicken"
+			},
+			"description": {
+				"ua": "Салатний мікс, куряче філе су-від, салат чука, томат чері, огірок, соус кеш’ю, кунжут.",
+				"en": "Salad mix, sous-vide chicken fillet, chuka salad, cherry tomato, cucumber, cashew sauce, sesame."
+			},
+			"labels": [
+				{
+					"ua": "230г",
+					"en": "230g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Салатний мікс, куряче філе су-від, салат чука, томат чері, огірок, соус кеш’ю, кунжут.",
+				"en": "Salad mix, sous-vide chicken fillet, chuka salad, cherry tomato, cucumber, cashew sauce, sesame."
+			}
+		}
+	},
+	{
+		"slug": "tom-yum",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Том Ям",
+				"en": "Tom Yum"
+			},
+			"description": {
+				"ua": "Пряний бульйон на кокосовому молоці з додаванням лемонграсу, кафіру лайма, галангалу, креветочна паста, рисова локшина,королівські креветки, мідії, томати, печериці, перець пірі-пірі, м’ята.",
+				"en": "Spicy coconut milk broth with lemongrass, kaffir lime, galangal, shrimp paste, rice noodles, king prawns, mussels, tomatoes, mushrooms, piri-piri pepper, mint."
+			},
+			"labels": [
+				{
+					"ua": "500г",
+					"en": "500g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Пряний бульйон на кокосовому молоці з додаванням лемонграсу, кафіру лайма, галангалу, креветочна паста, рисова локшина,королівські креветки, мідії, томати, печериці, перець пірі-пірі, м’ята.",
+				"en": "Spicy coconut milk broth with lemongrass, kaffir lime, galangal, shrimp paste, rice noodles, king prawns, mussels, tomatoes, mushrooms, piri-piri pepper, mint."
+			}
+		}
+	},
+	{
+		"slug": "tom-yum-with-salmon-and-mussels",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Том ям з лососем та мідіями",
+				"en": "Tom Yum with Salmon and Mussels"
+			},
+			"description": {
+				"ua": "Пряний бульйон на кокосовому молоці з додаванням лемонграсу, кафіру лайма, галангалу, креветочна паста, філе лосося, мідії , помідори чері , гриби шиї таке та Мун. Подається з рисом , чилі перцем , шматочкам лайма та кінзою",
+				"en": "Spicy coconut milk broth with lemongrass, kaffir lime, galangal, shrimp paste, salmon fillet, mussels, cherry tomatoes, shiitake and mun mushrooms. Served with rice, chili pepper, lime and cilantro."
+			},
+			"labels": [
+				{
+					"ua": "450г",
+					"en": "450g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Пряний бульйон на кокосовому молоці з додаванням лемонграсу, кафіру лайма, галангалу, креветочна паста, філе лосося, мідії , помідори чері , гриби шиї таке та Мун. Подається з рисом , чилі перцем , шматочкам лайма та кінзою",
+				"en": "Spicy coconut milk broth with lemongrass, kaffir lime, galangal, shrimp paste, salmon fillet, mussels, cherry tomatoes, shiitake and mun mushrooms. Served with rice, chili pepper, lime and cilantro."
+			}
+		}
+	},
+	{
+		"slug": "tom-kha-with-chicken-and-mushrooms",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Том кха з куркою та грибами",
+				"en": "Tom Kha with Chicken and Mushrooms"
+			},
+			"description": {
+				"ua": "Пряно-солодкий бульйон на кокосовому молоці з додаванням імбиру, лемонграсу, кафіру лайма, рибного бульйону, ніжне куряче філе,томати, печериці,м‘ята.",
+				"en": "Spicy-sweet coconut milk broth with ginger, lemongrass, kaffir lime, fish broth, tender chicken fillet, tomatoes, mushrooms, mint."
+			},
+			"labels": [
+				{
+					"ua": "450г",
+					"en": "450g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Пряно-солодкий бульйон на кокосовому молоці з додаванням імбиру, лемонграсу, кафіру лайма, рибного бульйону, ніжне куряче філе,томати, печериці,м‘ята.",
+				"en": "Spicy-sweet coconut milk broth with ginger, lemongrass, kaffir lime, fish broth, tender chicken fillet, tomatoes, mushrooms, mint."
+			}
+		}
+	},
+	{
+		"slug": "tom-kha-with-salmon",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Том кха з лососем",
+				"en": "Tom Kha with Salmon"
+			},
+			"description": {
+				"ua": "Пряно-солодкий бульйон на кокосовому молоці з додаванням імбиру, лемонграсу, кафіру лайма, рибного бульйону, філе лосося, томати чері , броколі , бебі кукурудзи коралового білого гриба. Подається з рисом , чилі перцем , шматочком лайма кінзою та мʼятою",
+				"en": "Spicy-sweet coconut milk broth with ginger, lemongrass, kaffir lime, fish broth, salmon fillet, cherry tomatoes, broccoli, baby corn, white coral mushroom. Served with rice, chili, lime, cilantro and mint."
+			},
+			"labels": [
+				{
+					"ua": "450г",
+					"en": "450g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Пряно-солодкий бульйон на кокосовому молоці з додаванням імбиру, лемонграсу, кафіру лайма, рибного бульйону, філе лосося, томати чері , броколі , бебі кукурудзи коралового білого гриба. Подається з рисом , чилі перцем , шматочком лайма кінзою та мʼятою",
+				"en": "Spicy-sweet coconut milk broth with ginger, lemongrass, kaffir lime, fish broth, salmon fillet, cherry tomatoes, broccoli, baby corn, white coral mushroom. Served with rice, chili, lime, cilantro and mint."
+			}
+		}
+	},
+	{
+		"slug": "chicken-sweet-sour-orange",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Курка в кисло-солодкому соусі та апельсинами",
+				"en": "Chicken in Sweet and Sour Sauce with Oranges"
+			},
+			"description": {
+				"ua": "Соковите куряче філе обсмажене в темпурі, з додаванням секретного соусу, апельсин, зелена цибуля, кунжут. Ідеально смакує з паровим рисом.",
+				"en": "Juicy chicken fillet fried in tempura with secret sauce, orange, green onion, sesame. Best served with steamed rice."
+			},
+			"labels": [
+				{
+					"ua": "350г",
+					"en": "350g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Соковите куряче філе обсмажене в темпурі, з додаванням секретного соусу, апельсин, зелена цибуля, кунжут. Ідеально смакує з паровим рисом.",
+				"en": "Juicy chicken fillet fried in tempura with secret sauce, orange, green onion, sesame. Best served with steamed rice."
+			}
+		}
+	},
+	{
+		"slug": "chicken-gungbao",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Курка Гунбао",
+				"en": "Gongbao Chicken"
+			},
+			"description": {
+				"ua": "Куряче філе, обсмажене на спеціальній сковороді WOK, з додаванням солодкого перцю, моркви, зеленої цибулі та арахісу. Ідеально смакує з паровим рисом.",
+				"en": "Chicken fillet stir-fried in a WOK with bell peppers, carrots, green onions and peanuts. Best served with steamed rice."
+			},
+			"labels": [
+				{
+					"ua": "360г",
+					"en": "360g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Куряче філе, обсмажене на спеціальній сковороді WOK, з додаванням солодкого перцю, моркви, зеленої цибулі та арахісу. Ідеально смакує з паровим рисом.",
+				"en": "Chicken fillet stir-fried in a WOK with bell peppers, carrots, green onions and peanuts. Best served with steamed rice."
+			}
+		}
+	},
+	{
+		"slug": "chicken-coca-cola",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Курка в соусі Coca-Cola",
+				"en": "Chicken in Coca-Cola Sauce"
+			},
+			"description": {
+				"ua": "Наша курочка в кисло-солодкому з покращеною рецептурою соуса на колі. Присипається меленим арахісом.",
+				"en": "Our chicken in sweet and sour sauce with improved Coca-Cola recipe. Sprinkled with ground peanuts."
+			},
+			"labels": [
+				{
+					"ua": "320г",
+					"en": "320g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Наша курочка в кисло-солодкому з покращеною рецептурою соуса на колі. Присипається меленим арахісом.",
+				"en": "Our chicken in sweet and sour sauce with improved Coca-Cola recipe. Sprinkled with ground peanuts."
+			}
+		}
+	},
+	{
+		"slug": "wheat-noodles-chicken-mango",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Пшенична локшина з куркою теріякі та пюре манго",
+				"en": "Wheat Noodles with Teriyaki Chicken and Mango Puree"
+			},
+			"description": {
+				"ua": "Пшенична локшина , курка теріякі, сезонні овочі, соус теріякі, пюре манго, арахіс, кріспі цибуля, кунжут, гриби",
+				"en": "Wheat noodles, teriyaki chicken, seasonal vegetables, teriyaki sauce, mango puree, peanuts, crispy onion, sesame, mushrooms."
+			},
+			"labels": [
+				{
+					"ua": "450г",
+					"en": "450g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Пшенична локшина , курка теріякі, сезонні овочі, соус теріякі, пюре манго, арахіс, кріспі цибуля, кунжут, гриби",
+				"en": "Wheat noodles, teriyaki chicken, seasonal vegetables, teriyaki sauce, mango puree, peanuts, crispy onion, sesame, mushrooms."
+			}
+		}
+	},
+	{
+		"slug": "wheat-noodles-salmon-mussels",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Пшенична локшина з лососем та мідіями",
+				"en": "Wheat Noodles with Salmon and Mussels"
+			},
+			"description": {
+				"ua": "Пшенична локшина, лосось, мідії, броколі , морква , гриби Мун , соус устричний , теріякі , кріспі цибуля , арахіс , кунжут",
+				"en": "Wheat noodles, salmon, mussels, broccoli, carrots, mun mushrooms, oyster sauce, teriyaki, crispy onion, peanuts, sesame."
+			},
+			"labels": [
+				{
+					"ua": "450г",
+					"en": "450g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Пшенична локшина, лосось, мідії, броколі , морква , гриби Мун , соус устричний , теріякі , кріспі цибуля , арахіс , кунжут",
+				"en": "Wheat noodles, salmon, mussels, broccoli, carrots, mun mushrooms, oyster sauce, teriyaki, crispy onion, peanuts, sesame."
+			}
+		}
+	},
+	{
+		"slug": "wheat-noodles-shrimps-mussels",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Пшенична локшина з креветками та мідіями",
+				"en": "Wheat Noodles with Shrimps and Mussels"
+			},
+			"description": {
+				"ua": "Пшенична локшина, креветки, мідії, броколі, морква, шампіньйони , соус теріякі, арахіс, кунжут.",
+				"en": "Wheat noodles, shrimps, mussels, broccoli, carrots, mushrooms, teriyaki sauce, peanuts, sesame."
+			},
+			"labels": [
+				{
+					"ua": "420г",
+					"en": "420g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Пшенична локшина, креветки, мідії, броколі, морква, шампіньйони , соус теріякі, арахіс, кунжут.",
+				"en": "Wheat noodles, shrimps, mussels, broccoli, carrots, mushrooms, teriyaki sauce, peanuts, sesame."
+			}
+		}
+	},
+	{
+		"slug": "wheat-noodles-beef",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Пшенична локшина з яловичиною",
+				"en": "Wheat Noodles with Beef"
+			},
+			"description": {
+				"ua": "Пшенична локшина , яловичина теріякі, броколі, морква, шампіньйони, соус теріякі, арахіс, кріспі цибуля, кунжут.",
+				"en": "Wheat noodles, teriyaki beef, broccoli, carrots, mushrooms, teriyaki sauce, peanuts, crispy onion, sesame."
+			},
+			"labels": [
+				{
+					"ua": "450г",
+					"en": "450g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Пшенична локшина , яловичина теріякі, броколі, морква, шампіньйони, соус теріякі, арахіс, кріспі цибуля, кунжут.",
+				"en": "Wheat noodles, teriyaki beef, broccoli, carrots, mushrooms, teriyaki sauce, peanuts, crispy onion, sesame."
+			}
+		}
+	},
+	{
+		"slug": "pad-thai-light",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Пад Тай Лайтовий",
+				"en": "Pad Thai Light"
+			},
+			"description": {
+				"ua": "Рисова локшина з куркою, креветками, соус пад тай, броколі, морква, шампіньйони. Щедро посипається арахісом та подається з лаймом.",
+				"en": "Rice noodles with chicken, shrimps, pad thai sauce, broccoli, carrot, mushrooms. Generously sprinkled with peanuts and served with lime."
+			},
+			"labels": [
+				{
+					"ua": "480г",
+					"en": "480g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Рисова локшина з куркою, креветками, соус пад тай, броколі, морква, шампіньйони. Щедро посипається арахісом та подається з лаймом.",
+				"en": "Rice noodles with chicken, shrimps, pad thai sauce, broccoli, carrot, mushrooms. Generously sprinkled with peanuts and served with lime."
+			}
+		}
+	},
+	{
+		"slug": "shrimps-sweet-sour",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Креветки в кисло-солодкому",
+				"en": "Shrimps in Sweet and Sour"
+			},
+			"description": {
+				"ua": "Обсмажені креветки в темпура з додаванням кисло-солодкого соусу, та ананасу . Ідеально поєднується з паровим рисом.",
+				"en": "Fried shrimps in tempura with sweet and sour sauce and pineapple. Best served with steamed rice."
+			},
+			"labels": [
+				{
+					"ua": "450г",
+					"en": "450g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Обсмажені креветки в темпура з додаванням кисло-солодкого соусу, та ананасу . Ідеально поєднується з паровим рисом.",
+				"en": "Fried shrimps in tempura with sweet and sour sauce and pineapple. Best served with steamed rice."
+			}
+		}
+	},
+	{
+		"slug": "fried-eggplants-sweet-sour",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Смажені баклажани в кисло-солодкому соусі",
+				"en": "Fried Eggplants in Sweet and Sour Sauce"
+			},
+			"description": {
+				"ua": "Обсмажений баклажан в темпурі з додаванням нашого фірмового кисло-солодкого соусу, зеленої цибулі та арахісу . Ідеально смакує з паровим рисом.",
+				"en": "Fried eggplant in tempura with our signature sweet and sour sauce, green onion and peanuts. Best served with steamed rice."
+			},
+			"labels": [
+				{
+					"ua": "340г",
+					"en": "340g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Обсмажений баклажан в темпурі з додаванням нашого фірмового кисло-солодкого соусу, зеленої цибулі та арахісу . Ідеально смакує з паровим рисом.",
+				"en": "Fried eggplant in tempura with our signature sweet and sour sauce, green onion and peanuts. Best served with steamed rice."
+			}
+		}
+	},
+	{
+		"slug": "spicy-beef-teriyaki",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Пряна яловичина теріякі",
+				"en": "Spicy Beef Teriyaki"
+			},
+			"description": {
+				"ua": "Яловичина обсмажена в солоно-пряному соусі з броколі та грибами шиєтаке. Подається з паровим рисом",
+				"en": "Beef stir-fried in a salty-spicy sauce with broccoli and shiitake mushrooms. Served with steamed rice."
+			},
+			"labels": [
+				{
+					"ua": "480г",
+					"en": "480g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Яловичина обсмажена в солоно-пряному соусі з броколі та грибами шиєтаке. Подається з паровим рисом",
+				"en": "Beef stir-fried in a salty-spicy sauce with broccoli and shiitake mushrooms. Served with steamed rice."
+			}
+		}
+	},
+	{
+		"slug": "fried-bananas-ice-cream",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Смажені банани з фісташковим морозивом",
+				"en": "Fried Bananas with Pistachio Ice Cream"
+			},
+			"description": {
+				"ua": "Банани обсмажені в темпурі, карамельна глазур з арахісом, кулька морозива, соус на основі згущеного молока, екстракту ванілі та васабі.",
+				"en": "Bananas fried in tempura, caramel glaze with peanuts, ice cream scoop, sauce based on condensed milk, vanilla extract and wasabi."
+			},
+			"labels": [
+				{
+					"ua": "300г",
+					"en": "300g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Банани обсмажені в темпурі, карамельна глазур з арахісом, кулька морозива, соус на основі згущеного молока, екстракту ванілі та васабі.",
+				"en": "Bananas fried in tempura, caramel glaze with peanuts, ice cream scoop, sauce based on condensed milk, vanilla extract and wasabi."
+			}
+		}
+	},
+	{
+		"slug": "sweet-roll-banana-raspberry",
+		"document": "item",
+		"data": {
+			"title": {
+				"ua": "Солодкий Рол з бананом та малиною",
+				"en": "Sweet Roll with Banana and Raspberry"
+			},
+			"description": {
+				"ua": "Надзвичайне поєднання банану на ніжного крем-сиру.",
+				"en": "Extraordinary combination of banana and tender cream cheese."
+			},
+			"labels": [
+				{
+					"ua": "200г",
+					"en": "200g"
+				}
+			],
+			"fullDescription": {
+				"ua": "Надзвичайне поєднання банану на ніжного крем-сиру.",
+				"en": "Extraordinary combination of banana and tender cream cheese."
 			}
 		}
 	}

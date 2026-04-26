@@ -17,10 +17,42 @@ export class LandingComponent {
 
 	protected readonly groups = computed(() => buildMenuGroups(this._languageService.language()));
 	protected readonly selectedGroupId = signal('appetizers');
+	protected readonly selectedSectionId = signal<string | null>(null);
+
 	protected readonly activeGroup = computed(
 		() => this.groups().find((group) => group.id === this.selectedGroupId()) ?? this.groups()[0],
 	);
-	protected readonly activeSections = computed(() => this.activeGroup()?.sections ?? []);
+
+	protected readonly allLabel = computed(() => {
+		const lang = this._languageService.language();
+		switch (lang) {
+			case 'ua':
+				return 'Всі';
+			case 'en':
+				return 'All';
+			case 'pl':
+				return 'Wszystkie';
+			case 'de':
+				return 'Alle';
+			case 'fr':
+				return 'Tous';
+			default:
+				return 'All';
+		}
+	});
+
+	protected readonly availableSections = computed(() => this.activeGroup()?.sections ?? []);
+
+	protected readonly filteredSections = computed(() => {
+		const sections = this.availableSections();
+		const sectionId = this.selectedSectionId();
+
+		if (!sectionId) {
+			return sections;
+		}
+
+		return sections.filter((section) => section.id === sectionId);
+	});
 
 	protected setGroup(groupId: string) {
 		if (this.selectedGroupId() === groupId) {
@@ -28,6 +60,12 @@ export class LandingComponent {
 		}
 
 		this.selectedGroupId.set(groupId);
+		this.selectedSectionId.set(null);
+		this._viewportScroller.scrollToPosition([0, 0]);
+	}
+
+	protected setSection(sectionId: string | null) {
+		this.selectedSectionId.set(sectionId);
 		this._viewportScroller.scrollToPosition([0, 0]);
 	}
 

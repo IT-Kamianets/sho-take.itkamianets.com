@@ -91,7 +91,7 @@ function _buildDishViewModel(
 		title: translateMenuValue(item.title, language) ?? item.slug,
 		description: cleanText(translateMenuValue(item.description, language)),
 		fullDescription: cleanText(translateMenuValue(item.fullDescription, language)),
-		price: _formatPrice(item.price, translateService),
+		price: _formatPrice(item.price, language, translateService),
 		labels: item.labels
 			.map((label) => cleanText(translateMenuValue(label, language)))
 			.filter((label): label is string => Boolean(label)),
@@ -107,6 +107,9 @@ function _buildFacts(
 	language: ReturnType<LanguageService['language']>,
 	translateService: TranslateService,
 ) {
+	const minLabel = translateService.translate('min')();
+	const kcalLabel = translateService.translate('kcal')();
+
 	return [
 		{
 			label: translateService.translate('Menu section')(),
@@ -114,8 +117,7 @@ function _buildFacts(
 		},
 		{
 			label: translateService.translate('Portion')(),
-			value:
-				item.portion ??
+			value: _localizePortion(item.portion, translateService) ??
 				translateService.translate('Ask restaurant staff for portion details')(),
 		},
 		{
@@ -123,14 +125,14 @@ function _buildFacts(
 			value:
 				item.cookTimeMinutes === null
 					? translateService.translate('Ask restaurant staff')()
-					: `${item.cookTimeMinutes} min`,
+					: `${item.cookTimeMinutes} ${minLabel}`,
 		},
 		{
 			label: translateService.translate('Calories')(),
 			value:
 				item.caloriesKcal === null
 					? translateService.translate('Ask restaurant staff')()
-					: `${item.caloriesKcal} kcal`,
+					: `${item.caloriesKcal} ${kcalLabel}`,
 		},
 		{
 			label: translateService.translate('Allergens')(),
@@ -140,6 +142,20 @@ function _buildFacts(
 					: translateService.translate('No allergen information available')(),
 		},
 	];
+}
+
+function _localizePortion(portion: string | null, translateService: TranslateService) {
+	if (!portion) {
+		return null;
+	}
+
+	const gLabel = translateService.translate('g')();
+	const mlLabel = translateService.translate('ml')();
+
+	return portion
+		.replace(/(\d+)\s*g\b/gi, `$1 ${gLabel}`)
+		.replace(/(\d+)\s*ml\b/gi, `$1 ${mlLabel}`)
+		.replace(/(\d+)\s*kg\b/gi, `$1 kg`);
 }
 
 function _buildSuggestions(
@@ -162,17 +178,24 @@ function _buildSuggestions(
 			slug: item.slug,
 			title: translateMenuValue(item.title, language) ?? item.slug,
 			description: cleanText(translateMenuValue(item.description, language)),
-			price: _formatPrice(item.price, translateService),
+			price: _formatPrice(item.price, language, translateService),
 			imageAlt: translateMenuValue(item.title, language) ?? item.slug,
 		}));
 }
 
-function _formatPrice(price: number | null, translateService: TranslateService) {
+function _formatPrice(
+	price: number | null,
+	language: ReturnType<LanguageService['language']>,
+	translateService: TranslateService,
+) {
 	if (price === null) {
 		return translateService.translate('Ask for price')();
 	}
 
-	return `${price} €`;
+	const isUa = language === 'ua';
+	const currency = isUa ? 'грн' : '€';
+
+	return `${price} ${currency}`;
 }
 
 function _resolveFallbackEntry() {

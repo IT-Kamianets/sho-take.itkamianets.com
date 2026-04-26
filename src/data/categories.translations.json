@@ -42,12 +42,12 @@
 				"fi": "Aamiaisannokset ja kevyet alkupalat.",
 				"fr": "Repas du matin et entrées légères.",
 				"de": "Morgengerichte und leichte Vorspeisen.",
-				"el": "Πρωινά γεύματα και ελαφριά ορεκτικά.",
+				"el": "Πρωινά γεύματα και ελαфριά ορεκτικά.",
 				"hu": "Reggeli fogások és könnyű falatok.",
 				"ga": "Béilí maidine agus tosaigh éadroma.",
 				"it": "Piatti del mattino e antipasti leggeri.",
 				"lv": "Rīta ēdieni un vieglas uzkodas.",
-				"lt": "Rytiniai patiekalai ir lengvi užkandžiai.",
+				"lt": "Rytiniai patiekalai ir lengvi užkandжiai.",
 				"mt": "Ikliet ta’ filgħodu u starters ħfief.",
 				"pl": "Poranne posiłki i lekkie przystawki.",
 				"pt": "Refeições matinais e entradas leves.",
@@ -59,7 +59,6 @@
 			}
 		}
 	},
-
 	{
 		"slug": "coffee",
 		"document": "itemCategory",
@@ -107,16 +106,170 @@
 				"hu": "Forró és hideg kávéitalok.",
 				"ga": "Deochanna caife te agus fuar.",
 				"it": "Bevande al caffè calde e fredde.",
-				"lv": "Karstie un aukstie kafijas dzērieni.",
+				"lv": "Karstie un aukstie kafijas dzēрини.",
 				"lt": "Karšti ir šalti kavos gėrimai.",
 				"mt": "Xorb tal-kafè sħun u kiesaħ.",
 				"pl": "Gorące i zimne napoje kawowe.",
 				"pt": "Bebidas de café quentes e frias.",
 				"ro": "Băuturi cu cafea, calde și reci.",
-				"sk": "Teplé a studené kávové nápoje.",
+				"sk": "Teplé a studené kávové napoje.",
 				"sl": "Topli in hladni kavni napitki.",
 				"es": "Bebidas de café frías y calientes.",
 				"sv": "Varma och kalla kaffedrycker."
+			}
+		}
+	},
+	{
+		"slug": "signature-rolls",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Фірмові роли",
+				"en": "Signature Rolls"
+			},
+			"description": {
+				"ua": "Ексклюзивні авторські роли від нашого шеф-кухаря.",
+				"en": "Exclusive signature rolls from our chef."
+			}
+		}
+	},
+	{
+		"slug": "new-items",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Новинки",
+				"en": "New Items"
+			},
+			"description": {
+				"ua": "Останні новинки нашого меню.",
+				"en": "The latest additions to our menu."
+			}
+		}
+	},
+	{
+		"slug": "sets",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Сети",
+				"en": "Sets"
+			},
+			"description": {
+				"ua": "Вигідні набори ролів для великих компаній.",
+				"en": "Great value roll sets for large groups."
+			}
+		}
+	},
+	{
+		"slug": "premium-rolls",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Преміум роли",
+				"en": "Premium Rolls"
+			},
+			"description": {
+				"ua": "Вишукані роли з преміальних інгредієнтів.",
+				"en": "Exquisite rolls made with premium ingredients."
+			}
+		}
+	},
+	{
+		"slug": "classic-rolls",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Класичні роли",
+				"en": "Classic Rolls"
+			},
+			"description": {
+				"ua": "Традиційні роли з класичними інгредієнтами.",
+				"en": "Traditional sushi rolls with classic ingredients."
+			}
+		}
+	},
+	{
+		"slug": "hot-and-baked-rolls",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Гарячі та запечені роли",
+				"en": "Hot and Baked Rolls"
+			},
+			"description": {
+				"ua": "Смачні гарячі та запечені роли.",
+				"en": "Deliciously warm and baked sushi rolls."
+			}
+		}
+	},
+	{
+		"slug": "starters",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Стартери",
+				"en": "Starters"
+			},
+			"description": {
+				"ua": "Легкі закуски для початку вашої трапези.",
+				"en": "Light bites to start your meal."
+			}
+		}
+	},
+	{
+		"slug": "salads",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Салати",
+				"en": "Salads"
+			},
+			"description": {
+				"ua": "Свіжі та корисні варіанти салатів.",
+				"en": "Fresh and healthy salad options."
+			}
+		}
+	},
+	{
+		"slug": "soups",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Супи",
+				"en": "Soups"
+			},
+			"description": {
+				"ua": "Теплі та ароматні супи.",
+				"en": "Warm and flavorful soups."
+			}
+		}
+	},
+	{
+		"slug": "wok-menu",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "ВОК меню",
+				"en": "WOK Menu"
+			},
+			"description": {
+				"ua": "Страви, приготовані на сковороді ВОК.",
+				"en": "Stir-fried dishes from our WOK."
+			}
+		}
+	},
+	{
+		"slug": "desserts",
+		"document": "itemCategory",
+		"data": {
+			"name": {
+				"ua": "Десерти",
+				"en": "Desserts"
+			},
+			"description": {
+				"ua": "Солодкі частування на завершення вашої трапези.",
+				"en": "Sweet treats to end your meal."
 			}
 		}
 	}

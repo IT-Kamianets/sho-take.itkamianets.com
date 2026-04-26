@@ -87,5 +87,9 @@
   "Email": "Email",
   "Nav": "Navigation",
   "Favorite": "Favorites",
-  "Menu": "Menu"
+  "Menu": "Menu",
+  "min": "min",
+  "kcal": "kcal",
+  "g": "g",
+  "ml": "ml"
 }

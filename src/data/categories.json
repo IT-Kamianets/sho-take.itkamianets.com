@@ -1,14 +1,74 @@
 [
 	{
-		"name": "Breakfasts",
-		"description": "Morning meals and light starters.",
-		"section": "food",
-		"slug": "breakfasts"
-	},
-	{
 		"name": "Coffee",
 		"description": "Hot and cold coffee drinks.",
 		"section": "drinks",
 		"slug": "coffee"
+	},
+	{
+		"name": "Signature Rolls",
+		"description": "Exclusive signature sushi rolls.",
+		"section": "food",
+		"slug": "signature-rolls"
+	},
+	{
+		"name": "New Items",
+		"description": "Latest additions to our menu.",
+		"section": "food",
+		"slug": "new-items"
+	},
+	{
+		"name": "Sets",
+		"description": "Curated sushi sets for any occasion.",
+		"section": "food",
+		"slug": "sets"
+	},
+	{
+		"name": "Premium Rolls",
+		"description": "Our finest selection of premium sushi rolls.",
+		"section": "food",
+		"slug": "premium-rolls"
+	},
+	{
+		"name": "Classic Rolls",
+		"description": "Traditional sushi rolls with classic ingredients.",
+		"section": "food",
+		"slug": "classic-rolls"
+	},
+	{
+		"name": "Hot and Baked Rolls",
+		"description": "Deliciously warm and baked sushi rolls.",
+		"section": "food",
+		"slug": "hot-and-baked-rolls"
+	},
+	{
+		"name": "Starters",
+		"description": "Light bites to start your meal.",
+		"section": "food",
+		"slug": "starters"
+	},
+	{
+		"name": "Salads",
+		"description": "Fresh and healthy salad options.",
+		"section": "food",
+		"slug": "salads"
+	},
+	{
+		"name": "Soups",
+		"description": "Warm and flavorful soups.",
+		"section": "food",
+		"slug": "soups"
+	},
+	{
+		"name": "WOK Menu",
+		"description": "Stir-fried dishes from our WOK.",
+		"section": "food",
+		"slug": "wok-menu"
+	},
+	{
+		"name": "Desserts",
+		"description": "Sweet treats to end your meal.",
+		"section": "food",
+		"slug": "desserts"
 	}
 ]

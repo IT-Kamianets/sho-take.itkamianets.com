@@ -1,30 +1,2165 @@
 [
 	{
-		"slug": "homemade-syrnyky-with-sour-cream",
-		"categorySlug": "breakfasts",
-		"title": "Homemade syrnyky with sour cream",
-		"description": "Golden cottage cheese pancakes served with sour cream.",
-		"price": 140,
-		"labels": ["200g"],
-		"fullDescription": "Golden cottage cheese pancakes served with sour cream. Ingredients: Golden cottage cheese pancakes served with sour cream..",
-		"suggested": ["espresso", "americano"],
-		"cookTimeMinutes": 20,
-		"caloriesKcal": 420,
-		"portion": "200g",
-		"allergens": ["cappuccino"]
-	},
-	{
 		"slug": "cappuccino",
 		"categorySlug": "coffee",
 		"title": "Cappuccino",
 		"description": "Espresso with steamed milk and foam.",
 		"price": 50,
-		"labels": ["350ml"],
+		"labels": [
+			"350ml"
+		],
 		"fullDescription": "Espresso with steamed milk and foam. Ingredients: Espresso with steamed milk and foam..",
-		"suggested": ["homemade-syrnyky-with-sour-cream"],
+		"suggested": [],
 		"cookTimeMinutes": 5,
 		"caloriesKcal": 110,
 		"portion": "350ml",
-		"allergens": ["milk"]
+		"allergens": [
+			"milk"
+		]
+	},
+	{
+		"slug": "signature-philadelphia-with-salmon-and-avocado",
+		"categorySlug": "signature-rolls",
+		"title": "Signature Philadelphia with Salmon and Avocado",
+		"description": "Lots of salmon, tender cream cheese, avocado, black rice, nori, signature Dor Blue sauce, mango, green oil, microgreens, flowers and paprika threads.",
+		"price": 340,
+		"labels": [
+			"340g"
+		],
+		"portion": "340g",
+		"allergens": [
+			"4",
+			"7"
+		],
+		"fullDescription": "Lots of salmon, tender cream cheese, avocado, black rice, nori, signature Dor Blue sauce, mango, green oil, microgreens, flowers and paprika threads.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "signature-philadelphia-with-salmon-and-mango",
+		"categorySlug": "signature-rolls",
+		"title": "Signature Philadelphia with Salmon and Mango",
+		"description": "Lots of salmon, tender cream cheese, fresh mango, rice, nori, signature truffle sauce with parmesan cheese, mango sauce, green oil, paprika threads, flowers and microgreens.",
+		"price": 340,
+		"labels": [
+			"350g"
+		],
+		"portion": "350g",
+		"allergens": [
+			"4",
+			"7"
+		],
+		"fullDescription": "Lots of salmon, tender cream cheese, fresh mango, rice, nori, signature truffle sauce with parmesan cheese, mango sauce, green oil, paprika threads, flowers and microgreens.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "signature-california-with-shrimp-and-dor-blue",
+		"categorySlug": "signature-rolls",
+		"title": "Signature California with Shrimp and Dor Blue",
+		"description": "Shrimp, tender cream cheese, tobiko caviar, iceberg lettuce, black rice, signature Dor Blue sauce, mango sauce, green oil, microgreens, flowers and paprika threads.",
+		"price": 290,
+		"labels": [
+			"340g"
+		],
+		"portion": "340g",
+		"allergens": [
+			"2",
+			"7"
+		],
+		"fullDescription": "Shrimp, tender cream cheese, tobiko caviar, iceberg lettuce, black rice, signature Dor Blue sauce, mango sauce, green oil, microgreens, flowers and paprika threads.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "signature-roll-with-tuna-and-truffle-sauce",
+		"categorySlug": "signature-rolls",
+		"title": "Signature Roll with Tuna and Truffle Sauce",
+		"description": "Lots of tuna, tender cream cheese, avocado, cucumber, rice, nori, signature truffle sauce with parmesan cheese, mango-teriyaki, green oil, microgreens, flowers and paprika threads.",
+		"price": 290,
+		"labels": [
+			"350g"
+		],
+		"portion": "350g",
+		"allergens": [
+			"4",
+			"7"
+		],
+		"fullDescription": "Lots of tuna, tender cream cheese, avocado, cucumber, rice, nori, signature truffle sauce with parmesan cheese, mango-teriyaki, green oil, microgreens, flowers and paprika threads.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "premium-philadelphia-with-eel",
+		"categorySlug": "new-items",
+		"title": "Premium Philadelphia with Eel",
+		"description": "Eel, nori sheet, tender cream cheese, cucumber, rice, mango-teriyaki sauce, sesame and paprika threads.",
+		"price": 320,
+		"labels": [
+			"320g"
+		],
+		"portion": "320g",
+		"allergens": [
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Eel, nori sheet, tender cream cheese, cucumber, rice, mango-teriyaki sauce, sesame and paprika threads.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "classic-philadelphia-with-eel",
+		"categorySlug": "new-items",
+		"title": "Classic Philadelphia with Eel",
+		"description": "Eel, tender cream cheese, cucumber, rice, nori sheet, teriyaki sauce and sesame.",
+		"price": 280,
+		"labels": [
+			"270g"
+		],
+		"portion": "270g",
+		"allergens": [
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Eel, tender cream cheese, cucumber, rice, nori sheet, teriyaki sauce and sesame.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "philadelphia-with-eel-and-shrimp",
+		"categorySlug": "new-items",
+		"title": "Philadelphia with Eel and Shrimp",
+		"description": "Eel, shrimp, tender cream cheese, avocado, cucumber, nori sheet, rice, mango-teriyaki sauce and almond flakes.",
+		"price": 320,
+		"labels": [
+			"330g"
+		],
+		"portion": "330g",
+		"allergens": [
+			"2",
+			"4",
+			"7",
+			"8a"
+		],
+		"fullDescription": "Eel, shrimp, tender cream cheese, avocado, cucumber, nori sheet, rice, mango-teriyaki sauce and almond flakes.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "black-dragon",
+		"categorySlug": "new-items",
+		"title": "Black Dragon",
+		"description": "Eel, fresh salmon, tender cream cheese, avocado, nori sheet, rice with cuttlefish ink, mango-teriyaki sauce, sesame and paprika threads.",
+		"price": 350,
+		"labels": [
+			"320g"
+		],
+		"portion": "320g",
+		"allergens": [
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Eel, fresh salmon, tender cream cheese, avocado, nori sheet, rice with cuttlefish ink, mango-teriyaki sauce, sesame and paprika threads.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "golden-dragon",
+		"categorySlug": "new-items",
+		"title": "Golden Dragon",
+		"description": "Eel, fried shrimp in panko breadcrumbs, tender cream cheese, cucumber, nori sheet, rice, mango-teriyaki sauce, paprika, paprika threads, tobiko caviar and edible gold.",
+		"price": 360,
+		"labels": [
+			"340g"
+		],
+		"portion": "340g",
+		"allergens": [
+			"1a",
+			"2",
+			"4",
+			"7"
+		],
+		"fullDescription": "Eel, fried shrimp in panko breadcrumbs, tender cream cheese, cucumber, nori sheet, rice, mango-teriyaki sauce, paprika, paprika threads, tobiko caviar and edible gold.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "hot-roll-with-eel-and-avocado",
+		"categorySlug": "new-items",
+		"title": "Hot Roll with Eel and Avocado",
+		"description": "Eel, tender cream cheese, avocado, nori sheet, rice, tempura, panko breadcrumbs, mango-teriyaki sauce and togarashi seasoning.",
+		"price": 280,
+		"labels": [
+			"300g"
+		],
+		"portion": "300g",
+		"allergens": [
+			"1a",
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Eel, tender cream cheese, avocado, nori sheet, rice, tempura, panko breadcrumbs, mango-teriyaki sauce and togarashi seasoning.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "baked-roll-with-eel",
+		"categorySlug": "new-items",
+		"title": "Baked Roll with Eel",
+		"description": "Eel, tender cream cheese, iceberg lettuce, tamago yaki omelet, tobiko caviar, nori sheet, rice, cheese cap of three types of cheese with spicy sauce, teriyaki sauce and sesame mix.",
+		"price": 270,
+		"labels": [
+			"330g"
+		],
+		"portion": "330g",
+		"allergens": [
+			"3",
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Eel, tender cream cheese, iceberg lettuce, tamago yaki omelet, tobiko caviar, nori sheet, rice, cheese cap of three types of cheese with spicy sauce, teriyaki sauce and sesame mix.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "baked-roll-with-eel-and-avocado",
+		"categorySlug": "new-items",
+		"title": "Baked Roll with Eel and Avocado",
+		"description": "Eel, tender cream cheese, avocado, tobiko caviar, nori sheet, rice, cheese cap of three types of cheese with spicy sauce, teriyaki sauce and sesame mix.",
+		"price": 290,
+		"labels": [
+			"320g"
+		],
+		"portion": "320g",
+		"allergens": [
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Eel, tender cream cheese, avocado, tobiko caviar, nori sheet, rice, cheese cap of three types of cheese with spicy sauce, teriyaki sauce and sesame mix.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "premium-california-with-eel",
+		"categorySlug": "new-items",
+		"title": "Premium California with Eel",
+		"description": "Eel, tender cream cheese, avocado, cucumber, tobiko caviar, nori sheet, rice, teriyaki-spicy sauce, crunch and green onion.",
+		"price": 320,
+		"labels": [
+			"320g"
+		],
+		"portion": "320g",
+		"allergens": [
+			"1a",
+			"4",
+			"7"
+		],
+		"fullDescription": "Eel, tender cream cheese, avocado, cucumber, tobiko caviar, nori sheet, rice, teriyaki-spicy sauce, crunch and green onion.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "sushi-burger-with-eel",
+		"categorySlug": "new-items",
+		"title": "Sushi Burger with Eel",
+		"description": "Rice wrapped in nori, filling of cream cheese, eel, cucumber with iceberg lettuce. Breaded in panko breadcrumbs. With mango-teriyaki sauce and paprika.",
+		"price": 290,
+		"labels": [
+			"410g"
+		],
+		"portion": "410g",
+		"allergens": [
+			"1a",
+			"4",
+			"7"
+		],
+		"fullDescription": "Rice wrapped in nori, filling of cream cheese, eel, cucumber with iceberg lettuce. Breaded in panko breadcrumbs. With mango-teriyaki sauce and paprika.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "very-big-set-2kg",
+		"categorySlug": "sets",
+		"title": "Very Big Set 2kg",
+		"description": "Premium Philadelphia with salmon, Premium Philadelphia with tuna, Canada with salmon, Premium Alaska with salmon, Premium California with salmon, Crunch roll with panko shrimp.",
+		"price": 1500,
+		"labels": [
+			"2kg"
+		],
+		"portion": "2kg",
+		"allergens": [],
+		"fullDescription": "Premium Philadelphia with salmon, Premium Philadelphia with tuna, Canada with salmon, Premium Alaska with salmon, Premium California with salmon, Crunch roll with panko shrimp.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "philadelphia-set-1kg",
+		"categorySlug": "sets",
+		"title": "Philadelphia Set 1kg",
+		"description": "Premium Philadelphia with salmon, Premium Philadelphia with tuna, Premium Philadelphia with salmon and avocado.",
+		"price": 850,
+		"labels": [
+			"1kg"
+		],
+		"portion": "1kg",
+		"allergens": [],
+		"fullDescription": "Premium Philadelphia with salmon, Premium Philadelphia with tuna, Premium Philadelphia with salmon and avocado.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "salmon-set-950g",
+		"categorySlug": "sets",
+		"title": "Salmon Set 950g",
+		"description": "Premium Philadelphia with salmon, Premium California with salmon, Black California with salmon and iceberg lettuce.",
+		"price": 810,
+		"labels": [
+			"950g"
+		],
+		"portion": "950g",
+		"allergens": [],
+		"fullDescription": "Premium Philadelphia with salmon, Premium California with salmon, Black California with salmon and iceberg lettuce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "shrimp-set-1kg",
+		"categorySlug": "sets",
+		"title": "Shrimp Set 1kg",
+		"description": "Philadelphia with shrimp, Cheese roll with shrimp, California with shrimp.",
+		"price": 770,
+		"labels": [
+			"1kg"
+		],
+		"portion": "1kg",
+		"allergens": [
+			"2",
+			"7",
+			"8a",
+			"16"
+		],
+		"fullDescription": "Philadelphia with shrimp, Cheese roll with shrimp, California with shrimp.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "tuna-set-1kg",
+		"categorySlug": "sets",
+		"title": "Tuna Set 1kg",
+		"description": "Premium Philadelphia with tuna, Premium Canada with tuna, Creamy Canada.",
+		"price": 720,
+		"labels": [
+			"1kg"
+		],
+		"portion": "1kg",
+		"allergens": [],
+		"fullDescription": "Premium Philadelphia with tuna, Premium Canada with tuna, Creamy Canada.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "big-set-1kg",
+		"categorySlug": "sets",
+		"title": "Big Set 1kg",
+		"description": "Premium Alaska with salmon, Premium Philadelphia with salmon, Crunch roll with shrimp.",
+		"price": 810,
+		"labels": [
+			"1kg"
+		],
+		"portion": "1kg",
+		"allergens": [
+			"6"
+		],
+		"fullDescription": "Premium Alaska with salmon, Premium Philadelphia with salmon, Crunch roll with shrimp.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "black-set-1kg",
+		"categorySlug": "sets",
+		"title": "Black Set 1kg",
+		"description": "Philadelphia with avocado, peach and salmon, California with tuna and daikon, Alaska with shrimp.",
+		"price": 840,
+		"labels": [
+			"1kg"
+		],
+		"portion": "1kg",
+		"allergens": [],
+		"fullDescription": "Philadelphia with avocado, peach and salmon, California with tuna and daikon, Alaska with shrimp.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "spicy-crab-set-1.2kg",
+		"categorySlug": "sets",
+		"title": "Spicy Crab Set 1.2kg",
+		"description": "Premium California with crab, Futomaki with crab, Canada with crab, Cheese roll with crab.",
+		"price": 870,
+		"labels": [
+			"1.2kg"
+		],
+		"portion": "1.2kg",
+		"allergens": [
+			"3",
+			"7",
+			"11",
+			"16"
+		],
+		"fullDescription": "Premium California with crab, Futomaki with crab, Canada with crab, Cheese roll with crab.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "baked-set-950g",
+		"categorySlug": "sets",
+		"title": "Baked Set 950g",
+		"description": "Baked roll with shrimp, tuna and salmon.",
+		"price": 710,
+		"labels": [
+			"950g"
+		],
+		"portion": "950g",
+		"allergens": [
+			"2",
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Baked roll with shrimp, tuna and salmon.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "hot-set-1kg",
+		"categorySlug": "sets",
+		"title": "Hot Set 1kg",
+		"description": "Hot roll with tuna, Hot roll with salmon, Hot roll with shrimp.",
+		"price": 690,
+		"labels": [
+			"1kg"
+		],
+		"portion": "1kg",
+		"allergens": [
+			"2",
+			"4",
+			"8"
+		],
+		"fullDescription": "Hot roll with tuna, Hot roll with salmon, Hot roll with shrimp.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "classic-mix-set-1kg",
+		"categorySlug": "sets",
+		"title": "Classic Mix Set 1kg",
+		"description": "Philadelphia salmon classic, Philadelphia with shrimp classic, Canada creamy classic, California with crab classic.",
+		"price": 780,
+		"labels": [
+			"1kg"
+		],
+		"portion": "1kg",
+		"allergens": [
+			"2",
+			"4",
+			"7",
+			"11",
+			"16"
+		],
+		"fullDescription": "Philadelphia salmon classic, Philadelphia with shrimp classic, Canada creamy classic, California with crab classic.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "classic-salmon-set-850g",
+		"categorySlug": "sets",
+		"title": "Classic Salmon Set 850g",
+		"description": "California with salmon, Alaska with salmon, Canada with salmon.",
+		"price": 620,
+		"labels": [
+			"850g"
+		],
+		"portion": "850g",
+		"allergens": [],
+		"fullDescription": "California with salmon, Alaska with salmon, Canada with salmon.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "grilled-salmon-set-1kg",
+		"categorySlug": "sets",
+		"title": "Grilled Salmon Set 1kg",
+		"description": "Philadelphia with pineapple and seared salmon, Philadelphia with grilled salmon, Canada with grilled salmon.",
+		"price": 770,
+		"labels": [
+			"1000g"
+		],
+		"portion": "1000g",
+		"allergens": [
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Philadelphia with pineapple and seared salmon, Philadelphia with grilled salmon, Canada with grilled salmon.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "salmon-set-2.0",
+		"categorySlug": "sets",
+		"title": "Salmon Set 2.0",
+		"description": "Philadelphia with salmon and pineapple, Philadelphia with grilled salmon, Canada with grilled salmon.",
+		"price": 910,
+		"labels": [
+			"1300g"
+		],
+		"portion": "1300g",
+		"allergens": [
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Philadelphia with salmon and pineapple, Philadelphia with grilled salmon, Canada with grilled salmon.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "ocean-set-1.3kg",
+		"categorySlug": "sets",
+		"title": "Ocean Set 1.3kg",
+		"description": "Emerald dragon, Philadelphia 50/50 salmon/avocado, Futomaki with grilled salmon.",
+		"price": 950,
+		"labels": [
+			"1300g"
+		],
+		"portion": "1300g",
+		"allergens": [
+			"2",
+			"3",
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Emerald dragon, Philadelphia 50/50 salmon/avocado, Futomaki with grilled salmon.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "red-dragon",
+		"categorySlug": "premium-rolls",
+		"title": "Red Dragon",
+		"description": "Salmon, tuna, tender cream cheese, rice, avocado, nori sheet, teriyaki and mango sauce, flying fish roe, togarashi spices, paprika threads, sprinkled with gold.",
+		"price": 350,
+		"labels": [
+			"330g"
+		],
+		"portion": "330g",
+		"allergens": [],
+		"fullDescription": "Salmon, tuna, tender cream cheese, rice, avocado, nori sheet, teriyaki and mango sauce, flying fish roe, togarashi spices, paprika threads, sprinkled with gold.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "yellowfin-tuna-dragon",
+		"categorySlug": "premium-rolls",
+		"title": "Yellowfin Tuna Dragon",
+		"description": "Yellowfin tuna, shrimp, tender cream cheese, rice, daikon, nori sheet, teriyaki sauce, flying fish roe, togarashi spices, sprinkled with gold.",
+		"price": 300,
+		"labels": [
+			"360g"
+		],
+		"portion": "360g",
+		"allergens": [],
+		"fullDescription": "Yellowfin tuna, shrimp, tender cream cheese, rice, daikon, nori sheet, teriyaki sauce, flying fish roe, togarashi spices, sprinkled with gold.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "premium-philadelphia-with-tuna",
+		"categorySlug": "premium-rolls",
+		"title": "Premium Philadelphia with Tuna",
+		"description": "Tuna, tender cream cheese, rice, cucumber, nori sheet, sesame, teriyaki-mango sauce.",
+		"price": 280,
+		"labels": [
+			"300g"
+		],
+		"portion": "300g",
+		"allergens": [],
+		"fullDescription": "Tuna, tender cream cheese, rice, cucumber, nori sheet, sesame, teriyaki-mango sauce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "premium-philadelphia-with-salmon",
+		"categorySlug": "premium-rolls",
+		"title": "Premium Philadelphia with Salmon",
+		"description": "Lots of salmon, tender cream cheese, rice, cucumber, nori sheet, sesame, teriyaki-mango sauce.",
+		"price": 310,
+		"labels": [
+			"350g"
+		],
+		"portion": "350g",
+		"allergens": [],
+		"fullDescription": "Lots of salmon, tender cream cheese, rice, cucumber, nori sheet, sesame, teriyaki-mango sauce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "premium-philadelphia-with-salmon-and-avocado",
+		"categorySlug": "premium-rolls",
+		"title": "Premium Philadelphia with Salmon and Avocado",
+		"description": "Lots of salmon, tender cream cheese, rice, avocado, nori sheet, sesame, teriyaki-mango sauce.",
+		"price": 330,
+		"labels": [
+			"340g"
+		],
+		"portion": "340g",
+		"allergens": [],
+		"fullDescription": "Lots of salmon, tender cream cheese, rice, avocado, nori sheet, sesame, teriyaki-mango sauce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "philadelphia-with-salmon-and-salad",
+		"categorySlug": "premium-rolls",
+		"title": "Philadelphia with Salmon and Salad",
+		"description": "Salmon, cream cheese, cucumber, lettuce, spicy sauce, kumquat, green mint oil, paprika threads, mango sauce, sesame, flying fish roe, wasabi, ginger.",
+		"price": 310,
+		"labels": [
+			"380g"
+		],
+		"portion": "380g",
+		"allergens": [],
+		"fullDescription": "Salmon, cream cheese, cucumber, lettuce, spicy sauce, kumquat, green mint oil, paprika threads, mango sauce, sesame, flying fish roe, wasabi, ginger.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "philadelphia-with-panko-shrimp",
+		"categorySlug": "premium-rolls",
+		"title": "Philadelphia with Panko Shrimp",
+		"description": "Salmon, panko shrimp, cream cheese, tobiko caviar, fresh mango, teriyaki sauce, spicy, paprika threads and microgreens.",
+		"price": 330,
+		"labels": [
+			"360g"
+		],
+		"portion": "360g",
+		"allergens": [
+			"1",
+			"2",
+			"4",
+			"7"
+		],
+		"fullDescription": "Salmon, panko shrimp, cream cheese, tobiko caviar, fresh mango, teriyaki sauce, spicy, paprika threads and microgreens.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "philadelphia-with-shrimp",
+		"categorySlug": "premium-rolls",
+		"title": "Philadelphia with Shrimp",
+		"description": "Shrimp, cream cheese, tobiko caviar, fresh mango, cucumber, rice, mango sauce and microgreens.",
+		"price": 310,
+		"labels": [
+			"350g"
+		],
+		"portion": "350g",
+		"allergens": [
+			"2",
+			"7"
+		],
+		"fullDescription": "Shrimp, cream cheese, tobiko caviar, fresh mango, cucumber, rice, mango sauce and microgreens.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "philadelphia-cheddar-with-salmon",
+		"categorySlug": "premium-rolls",
+		"title": "Philadelphia Cheddar with Salmon",
+		"description": "Cream cheese, rice, tobiko caviar, fresh mango, cucumber, salmon, cheddar cheese, teriyaki sauce, spicy, paprika threads and microgreens.",
+		"price": 310,
+		"labels": [
+			"360g"
+		],
+		"portion": "360g",
+		"allergens": [
+			"4",
+			"7"
+		],
+		"fullDescription": "Cream cheese, rice, tobiko caviar, fresh mango, cucumber, salmon, cheddar cheese, teriyaki sauce, spicy, paprika threads and microgreens.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "premium-shrimp-crunch-roll",
+		"categorySlug": "premium-rolls",
+		"title": "Premium Shrimp Crunch Roll",
+		"description": "Panko shrimp, tender cream cheese, crunchy crunch, green onion, peach, rice, nori sheet, sesame and spicy sauce.",
+		"price": 225,
+		"labels": [
+			"350g"
+		],
+		"portion": "350g",
+		"allergens": [],
+		"fullDescription": "Panko shrimp, tender cream cheese, crunchy crunch, green onion, peach, rice, nori sheet, sesame and spicy sauce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "premium-california-with-salmon",
+		"categorySlug": "premium-rolls",
+		"title": "Premium California with Salmon",
+		"description": "Salmon, rice, nori sheet, avocado, cucumber, cream cheese, sesame, teriyaki sauce.",
+		"price": 250,
+		"labels": [
+			"300g"
+		],
+		"portion": "300g",
+		"allergens": [],
+		"fullDescription": "Salmon, rice, nori sheet, avocado, cucumber, cream cheese, sesame, teriyaki sauce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "premium-california-with-tuna",
+		"categorySlug": "premium-rolls",
+		"title": "Premium California with Tuna",
+		"description": "Tuna, rice, nori sheet, daikon, cucumber, cream cheese, flying fish roe, teriyaki sauce.",
+		"price": 250,
+		"labels": [
+			"320g"
+		],
+		"portion": "320g",
+		"allergens": [],
+		"fullDescription": "Tuna, rice, nori sheet, daikon, cucumber, cream cheese, flying fish roe, teriyaki sauce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "premium-california-with-crab",
+		"categorySlug": "premium-rolls",
+		"title": "Premium California with Crab",
+		"description": "Tender cream cheese, crab mix (snow crab with cream cheese and spicy sauce), ripe avocado, tobiko caviar, nori, signature wasabi sauce and paprika.",
+		"price": 235,
+		"labels": [
+			"290g"
+		],
+		"portion": "290g",
+		"allergens": [
+			"4",
+			"7"
+		],
+		"fullDescription": "Tender cream cheese, crab mix (snow crab with cream cheese and spicy sauce), ripe avocado, tobiko caviar, nori, signature wasabi sauce and paprika.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "premium-canada-with-tuna",
+		"categorySlug": "premium-rolls",
+		"title": "Premium Canada with Tuna",
+		"description": "Tuna, cream cheese, rice, cucumber, nori sheet, sesame, teriyaki sauce.",
+		"price": 230,
+		"labels": [
+			"320g"
+		],
+		"portion": "320g",
+		"allergens": [],
+		"fullDescription": "Tuna, cream cheese, rice, cucumber, nori sheet, sesame, teriyaki sauce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "creamy-canada",
+		"categorySlug": "premium-rolls",
+		"title": "Creamy Canada",
+		"description": "Cream cheese, rice, cucumber, nori sheet, sesame, teriyaki sauce, spicy sauce, crispy onion.",
+		"price": 200,
+		"labels": [
+			"320g"
+		],
+		"portion": "320g",
+		"allergens": [],
+		"fullDescription": "Cream cheese, rice, cucumber, nori sheet, sesame, teriyaki sauce, spicy sauce, crispy onion.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "premium-alaska-with-salmon-and-orange",
+		"categorySlug": "premium-rolls",
+		"title": "Premium Alaska with Salmon and Orange",
+		"description": "Salmon, tender cream cheese, rice, cucumber, orange, nori sheet, wasabi sauce, tobiko caviar and paprika.",
+		"price": 240,
+		"labels": [
+			"350g"
+		],
+		"portion": "350g",
+		"allergens": [],
+		"fullDescription": "Salmon, tender cream cheese, rice, cucumber, orange, nori sheet, wasabi sauce, tobiko caviar and paprika.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "cheese-roll-with-crab-and-panko-shrimp",
+		"categorySlug": "premium-rolls",
+		"title": "Cheese Roll with Crab and Panko Shrimp",
+		"description": "Tender cream cheese, panko shrimp, crab mix (snow crab with cream cheese and spicy sauce), iceberg lettuce, toast cheese with spicy-teriyaki sauce, microgreens.",
+		"price": 255,
+		"labels": [
+			"310g"
+		],
+		"portion": "310g",
+		"allergens": [
+			"4",
+			"7"
+		],
+		"fullDescription": "Tender cream cheese, panko shrimp, crab mix (snow crab with cream cheese and spicy sauce), iceberg lettuce, toast cheese with spicy-teriyaki sauce, microgreens.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "cheese-roll-with-crab",
+		"categorySlug": "premium-rolls",
+		"title": "Cheese Roll with Crab",
+		"description": "Tender cream cheese, crab mix (snow crab with cream cheese and spicy sauce), black rice, Japanese tamagoyaki omelette, cucumber, toast cheese with teriyaki-spicy sauce and paprika.",
+		"price": 235,
+		"labels": [
+			"310g"
+		],
+		"portion": "310g",
+		"allergens": [
+			"3",
+			"7",
+			"16"
+		],
+		"fullDescription": "Tender cream cheese, crab mix (snow crab with cream cheese and spicy sauce), black rice, Japanese tamagoyaki omelette, cucumber, toast cheese with teriyaki-spicy sauce and paprika.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "cheese-roll-with-shrimps",
+		"categorySlug": "premium-rolls",
+		"title": "Cheese Roll with Shrimps",
+		"description": "Shrimp, cream cheese, fresh mango, tobiko caviar, cheddar cheese, black rice, teriyaki sauce, spicy, paprika threads, paprika flakes and microgreens.",
+		"price": 275,
+		"labels": [
+			"330g"
+		],
+		"portion": "330g",
+		"allergens": [
+			"2",
+			"7"
+		],
+		"fullDescription": "Shrimp, cream cheese, fresh mango, tobiko caviar, cheddar cheese, black rice, teriyaki sauce, spicy, paprika threads, paprika flakes and microgreens.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "futomaki-with-crab",
+		"categorySlug": "premium-rolls",
+		"title": "Futomaki with Crab",
+		"description": "Tender cream cheese, crab mix (snow crab with cream cheese and spicy sauce), nori, cucumber, teriyaki-spicy sauce and paprika.",
+		"price": 200,
+		"labels": [
+			"270g"
+		],
+		"portion": "270g",
+		"allergens": [
+			"7"
+		],
+		"fullDescription": "Tender cream cheese, crab mix (snow crab with cream cheese and spicy sauce), nori, cucumber, teriyaki-spicy sauce and paprika.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "spicy-roll-with-salmon",
+		"categorySlug": "premium-rolls",
+		"title": "Spicy Roll with Salmon",
+		"description": "Salmon, spicy sauce, Philadelphia cheese, cucumber, sesame mix, microgreens and tobiko caviar.",
+		"price": 250,
+		"labels": [
+			"300g"
+		],
+		"portion": "300g",
+		"allergens": [
+			"4",
+			"11"
+		],
+		"fullDescription": "Salmon, spicy sauce, Philadelphia cheese, cucumber, sesame mix, microgreens and tobiko caviar.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "california-with-panko-shrimp",
+		"categorySlug": "premium-rolls",
+		"title": "California with Panko Shrimp",
+		"description": "Panko shrimp, tender cream cheese, cucumber, tobiko caviar, rice, nori sheet, wasabi sauce and paprika.",
+		"price": 230,
+		"labels": [
+			"315g"
+		],
+		"portion": "315g",
+		"allergens": [
+			"2",
+			"7",
+			"16"
+		],
+		"fullDescription": "Panko shrimp, tender cream cheese, cucumber, tobiko caviar, rice, nori sheet, wasabi sauce and paprika.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "canada-with-grilled-salmon",
+		"categorySlug": "premium-rolls",
+		"title": "Canada with Grilled Salmon",
+		"description": "Grilled salmon, tender cream cheese, cucumber, rice, nori sheet, tobiko caviar, paprika and wasabi sauce.",
+		"price": 240,
+		"labels": [
+			"300g"
+		],
+		"portion": "300g",
+		"allergens": [
+			"4",
+			"7"
+		],
+		"fullDescription": "Grilled salmon, tender cream cheese, cucumber, rice, nori sheet, tobiko caviar, paprika and wasabi sauce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "emerald-dragon",
+		"categorySlug": "premium-rolls",
+		"title": "Emerald Dragon",
+		"description": "Grilled salmon, tender cream cheese, chuka salad, sun-dried tomatoes, cucumber, rice, nori sheet, teriyaki sauce and sesame.",
+		"price": 350,
+		"labels": [
+			"340g"
+		],
+		"portion": "340g",
+		"allergens": [
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Grilled salmon, tender cream cheese, chuka salad, sun-dried tomatoes, cucumber, rice, nori sheet, teriyaki sauce and sesame.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "philadelphia-50-50-salmon-avocado",
+		"categorySlug": "premium-rolls",
+		"title": "Philadelphia 50/50 Salmon-Avocado",
+		"description": "Fresh salmon, tender cream cheese, crab mix, Japanese tamagoyaki omelette, cucumber, avocado, rice, nori sheet, teriyaki-mango sauce, sesame and paprika threads.",
+		"price": 270,
+		"labels": [
+			"340g"
+		],
+		"portion": "340g",
+		"allergens": [
+			"3",
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Fresh salmon, tender cream cheese, crab mix, Japanese tamagoyaki omelette, cucumber, avocado, rice, nori sheet, teriyaki-mango sauce, sesame and paprika threads.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "philadelphia-with-salmon-and-pineapple",
+		"categorySlug": "premium-rolls",
+		"title": "Philadelphia with Salmon and Pineapple",
+		"description": "Lots of salmon, tender cream cheese, pineapple, rice, nori sheet, teriyaki sauce, sesame and paprika threads.",
+		"price": 310,
+		"labels": [
+			"330g"
+		],
+		"portion": "330g",
+		"allergens": [
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Lots of salmon, tender cream cheese, pineapple, rice, nori sheet, teriyaki sauce, sesame and paprika threads.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "philadelphia-with-grilled-salmon",
+		"categorySlug": "premium-rolls",
+		"title": "Philadelphia with Grilled Salmon",
+		"description": "Grilled salmon, tender cream cheese, fresh mango, avocado, rice, nori sheet, teriyaki sauce and sesame.",
+		"price": 250,
+		"labels": [
+			"340g"
+		],
+		"portion": "340g",
+		"allergens": [
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Grilled salmon, tender cream cheese, fresh mango, avocado, rice, nori sheet, teriyaki sauce and sesame.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "futomaki-with-grilled-salmon",
+		"categorySlug": "premium-rolls",
+		"title": "Futomaki with Grilled Salmon",
+		"description": "Grilled salmon, tender cream cheese, cucumber, daikon, rice, nori sheet, teriyaki-spicy sauce and paprika.",
+		"price": 190,
+		"labels": [
+			"300g"
+		],
+		"portion": "300g",
+		"allergens": [
+			"4",
+			"7"
+		],
+		"fullDescription": "Grilled salmon, tender cream cheese, cucumber, daikon, rice, nori sheet, teriyaki-spicy sauce and paprika.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "cheese-roll-with-salmon",
+		"categorySlug": "premium-rolls",
+		"title": "Cheese Roll with Salmon",
+		"description": "Salmon, tender cream cheese, cucumber, daikon, cheddar cheese, rice, nori sheet, teriyaki-spicy sauce and paprika.",
+		"price": 240,
+		"labels": [
+			"300g"
+		],
+		"portion": "300g",
+		"allergens": [
+			"4",
+			"7"
+		],
+		"fullDescription": "Salmon, tender cream cheese, cucumber, daikon, cheddar cheese, rice, nori sheet, teriyaki-spicy sauce and paprika.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "philadelphia-with-salmon-classic",
+		"categorySlug": "classic-rolls",
+		"title": "Philadelphia with Salmon Classic",
+		"description": "Salmon, tender cream cheese, rice, cucumber, nori sheet. Topped with teriyaki and sprinkled with sesame.",
+		"price": 240,
+		"labels": [
+			"280g"
+		],
+		"portion": "280g",
+		"allergens": [],
+		"fullDescription": "Salmon, tender cream cheese, rice, cucumber, nori sheet. Topped with teriyaki and sprinkled with sesame.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "philadelphia-with-tuna",
+		"categorySlug": "classic-rolls",
+		"title": "Philadelphia with Tuna",
+		"description": "Tuna, tender cream cheese, rice, cucumber, nori sheet. Topped with teriyaki and sprinkled with sesame.",
+		"price": 220,
+		"labels": [
+			"280g"
+		],
+		"portion": "280g",
+		"allergens": [],
+		"fullDescription": "Tuna, tender cream cheese, rice, cucumber, nori sheet. Topped with teriyaki and sprinkled with sesame.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "philadelphia-with-shrimp-classic",
+		"categorySlug": "classic-rolls",
+		"title": "Philadelphia with Shrimp Classic",
+		"description": "Tender cream cheese, rice, shrimp, cucumber, nori.",
+		"price": 215,
+		"labels": [
+			"260g"
+		],
+		"portion": "260g",
+		"allergens": [
+			"2",
+			"7",
+			"16"
+		],
+		"fullDescription": "Tender cream cheese, rice, shrimp, cucumber, nori.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "california-with-salmon-classic",
+		"categorySlug": "classic-rolls",
+		"title": "California with Salmon",
+		"description": "Salmon, cream cheese, cucumber, rice, sesame.",
+		"price": 200,
+		"labels": [
+			"240g"
+		],
+		"portion": "240g",
+		"allergens": [],
+		"fullDescription": "Salmon, cream cheese, cucumber, rice, sesame.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "california-with-tuna-classic",
+		"categorySlug": "classic-rolls",
+		"title": "California with Tuna",
+		"description": "Tuna, cucumber, cream cheese, nori sheet, sesame.",
+		"price": 180,
+		"labels": [
+			"250g"
+		],
+		"portion": "250g",
+		"allergens": [],
+		"fullDescription": "Tuna, cucumber, cream cheese, nori sheet, sesame.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "california-with-shrimp-classic",
+		"categorySlug": "classic-rolls",
+		"title": "California with Shrimp",
+		"description": "Panko shrimps, tender cream cheese, peach, rice, nori sheet.",
+		"price": 190,
+		"labels": [
+			"280g"
+		],
+		"portion": "280g",
+		"allergens": [],
+		"fullDescription": "Panko shrimps, tender cream cheese, peach, rice, nori sheet.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "alaska-with-salmon-classic",
+		"categorySlug": "classic-rolls",
+		"title": "Alaska with Salmon",
+		"description": "Salmon, tender cream cheese, rice, cucumber, orange, nori sheet, tobiko caviar.",
+		"price": 220,
+		"labels": [
+			"280g"
+		],
+		"portion": "280g",
+		"allergens": [],
+		"fullDescription": "Salmon, tender cream cheese, rice, cucumber, orange, nori sheet, tobiko caviar.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "canada-with-tuna-classic",
+		"categorySlug": "classic-rolls",
+		"title": "Canada with Tuna",
+		"description": "Cream cheese, rice, nori, tuna, cucumber.",
+		"price": 180,
+		"labels": [
+			"250g"
+		],
+		"portion": "250g",
+		"allergens": [],
+		"fullDescription": "Cream cheese, rice, nori, tuna, cucumber.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "creamy-canada-classic",
+		"categorySlug": "classic-rolls",
+		"title": "Creamy Canada",
+		"description": "Cream cheese, rice, cucumber, sesame.",
+		"price": 140,
+		"labels": [
+			"240g"
+		],
+		"portion": "240g",
+		"allergens": [],
+		"fullDescription": "Cream cheese, rice, cucumber, sesame.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "maki-with-salmon",
+		"categorySlug": "classic-rolls",
+		"title": "Maki with Salmon",
+		"description": "Salmon, rice, nori sheet. Topped with teriyaki sauce.",
+		"price": 160,
+		"labels": [
+			"170g"
+		],
+		"portion": "170g",
+		"allergens": [],
+		"fullDescription": "Salmon, rice, nori sheet. Topped with teriyaki sauce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "maki-with-tuna",
+		"categorySlug": "classic-rolls",
+		"title": "Maki with Tuna",
+		"description": "Tuna, rice, nori sheet. Topped with teriyaki sauce.",
+		"price": 140,
+		"labels": [
+			"170g"
+		],
+		"portion": "170g",
+		"allergens": [],
+		"fullDescription": "Tuna, rice, nori sheet. Topped with teriyaki sauce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "maki-with-shrimp",
+		"categorySlug": "classic-rolls",
+		"title": "Maki with Shrimp",
+		"description": "Shrimp, rice, nori sheet. Topped with teriyaki sauce.",
+		"price": 140,
+		"labels": [
+			"170g"
+		],
+		"portion": "170g",
+		"allergens": [],
+		"fullDescription": "Shrimp, rice, nori sheet. Topped with teriyaki sauce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "baked-roll-with-shrimp",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Baked Roll with Shrimp",
+		"description": "Shrimp, nori, tender cream cheese, pear, rice, tobiko caviar, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce and sesame mix.",
+		"price": 230,
+		"labels": [
+			"340g"
+		],
+		"portion": "340g",
+		"allergens": [
+			"2",
+			"7",
+			"11"
+		],
+		"fullDescription": "Shrimp, nori, tender cream cheese, pear, rice, tobiko caviar, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce and sesame mix.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "baked-roll-with-tuna",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Baked Roll with Tuna",
+		"description": "Lots of tuna, nori, tender cream cheese, Japanese tamagoyaki omelette, sun-dried tomatoes, rice, tobiko caviar, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce and sesame mix.",
+		"price": 220,
+		"labels": [
+			"330g"
+		],
+		"portion": "330g",
+		"allergens": [
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Lots of tuna, nori, tender cream cheese, Japanese tamagoyaki omelette, sun-dried tomatoes, rice, tobiko caviar, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce and sesame mix.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "baked-roll-with-salmon",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Baked Roll with Salmon",
+		"description": "Lots of salmon, nori, tender cream cheese, Japanese tamagoyaki omelette, sun-dried tomatoes, rice, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce and sesame mix.",
+		"price": 250,
+		"labels": [
+			"330g"
+		],
+		"portion": "330g",
+		"allergens": [
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Lots of salmon, nori, tender cream cheese, Japanese tamagoyaki omelette, sun-dried tomatoes, rice, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce and sesame mix.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "baked-roll-with-crab",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Baked Roll with Crab",
+		"description": "Crab mix (snow crab with cream cheese and spicy sauce), nori, tender cream cheese, rice, iceberg lettuce, Japanese tamagoyaki omelette, tobiko caviar, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce.",
+		"price": 210,
+		"labels": [
+			"320g"
+		],
+		"portion": "320g",
+		"allergens": [
+			"3",
+			"7",
+			"16"
+		],
+		"fullDescription": "Crab mix (snow crab with cream cheese and spicy sauce), nori, tender cream cheese, rice, iceberg lettuce, Japanese tamagoyaki omelette, tobiko caviar, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "sushi-burger-with-crab",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Sushi Burger with Crab",
+		"description": "Rice wrapped in nori, filling of cream cheese, crab mix (snow crab with cream cheese and spicy sauce), cucumber and iceberg lettuce. Breaded in panko breadcrumbs. With teriyaki-spicy sauce and paprika.",
+		"price": 250,
+		"labels": [
+			"400g"
+		],
+		"portion": "400g",
+		"allergens": [],
+		"fullDescription": "Rice wrapped in nori, filling of cream cheese, crab mix (snow crab with cream cheese and spicy sauce), cucumber and iceberg lettuce. Breaded in panko breadcrumbs. With teriyaki-spicy sauce and paprika.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "sushi-burger-with-salmon",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Sushi Burger with Salmon",
+		"description": "Rice wrapped in nori, filling of cream cheese, salmon, cucumber and lettuce. Breaded in panko breadcrumbs.",
+		"price": 290,
+		"labels": [
+			"420g"
+		],
+		"portion": "420g",
+		"allergens": [],
+		"fullDescription": "Rice wrapped in nori, filling of cream cheese, salmon, cucumber and lettuce. Breaded in panko breadcrumbs.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "sushi-burger-with-shrimp",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Sushi Burger with Shrimp",
+		"description": "Rice wrapped in nori, filling of cream cheese, shrimp, cucumber and iceberg lettuce. Breaded in panko breadcrumbs. With mango-teriyaki sauce and almond flakes.",
+		"price": 280,
+		"labels": [
+			"430g"
+		],
+		"portion": "430g",
+		"allergens": [
+			"2",
+			"7",
+			"8"
+		],
+		"fullDescription": "Rice wrapped in nori, filling of cream cheese, shrimp, cucumber and iceberg lettuce. Breaded in panko breadcrumbs. With mango-teriyaki sauce and almond flakes.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "sushi-burger-with-tuna",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Sushi Burger with Tuna",
+		"description": "Extra crunchy rice burger with tuna, cream cheese and salad inside. Topped with spicy and mango sauce.",
+		"price": 270,
+		"labels": [
+			"420g"
+		],
+		"portion": "420g",
+		"allergens": [],
+		"fullDescription": "Extra crunchy rice burger with tuna, cream cheese and salad inside. Topped with spicy and mango sauce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "hot-roll-with-shrimp",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Hot Roll with Shrimp",
+		"description": "Fried in panko breadcrumbs with shrimp, spicy sauce, tender cream cheese, nori, iceberg lettuce, mango-teriyaki sauce, green onion and paprika.",
+		"price": 240,
+		"labels": [
+			"360g"
+		],
+		"portion": "360g",
+		"allergens": [
+			"2",
+			"7"
+		],
+		"fullDescription": "Fried in panko breadcrumbs with shrimp, spicy sauce, tender cream cheese, nori, iceberg lettuce, mango-teriyaki sauce, green onion and paprika.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "hot-roll-with-crab",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Hot Roll with Crab",
+		"description": "Fried in panko breadcrumbs with crab mix (snow crab with cream cheese and spicy sauce), tender cream cheese, nori, iceberg lettuce, teriyaki-spicy sauce, green onion and paprika.",
+		"price": 220,
+		"labels": [
+			"350g"
+		],
+		"portion": "350g",
+		"allergens": [
+			"1a",
+			"7",
+			"16"
+		],
+		"fullDescription": "Fried in panko breadcrumbs with crab mix (snow crab with cream cheese and spicy sauce), tender cream cheese, nori, iceberg lettuce, teriyaki-spicy sauce, green onion and paprika.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "hot-roll-with-tuna",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Hot Roll with Tuna",
+		"description": "Fried in panko breadcrumbs with tuna, tender cream cheese, nori, cucumber, spicy sauce, mango, green onion, paprika and paprika threads.",
+		"price": 260,
+		"labels": [
+			"370g"
+		],
+		"portion": "370g",
+		"allergens": [
+			"1",
+			"4"
+		],
+		"fullDescription": "Fried in panko breadcrumbs with tuna, tender cream cheese, nori, cucumber, spicy sauce, mango, green onion, paprika and paprika threads.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "hot-roll-with-salmon",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Hot Roll with Salmon",
+		"description": "Fried in panko breadcrumbs with salmon, tender cream cheese, nori, cucumber, spicy sauce, mango, green onion, paprika and paprika threads.",
+		"price": 280,
+		"labels": [
+			"370g"
+		],
+		"portion": "370g",
+		"allergens": [
+			"1",
+			"4"
+		],
+		"fullDescription": "Fried in panko breadcrumbs with salmon, tender cream cheese, nori, cucumber, spicy sauce, mango, green onion, paprika and paprika threads.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "fried-roll-with-crab",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Fried Roll with Crab",
+		"description": "Tender cream cheese, crab mix (snow crab with cream cheese and spicy sauce), iceberg lettuce. Fried in panko breadcrumbs with teriyaki sauce, sesame, paprika and paprika threads.",
+		"price": 200,
+		"labels": [
+			"300g"
+		],
+		"portion": "300g",
+		"allergens": [
+			"1a",
+			"7",
+			"11",
+			"16"
+		],
+		"fullDescription": "Tender cream cheese, crab mix (snow crab with cream cheese and spicy sauce), iceberg lettuce. Fried in panko breadcrumbs with teriyaki sauce, sesame, paprika and paprika threads.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "fried-roll-with-shrimp-and-pineapple",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Fried Roll with Shrimp and Pineapple",
+		"description": "Shrimp, rice, cream cheese, pineapple, nori sheet, teriyaki-mango sauce.",
+		"price": 250,
+		"labels": [
+			"370g"
+		],
+		"portion": "370g",
+		"allergens": [],
+		"fullDescription": "Shrimp, rice, cream cheese, pineapple, nori sheet, teriyaki-mango sauce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "fried-roll-with-salmon",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Fried Roll with Salmon",
+		"description": "Salmon, rice with cuttlefish ink, nori sheet, pineapple, tender cream cheese, teriyaki-mango sauce, sesame mix and paprika.",
+		"price": 270,
+		"labels": [
+			"270g"
+		],
+		"portion": "270g",
+		"allergens": [],
+		"fullDescription": "Salmon, rice with cuttlefish ink, nori sheet, pineapple, tender cream cheese, teriyaki-mango sauce, sesame mix and paprika.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "fried-roll-with-tuna",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Fried Roll with Tuna",
+		"description": "Tuna, rice, cream cheese, hiyashi wakame, nut sauce, nori sheet, teriyaki sauce, togarashi spices, wasabi sauce.",
+		"price": 230,
+		"labels": [
+			"370g"
+		],
+		"portion": "370g",
+		"allergens": [],
+		"fullDescription": "Tuna, rice, cream cheese, hiyashi wakame, nut sauce, nori sheet, teriyaki sauce, togarashi spices, wasabi sauce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "sushi-burger-with-grilled-salmon",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Sushi Burger with Grilled Salmon",
+		"description": "Rice wrapped in nori, filling of cream cheese, grilled salmon, cucumber and iceberg lettuce. Breaded in panko breadcrumbs. With teriyaki-wasabi sauce and fried onion.",
+		"price": 260,
+		"labels": [
+			"450g"
+		],
+		"portion": "450g",
+		"allergens": [
+			"1a",
+			"4",
+			"7"
+		],
+		"fullDescription": "Rice wrapped in nori, filling of cream cheese, grilled salmon, cucumber and iceberg lettuce. Breaded in panko breadcrumbs. With teriyaki-wasabi sauce and fried onion.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "baked-roll-with-grilled-salmon",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Baked Roll with Grilled Salmon",
+		"description": "Grilled salmon, nori, tender cream cheese, Japanese tamagoyaki omelette, rice, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce and sesame mix.",
+		"price": 250,
+		"labels": [
+			"320g"
+		],
+		"portion": "320g",
+		"allergens": [
+			"3",
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Grilled salmon, nori, tender cream cheese, Japanese tamagoyaki omelette, rice, cheese cap of three types of cheese (gouda, mozzarella, parmesan with spicy sauce), teriyaki sauce and sesame mix.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "hot-roll-with-grilled-salmon",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Hot Roll with Grilled Salmon",
+		"description": "Fried in panko breadcrumbs with grilled salmon, tender cream cheese, nori, cucumber, teriyaki-wasabi sauce, green onion and paprika.",
+		"price": 250,
+		"labels": [
+			"330g"
+		],
+		"portion": "330g",
+		"allergens": [
+			"1a",
+			"4",
+			"7"
+		],
+		"fullDescription": "Fried in panko breadcrumbs with grilled salmon, tender cream cheese, nori, cucumber, teriyaki-wasabi sauce, green onion and paprika.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "fried-roll-with-grilled-salmon",
+		"categorySlug": "hot-and-baked-rolls",
+		"title": "Fried Roll with Grilled Salmon",
+		"description": "Grilled salmon, rice with cuttlefish ink, nori sheet, pineapple, tender cream cheese, teriyaki-mango sauce, sesame mix and paprika.",
+		"price": 250,
+		"labels": [
+			"330g"
+		],
+		"portion": "330g",
+		"allergens": [
+			"1a",
+			"4",
+			"7",
+			"11"
+		],
+		"fullDescription": "Grilled salmon, rice with cuttlefish ink, nori sheet, pineapple, tender cream cheese, teriyaki-mango sauce, sesame mix and paprika.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "spring-roll-with-shrimp",
+		"categorySlug": "starters",
+		"title": "Spring Roll with Shrimp",
+		"description": "Shrimp, cream cheese, peach, rice paper, carrot, mixed greens, rice, sesame.",
+		"price": 240,
+		"labels": [
+			"180g"
+		],
+		"portion": "180g",
+		"allergens": [],
+		"fullDescription": "Shrimp, cream cheese, peach, rice paper, carrot, mixed greens, rice, sesame.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "spring-roll-with-tuna",
+		"categorySlug": "starters",
+		"title": "Spring Roll with Tuna",
+		"description": "Tuna, cream cheese, daikon, rice paper, mixed greens, rice, sesame.",
+		"price": 240,
+		"labels": [
+			"180g"
+		],
+		"portion": "180g",
+		"allergens": [],
+		"fullDescription": "Tuna, cream cheese, daikon, rice paper, mixed greens, rice, sesame.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "spring-roll-with-salmon",
+		"categorySlug": "starters",
+		"title": "Spring Roll with Salmon",
+		"description": "Salmon, cream cheese, cucumber, rice paper, mixed greens, rice, sesame.",
+		"price": 280,
+		"labels": [
+			"180g"
+		],
+		"portion": "180g",
+		"allergens": [],
+		"fullDescription": "Salmon, cream cheese, cucumber, rice paper, mixed greens, rice, sesame.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "panko-shrimps",
+		"categorySlug": "starters",
+		"title": "Panko Shrimps",
+		"description": "Fried shrimps in panko breadcrumbs, sweet and sour sauce.",
+		"price": 210,
+		"labels": [
+			"200g"
+		],
+		"portion": "200g",
+		"allergens": [],
+		"fullDescription": "Fried shrimps in panko breadcrumbs, sweet and sour sauce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "rice-starter",
+		"categorySlug": "starters",
+		"title": "Rice",
+		"description": "Steamed rice.",
+		"price": 35,
+		"labels": [
+			"150g"
+		],
+		"portion": "150g",
+		"allergens": [],
+		"fullDescription": "Steamed rice.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "rice-chips",
+		"categorySlug": "starters",
+		"title": "Rice Chips",
+		"description": "Rice chips.",
+		"price": 50,
+		"labels": [],
+		"portion": null,
+		"allergens": [],
+		"fullDescription": "Rice chips.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "poke-bowl-with-chicken",
+		"categorySlug": "salads",
+		"title": "Poke Bowl with Chicken",
+		"description": "Sous-vide chicken, rice, cherry tomatoes, cucumber, chuka salad, pickled ginger, nut sauce and sesame.",
+		"price": 210,
+		"labels": [
+			"370g"
+		],
+		"portion": "370g",
+		"allergens": [
+			"8",
+			"11"
+		],
+		"fullDescription": "Sous-vide chicken, rice, cherry tomatoes, cucumber, chuka salad, pickled ginger, nut sauce and sesame.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "poke-bowl-with-salmon-and-nut-sauce",
+		"categorySlug": "salads",
+		"title": "Poke Bowl with Salmon and Nut Sauce",
+		"description": "Fresh Norwegian salmon with cherry tomatoes, cucumber, avocado, edamame beans, tobiko caviar and cashew-based nut sauce, rice.",
+		"price": 270,
+		"labels": [
+			"390g"
+		],
+		"portion": "390g",
+		"allergens": [],
+		"fullDescription": "Fresh Norwegian salmon with cherry tomatoes, cucumber, avocado, edamame beans, tobiko caviar and cashew-based nut sauce, rice.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "poke-bowl-with-shrimps",
+		"categorySlug": "salads",
+		"title": "Poke Bowl with Shrimps",
+		"description": "Boiled shrimp, rice, cucumber, cherry tomatoes, avocado, edamame beans, tobiko caviar, kumquat and nut sauce.",
+		"price": 240,
+		"labels": [
+			"360g"
+		],
+		"portion": "360g",
+		"allergens": [
+			"1",
+			"2",
+			"5",
+			"11"
+		],
+		"fullDescription": "Boiled shrimp, rice, cucumber, cherry tomatoes, avocado, edamame beans, tobiko caviar, kumquat and nut sauce.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "salad-with-shrimps-and-nut-sauce",
+		"categorySlug": "salads",
+		"title": "Salad with Shrimps and Nut Sauce",
+		"description": "Fried shrimps, nut sauce, cream cheese, salad mix, cherry tomatoes, cucumber, avocado, fresh mango, kumquat pieces and almond flakes.",
+		"price": 250,
+		"labels": [
+			"250g"
+		],
+		"portion": "250g",
+		"allergens": [
+			"2",
+			"7",
+			"8"
+		],
+		"fullDescription": "Fried shrimps, nut sauce, cream cheese, salad mix, cherry tomatoes, cucumber, avocado, fresh mango, kumquat pieces and almond flakes.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "salad-with-fresh-salmon-and-avocado",
+		"categorySlug": "salads",
+		"title": "Salad with Fresh Salmon and Avocado",
+		"description": "Salad mix, fresh salmon, avocado, cherry tomato, cucumber, kumquat, cashew nut sauce, mint oil, sesame and peanuts.",
+		"price": 260,
+		"labels": [
+			"250g"
+		],
+		"portion": "250g",
+		"allergens": [],
+		"fullDescription": "Salad mix, fresh salmon, avocado, cherry tomato, cucumber, kumquat, cashew nut sauce, mint oil, sesame and peanuts.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "japanese-caesar-with-chicken",
+		"categorySlug": "salads",
+		"title": "Japanese Caesar with Chicken",
+		"description": "Salad mix, sous-vide chicken fillet, chuka salad, cherry tomato, cucumber, cashew sauce, sesame.",
+		"price": 210,
+		"labels": [
+			"230g"
+		],
+		"portion": "230g",
+		"allergens": [],
+		"fullDescription": "Salad mix, sous-vide chicken fillet, chuka salad, cherry tomato, cucumber, cashew sauce, sesame.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "tom-yum",
+		"categorySlug": "soups",
+		"title": "Tom Yum",
+		"description": "Spicy coconut milk broth with lemongrass, kaffir lime, galangal, shrimp paste, rice noodles, king prawns, mussels, tomatoes, mushrooms, piri-piri pepper, mint.",
+		"price": 295,
+		"labels": [
+			"500g"
+		],
+		"portion": "500g",
+		"allergens": [],
+		"fullDescription": "Spicy coconut milk broth with lemongrass, kaffir lime, galangal, shrimp paste, rice noodles, king prawns, mussels, tomatoes, mushrooms, piri-piri pepper, mint.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "tom-yum-with-salmon-and-mussels",
+		"categorySlug": "soups",
+		"title": "Tom Yum with Salmon and Mussels",
+		"description": "Spicy coconut milk broth with lemongrass, kaffir lime, galangal, shrimp paste, salmon fillet, mussels, cherry tomatoes, shiitake and mun mushrooms. Served with rice, chili pepper, lime and cilantro.",
+		"price": 260,
+		"labels": [
+			"450g"
+		],
+		"portion": "450g",
+		"allergens": [
+			"4",
+			"14"
+		],
+		"fullDescription": "Spicy coconut milk broth with lemongrass, kaffir lime, galangal, shrimp paste, salmon fillet, mussels, cherry tomatoes, shiitake and mun mushrooms. Served with rice, chili pepper, lime and cilantro.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "tom-kha-with-chicken-and-mushrooms",
+		"categorySlug": "soups",
+		"title": "Tom Kha with Chicken and Mushrooms",
+		"description": "Spicy-sweet coconut milk broth with ginger, lemongrass, kaffir lime, fish broth, tender chicken fillet, tomatoes, mushrooms, mint.",
+		"price": 210,
+		"labels": [
+			"450g"
+		],
+		"portion": "450g",
+		"allergens": [],
+		"fullDescription": "Spicy-sweet coconut milk broth with ginger, lemongrass, kaffir lime, fish broth, tender chicken fillet, tomatoes, mushrooms, mint.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "tom-kha-with-salmon",
+		"categorySlug": "soups",
+		"title": "Tom Kha with Salmon",
+		"description": "Spicy-sweet coconut milk broth with ginger, lemongrass, kaffir lime, fish broth, salmon fillet, cherry tomatoes, broccoli, baby corn, white coral mushroom. Served with rice, chili, lime, cilantro and mint.",
+		"price": 240,
+		"labels": [
+			"450g"
+		],
+		"portion": "450g",
+		"allergens": [
+			"4"
+		],
+		"fullDescription": "Spicy-sweet coconut milk broth with ginger, lemongrass, kaffir lime, fish broth, salmon fillet, cherry tomatoes, broccoli, baby corn, white coral mushroom. Served with rice, chili, lime, cilantro and mint.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "chicken-sweet-sour-orange",
+		"categorySlug": "wok-menu",
+		"title": "Chicken in Sweet and Sour Sauce with Oranges",
+		"description": "Juicy chicken fillet fried in tempura with secret sauce, orange, green onion, sesame. Best served with steamed rice.",
+		"price": 210,
+		"labels": [
+			"350g"
+		],
+		"portion": "350g",
+		"allergens": [],
+		"fullDescription": "Juicy chicken fillet fried in tempura with secret sauce, orange, green onion, sesame. Best served with steamed rice.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "chicken-gungbao",
+		"categorySlug": "wok-menu",
+		"title": "Gongbao Chicken",
+		"description": "Chicken fillet stir-fried in a WOK with bell peppers, carrots, green onions and peanuts. Best served with steamed rice.",
+		"price": 210,
+		"labels": [
+			"360g"
+		],
+		"portion": "360g",
+		"allergens": [],
+		"fullDescription": "Chicken fillet stir-fried in a WOK with bell peppers, carrots, green onions and peanuts. Best served with steamed rice.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "chicken-coca-cola",
+		"categorySlug": "wok-menu",
+		"title": "Chicken in Coca-Cola Sauce",
+		"description": "Our chicken in sweet and sour sauce with improved Coca-Cola recipe. Sprinkled with ground peanuts.",
+		"price": 210,
+		"labels": [
+			"320g"
+		],
+		"portion": "320g",
+		"allergens": [
+			"5"
+		],
+		"fullDescription": "Our chicken in sweet and sour sauce with improved Coca-Cola recipe. Sprinkled with ground peanuts.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "wheat-noodles-chicken-mango",
+		"categorySlug": "wok-menu",
+		"title": "Wheat Noodles with Teriyaki Chicken and Mango Puree",
+		"description": "Wheat noodles, teriyaki chicken, seasonal vegetables, teriyaki sauce, mango puree, peanuts, crispy onion, sesame, mushrooms.",
+		"price": 180,
+		"labels": [
+			"450g"
+		],
+		"portion": "450g",
+		"allergens": [],
+		"fullDescription": "Wheat noodles, teriyaki chicken, seasonal vegetables, teriyaki sauce, mango puree, peanuts, crispy onion, sesame, mushrooms.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "wheat-noodles-salmon-mussels",
+		"categorySlug": "wok-menu",
+		"title": "Wheat Noodles with Salmon and Mussels",
+		"description": "Wheat noodles, salmon, mussels, broccoli, carrots, mun mushrooms, oyster sauce, teriyaki, crispy onion, peanuts, sesame.",
+		"price": 280,
+		"labels": [
+			"450g"
+		],
+		"portion": "450g",
+		"allergens": [
+			"4",
+			"5",
+			"11",
+			"14"
+		],
+		"fullDescription": "Wheat noodles, salmon, mussels, broccoli, carrots, mun mushrooms, oyster sauce, teriyaki, crispy onion, peanuts, sesame.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "wheat-noodles-shrimps-mussels",
+		"categorySlug": "wok-menu",
+		"title": "Wheat Noodles with Shrimps and Mussels",
+		"description": "Wheat noodles, shrimps, mussels, broccoli, carrots, mushrooms, teriyaki sauce, peanuts, sesame.",
+		"price": 210,
+		"labels": [
+			"420g"
+		],
+		"portion": "420g",
+		"allergens": [],
+		"fullDescription": "Wheat noodles, shrimps, mussels, broccoli, carrots, mushrooms, teriyaki sauce, peanuts, sesame.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "wheat-noodles-beef",
+		"categorySlug": "wok-menu",
+		"title": "Wheat Noodles with Beef",
+		"description": "Wheat noodles, teriyaki beef, broccoli, carrots, mushrooms, teriyaki sauce, peanuts, crispy onion, sesame.",
+		"price": 240,
+		"labels": [
+			"450g"
+		],
+		"portion": "450g",
+		"allergens": [],
+		"fullDescription": "Wheat noodles, teriyaki beef, broccoli, carrots, mushrooms, teriyaki sauce, peanuts, crispy onion, sesame.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "pad-thai-light",
+		"categorySlug": "wok-menu",
+		"title": "Pad Thai Light",
+		"description": "Rice noodles with chicken, shrimps, pad thai sauce, broccoli, carrot, mushrooms. Generously sprinkled with peanuts and served with lime.",
+		"price": 210,
+		"labels": [
+			"480g"
+		],
+		"portion": "480g",
+		"allergens": [],
+		"fullDescription": "Rice noodles with chicken, shrimps, pad thai sauce, broccoli, carrot, mushrooms. Generously sprinkled with peanuts and served with lime.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "shrimps-sweet-sour",
+		"categorySlug": "wok-menu",
+		"title": "Shrimps in Sweet and Sour",
+		"description": "Fried shrimps in tempura with sweet and sour sauce and pineapple. Best served with steamed rice.",
+		"price": 280,
+		"labels": [
+			"450g"
+		],
+		"portion": "450g",
+		"allergens": [],
+		"fullDescription": "Fried shrimps in tempura with sweet and sour sauce and pineapple. Best served with steamed rice.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "fried-eggplants-sweet-sour",
+		"categorySlug": "wok-menu",
+		"title": "Fried Eggplants in Sweet and Sour Sauce",
+		"description": "Fried eggplant in tempura with our signature sweet and sour sauce, green onion and peanuts. Best served with steamed rice.",
+		"price": 180,
+		"labels": [
+			"340g"
+		],
+		"portion": "340g",
+		"allergens": [
+			"5",
+			"8"
+		],
+		"fullDescription": "Fried eggplant in tempura with our signature sweet and sour sauce, green onion and peanuts. Best served with steamed rice.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "spicy-beef-teriyaki",
+		"categorySlug": "wok-menu",
+		"title": "Spicy Beef Teriyaki",
+		"description": "Beef stir-fried in a salty-spicy sauce with broccoli and shiitake mushrooms. Served with steamed rice.",
+		"price": 290,
+		"labels": [
+			"480g"
+		],
+		"portion": "480g",
+		"allergens": [],
+		"fullDescription": "Beef stir-fried in a salty-spicy sauce with broccoli and shiitake mushrooms. Served with steamed rice.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "fried-bananas-ice-cream",
+		"categorySlug": "desserts",
+		"title": "Fried Bananas with Pistachio Ice Cream",
+		"description": "Bananas fried in tempura, caramel glaze with peanuts, ice cream scoop, sauce based on condensed milk, vanilla extract and wasabi.",
+		"price": 95,
+		"labels": [
+			"300g"
+		],
+		"portion": "300g",
+		"allergens": [],
+		"fullDescription": "Bananas fried in tempura, caramel glaze with peanuts, ice cream scoop, sauce based on condensed milk, vanilla extract and wasabi.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
+	},
+	{
+		"slug": "sweet-roll-banana-raspberry",
+		"categorySlug": "desserts",
+		"title": "Sweet Roll with Banana and Raspberry",
+		"description": "Extraordinary combination of banana and tender cream cheese.",
+		"price": 180,
+		"labels": [
+			"200g"
+		],
+		"portion": "200g",
+		"allergens": [],
+		"fullDescription": "Extraordinary combination of banana and tender cream cheese.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null
 	}
 ]

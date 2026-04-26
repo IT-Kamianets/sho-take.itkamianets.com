@@ -7,7 +7,9 @@
 				<h3
 					class="line-clamp-2 text-[1.05rem] font-semibold leading-5 text-[var(--c-text-secondary)]"
 				>
-					{{ item().title }}
+					<a [routerLink]="['/dish', item().slug]">
+						{{ item().title }}
+					</a>
 				</h3>
 				@if (item().soldOut) {
 					<span
