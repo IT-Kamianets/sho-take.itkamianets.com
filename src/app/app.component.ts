@@ -2,6 +2,7 @@ import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { TopbarComponent } from './layouts/topbar/topbar.component';
 import { ScrollService } from './services/scroll.service';
+import { TranslateService } from '@wawjs/ngx-translate';
 
 @Component({
 	selector: 'app-root',
@@ -29,7 +30,7 @@ import { ScrollService } from './services/scroll.service';
 							<span class="material-symbols-outlined text-[21px]" aria-hidden="true">
 								{{ item.icon }}
 							</span>
-							<span class="truncate">{{ item.label }}</span>
+							<span class="truncate">{{ translateService.translate(item.label)() }}</span>
 						</a>
 					} @else {
 						<button
@@ -39,7 +40,7 @@ import { ScrollService } from './services/scroll.service';
 							<span class="material-symbols-outlined text-[21px]" aria-hidden="true">
 								{{ item.icon }}
 							</span>
-							<span class="truncate">{{ item.label }}</span>
+							<span class="truncate">{{ translateService.translate(item.label)() }}</span>
 						</button>
 					}
 				}
@@ -50,6 +51,7 @@ import { ScrollService } from './services/scroll.service';
 })
 export class App {
 	private readonly _scrollService = inject(ScrollService);
+	protected readonly translateService = inject(TranslateService);
 
 	protected readonly navItems = [
 		{ label: 'Nav', icon: 'navigation', route: '/navigation', exact: true },
